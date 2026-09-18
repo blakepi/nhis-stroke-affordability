@@ -24,7 +24,7 @@ The study updates earlier stroke-survivor affordability research through 2025 an
 
 We believe these findings will interest readers concerned with access to care after stroke and the practical circumstances affecting long-term disease management. The manuscript is accompanied by tables, figures, supplementary methods, a reporting checklist, and reproducible analysis code.
 
-The authors declare no competing interests. No institutional review was required for this secondary analysis of public-use data. All analysis code and aggregate results are publicly available at https://github.com/blakepi/nhis-stroke-affordability. [Before use, insert statements about exclusive submission and related publications as the target journal requires.]
+The authors declare no competing interests. No institutional review was required for this secondary analysis of public-use data. All analysis code and aggregate results are publicly available at https://github.com/blakepi/nhis-stroke-affordability (release v1.0.0). [Before use, insert statements about exclusive submission and related publications as the target journal requires.]
 
 Sincerely,
 

@@ -52,7 +52,7 @@ The project has moved from an idea and preliminary estimates to a complete resea
 
 ## Actions for the user
 
-Author names, affiliations, ORCIDs, contributions and competing interests were supplied on 18 September 2026 and are in the draft; no funding statement is included by author instruction. The authors confirmed no institutional review requirement and no acknowledgments, and the code is public at https://github.com/blakepi/nhis-stroke-affordability. See manuscript/AUTHOR_INFORMATION.md. No decision is needed to begin editing the scientific text.
+Author names, affiliations, ORCIDs, contributions and competing interests were supplied on 18 September 2026 and are in the draft; no funding statement is included by author instruction. The authors confirmed no institutional review requirement and no acknowledgments, and the code is public at https://github.com/blakepi/nhis-stroke-affordability, tagged as release v1.0.0. Zenodo archiving was attempted on 18 September 2026 but the service was down; .zenodo.json is in place so a later release can be archived. See manuscript/AUTHOR_INFORMATION.md. No decision is needed to begin editing the scientific text.
 
 ## Human access or intervention required
 

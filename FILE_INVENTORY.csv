@@ -1,5 +1,7 @@
 ﻿path,absolute_path,role,bytes,included_in_zip
 .gitignore,C:\Users\gbp34\Documents\ChatGPT\Stroke\.gitignore,Project documentation or entrypoint,154,True
+.zenodo.json,C:\Users\gbp34\Documents\ChatGPT\Stroke\.zenodo.json,Project documentation or entrypoint,1755,True
+CITATION.cff,C:\Users\gbp34\Documents\ChatGPT\Stroke\CITATION.cff,Project documentation or entrypoint,1048,True
 data/documentation/2019/adult-codebook.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2019\adult-codebook.fast.txt,Reviewed source documentation or searchable extract,610847,False
 data/documentation/2019/adult-codebook.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2019\adult-codebook.pdf,Reviewed source documentation or searchable extract,3214744,False
 data/documentation/2019/adult-codebook.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2019\adult-codebook.txt,Reviewed source documentation or searchable extract,575410,False
@@ -96,18 +98,18 @@ data/raw/2024/adult24csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\20
 data/raw/2024/adultinc24csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2024\adultinc24csv.zip,Unchanged public CDC microdata ZIP; retained locally,1100177,False
 data/raw/2025/adult25csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2025\adult25csv.zip,Unchanged public CDC microdata ZIP; retained locally,3579199,False
 data/raw/2025/adultinc25csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2025\adultinc25csv.zip,Unchanged public CDC microdata ZIP; retained locally,808371,False
-HANDOFF.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\HANDOFF.md,Project documentation or entrypoint,8316,True
+HANDOFF.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\HANDOFF.md,Project documentation or entrypoint,8481,True
 LICENSE,C:\Users\gbp34\Documents\ChatGPT\Stroke\LICENSE,Project documentation or entrypoint,1245,True
 LITERATURE_NOTES.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\LITERATURE_NOTES.md,Project documentation or entrypoint,3996,True
 manuscript/AUTHOR_INFORMATION.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\AUTHOR_INFORMATION.md,"Manuscript, source text or supporting writing",1975,True
-manuscript/draft_source.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\draft_source.md,"Manuscript, source text or supporting writing",31248,True
-manuscript/EDITORIAL_MATERIAL.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\EDITORIAL_MATERIAL.md,"Manuscript, source text or supporting writing",3755,True
+manuscript/draft_source.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\draft_source.md,"Manuscript, source text or supporting writing",31378,True
+manuscript/EDITORIAL_MATERIAL.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\EDITORIAL_MATERIAL.md,"Manuscript, source text or supporting writing",3772,True
 manuscript/figures/figure1_annual_prevalence.png,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure1_annual_prevalence.png,Scientific figure,160947,True
 manuscript/figures/figure2_adjusted_associations.png,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure2_adjusted_associations.png,Scientific figure,142540,True
 manuscript/figures/figureS1_cohort_flow.png,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figureS1_cohort_flow.png,Scientific figure,126717,True
-manuscript/manuscript.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.docx,"Manuscript, source text or supporting writing",315238,True
-manuscript/manuscript.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.md,"Manuscript, source text or supporting writing",40271,True
-manuscript/manuscript.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.pdf,"Manuscript, source text or supporting writing",553216,True
+manuscript/manuscript.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.docx,"Manuscript, source text or supporting writing",315279,True
+manuscript/manuscript.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.md,"Manuscript, source text or supporting writing",40401,True
+manuscript/manuscript.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.pdf,"Manuscript, source text or supporting writing",553357,True
 manuscript/references.json,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\references.json,"Manuscript, source text or supporting writing",4358,True
 manuscript/references.ris,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\references.ris,"Manuscript, source text or supporting writing",4667,True
 manuscript/supplement.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement.docx,"Manuscript, source text or supporting writing",162075,True
@@ -170,7 +172,7 @@ outputs/R_session_info.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\R_ses
 outputs/raw_response_counts.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\raw_response_counts.csv,Launch output or shared provenance; see HANDOFF for current status,6173,False
 outputs/source_manifest.json,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\source_manifest.json,Launch output or shared provenance; see HANDOFF for current status,13994,True
 outputs/validation.json,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\validation.json,Launch output or shared provenance; see HANDOFF for current status,2495,True
-README.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\README.md,Project documentation or entrypoint,5151,True
+README.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\README.md,Project documentation or entrypoint,5251,True
 requirements.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\requirements.txt,Project documentation or entrypoint,66,True
 run.ps1,C:\Users\gbp34\Documents\ChatGPT\Stroke\run.ps1,Project documentation or entrypoint,1270,True
 run_full.ps1,C:\Users\gbp34\Documents\ChatGPT\Stroke\run_full.ps1,Project documentation or entrypoint,1656,True
@@ -189,7 +191,7 @@ scripts/inspect_inputs.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\inspec
 scripts/inspect_survey_methods.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\inspect_survey_methods.R,"Acquisition, analysis, verification or writing code",249,True
 scripts/logistic_sensitivity.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\logistic_sensitivity.R,"Acquisition, analysis, verification or writing code",2866,True
 scripts/make_figures.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\make_figures.R,"Acquisition, analysis, verification or writing code",3716,True
-scripts/package_manuscript.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\package_manuscript.py,"Acquisition, analysis, verification or writing code",4399,True
+scripts/package_manuscript.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\package_manuscript.py,"Acquisition, analysis, verification or writing code",4370,True
 scripts/prepare_full_data.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\prepare_full_data.R,"Acquisition, analysis, verification or writing code",4857,True
 scripts/validate.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\validate.py,"Acquisition, analysis, verification or writing code",5102,True
 scripts/validate_full.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\validate_full.py,"Acquisition, analysis, verification or writing code",3876,True

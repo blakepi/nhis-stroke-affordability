@@ -1,6 +1,6 @@
 # NHIS stroke survivor healthcare affordability study
 
-Code, aggregate results, and working manuscript for *Cost-Related Healthcare Affordability Barriers Among US Stroke Survivors From 2019 Through 2025* (G. Blake Pierpoint and Alberto E. Musto, Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University). Public repository: https://github.com/blakepi/nhis-stroke-affordability. Analysis code is released under the MIT License (see LICENSE); the manuscript text, tables and figures remain the authors' work and are provided for review.
+Code, aggregate results, and working manuscript for *Cost-Related Healthcare Affordability Barriers Among US Stroke Survivors From 2019 Through 2025* (G. Blake Pierpoint and Alberto E. Musto, Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University). Public repository: https://github.com/blakepi/nhis-stroke-affordability. Tagged release: [v1.0.0](https://github.com/blakepi/nhis-stroke-affordability/releases/tag/v1.0.0). Analysis code is released under the MIT License (see LICENSE); the manuscript text, tables and figures remain the authors' work and are provided for review.
 
 The full **working manuscript package is prepared** from real 2019–2025 CDC public-use data. Start with [the Word manuscript](manuscript/manuscript.docx) or [Markdown version](manuscript/manuscript.md). [HANDOFF.md](HANDOFF.md) records completed work, verification, limitations and continuation.
 

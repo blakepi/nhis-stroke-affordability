@@ -146,7 +146,7 @@ Healthcare affordability barriers affected approximately one in six US stroke su
 
 **Author contributions:** G. Blake Pierpoint: Resources; Software; Supervision; Validation; Visualization; Writing – original draft; Writing – review & editing; Investigation; Methodology; Data curation; Formal analysis. Alberto E. Musto: Conceptualization; Supervision; Validation; Investigation; Methodology; Project administration; Writing – review & editing; Data curation; Formal analysis.
 
-**Data and code availability:** The NHIS public-use files and documentation are available from NCHS, and no agency endorsement is implied. All acquisition, analysis, verification, and manuscript-generation code, source URLs with file hashes, aggregate results, tables, and figures are publicly available at https://github.com/blakepi/nhis-stroke-affordability.
+**Data and code availability:** The NHIS public-use files and documentation are available from NCHS, and no agency endorsement is implied. All acquisition, analysis, verification, and manuscript-generation code, source URLs with file hashes, aggregate results, tables, and figures are publicly available at https://github.com/blakepi/nhis-stroke-affordability; the version analyzed here is tagged as release v1.0.0 (https://github.com/blakepi/nhis-stroke-affordability/releases/tag/v1.0.0).
 
 **Use of automated assistance:** Automated tools assisted with data processing, statistical programming, numerical checks, and manuscript drafting. The authors are responsible for the scientific interpretation and the final text; this disclosure should be adapted to the target journal's requirements.
 
