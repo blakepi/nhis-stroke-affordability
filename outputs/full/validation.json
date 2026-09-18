@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "independent_method": "NumPy Newton IRLS and full-design stratified PSU sandwich covariance",
+  "first_imputation_M3": {
+    "n": 6777,
+    "events": 1117,
+    "terms": 36,
+    "iterations": 8,
+    "max_coefficient_error": 2.6334490144108713e-13,
+    "max_covariance_error": 2.337807045171836e-09
+  },
+  "rubin_pooling_checks": [
+    {
+      "model": "M1",
+      "coefficients": 20,
+      "max_log_coefficient_error": 3.1086244689504383e-15,
+      "max_se_error": 4.996003610813204e-16
+    },
+    {
+      "model": "M2",
+      "coefficients": 29,
+      "max_log_coefficient_error": 3.3306690738754696e-15,
+      "max_se_error": 4.996003610813204e-16
+    },
+    {
+      "model": "M3",
+      "coefficients": 36,
+      "max_log_coefficient_error": 4.884981308350689e-15,
+      "max_se_error": 4.440892098500626e-16
+    },
+    {
+      "model": "Age_M1",
+      "coefficients": 18,
+      "max_log_coefficient_error": 4.440892098500626e-15,
+      "max_se_error": 4.718447854656915e-16
+    },
+    {
+      "model": "Age_M2",
+      "coefficients": 27,
+      "max_log_coefficient_error": 2.220446049250313e-15,
+      "max_se_error": 4.85722573273506e-16
+    },
+    {
+      "model": "Age_M3",
+      "coefficients": 34,
+      "max_log_coefficient_error": 2.6645352591003757e-15,
+      "max_se_error": 4.718447854656915e-16
+    },
+    {
+      "model": "AgeInteraction",
+      "coefficients": 40,
+      "max_log_coefficient_error": 1.7763568394002505e-15,
+      "max_se_error": 5.273559366969494e-16
+    },
+    {
+      "model": "No2020",
+      "coefficients": 35,
+      "max_log_coefficient_error": 2.6645352591003757e-15,
+      "max_se_error": 4.3021142204224816e-16
+    },
+    {
+      "model": "WorkingAge",
+      "coefficients": 36,
+      "max_log_coefficient_error": 3.552713678800501e-15,
+      "max_se_error": 4.718447854656915e-16
+    },
+    {
+      "model": "NoDisability",
+      "coefficients": 35,
+      "max_log_coefficient_error": 3.3306690738754696e-15,
+      "max_se_error": 4.718447854656915e-16
+    },
+    {
+      "model": "Universal",
+      "coefficients": 36,
+      "max_log_coefficient_error": 4.440892098500626e-15,
+      "max_se_error": 4.579669976578771e-16
+    },
+    {
+      "model": "Delayed",
+      "coefficients": 36,
+      "max_log_coefficient_error": 2.6645352591003757e-15,
+      "max_se_error": 4.440892098500626e-16
+    },
+    {
+      "model": "ForgoneCare",
+      "coefficients": 36,
+      "max_log_coefficient_error": 4.440892098500626e-15,
+      "max_se_error": 4.718447854656915e-16
+    },
+    {
+      "model": "ForgoneRx",
+      "coefficients": 36,
+      "max_log_coefficient_error": 3.1086244689504383e-15,
+      "max_se_error": 4.996003610813204e-16
+    },
+    {
+      "model": "RxUnderuse",
+      "coefficients": 36,
+      "max_log_coefficient_error": 4.440892098500626e-15,
+      "max_se_error": 5.551115123125783e-16
+    },
+    {
+      "model": "MissingCategory",
+      "coefficients": 43,
+      "max_log_coefficient_error": 4.218847493575595e-15,
+      "max_se_error": 4.996003610813204e-16
+    }
+  ],
+  "converged_poisson_fits": 160,
+  "limitations": "Uses the exported model matrix for independent coefficient replication. Does not independently recreate every covariate or every sensitivity model."
+}

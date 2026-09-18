@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "documents": [
+    {
+      "document": "C:\\Users\\gbp34\\Documents\\ChatGPT\\Stroke\\manuscript\\manuscript.docx",
+      "tables_verified": 3,
+      "images_verified": 2,
+      "status": "PASS"
+    },
+    {
+      "document": "C:\\Users\\gbp34\\Documents\\ChatGPT\\Stroke\\manuscript\\supplement.docx",
+      "tables_verified": 12,
+      "images_verified": 1,
+      "status": "PASS"
+    }
+  ],
+  "references_verified_for_in_text_numbering": 13,
+  "tables_match_generated_markdown": true,
+  "embedded_images_match_current_files": true,
+  "page_rendering": {
+    "status": "COMPLETED",
+    "renderer": "Microsoft Word SaveAs2 PDF",
+    "pages": {
+      "manuscript": 14,
+      "supplement": 14
+    },
+    "note": "Page counts come from Word; layout was inspected visually on 18 September 2026."
+  },
+  "limits": "Structural and content checks do not replace a visual pagination review of each rebuild. The remaining ethics-determination and acknowledgment placeholders are intentional."
+}

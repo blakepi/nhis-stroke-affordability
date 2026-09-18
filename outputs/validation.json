@@ -1,0 +1,105 @@
+{
+  "status": "PASS",
+  "source_files_sha256_verified": 36,
+  "independent_estimates_and_taylor_ses_verified": 12,
+  "tolerance_absolute": 1e-08,
+  "checks": [
+    {
+      "year": 2019,
+      "n": 1191,
+      "events": 231,
+      "estimate": 0.20582468620128153,
+      "se": 0.014389535734193527,
+      "status": "PASS"
+    },
+    {
+      "year": 2020,
+      "n": 1051,
+      "events": 156,
+      "estimate": 0.17266885334182727,
+      "se": 0.01592005694985612,
+      "status": "PASS"
+    },
+    {
+      "year": 2021,
+      "n": 1001,
+      "events": 179,
+      "estimate": 0.1941555393693971,
+      "se": 0.016052747940622714,
+      "status": "PASS"
+    },
+    {
+      "year": 2022,
+      "n": 999,
+      "events": 147,
+      "estimate": 0.1595359080153444,
+      "se": 0.014228960903226916,
+      "status": "PASS"
+    },
+    {
+      "year": 2023,
+      "n": 1116,
+      "events": 169,
+      "estimate": 0.15277805190529628,
+      "se": 0.013727916342895602,
+      "status": "PASS"
+    },
+    {
+      "year": 2024,
+      "n": 1229,
+      "events": 215,
+      "estimate": 0.2002276366064814,
+      "se": 0.014638940356563778,
+      "status": "PASS"
+    },
+    {
+      "year": 2025,
+      "n": 889,
+      "events": 138,
+      "estimate": 0.1678168996714383,
+      "se": 0.015384110003027416,
+      "status": "PASS"
+    },
+    {
+      "group": "All survivors",
+      "n": 7104,
+      "events": 1184,
+      "estimate": 0.17915116418480664,
+      "se": 0.005980004845723443,
+      "status": "PASS"
+    },
+    {
+      "group": "18-64",
+      "n": 2341,
+      "events": 658,
+      "estimate": 0.28013254291049894,
+      "se": 0.011063747898854535,
+      "status": "PASS"
+    },
+    {
+      "group": "65+",
+      "n": 4763,
+      "events": 526,
+      "estimate": 0.10892967680810875,
+      "se": 0.005599491432627683,
+      "status": "PASS"
+    },
+    {
+      "group": "With disability",
+      "n": 2720,
+      "events": 542,
+      "estimate": 0.20181947833217415,
+      "se": 0.009614638885947976,
+      "status": "PASS"
+    },
+    {
+      "group": "Without disability",
+      "n": 4384,
+      "events": 642,
+      "estimate": 0.16480242918425098,
+      "se": 0.007218073097907951,
+      "status": "PASS"
+    }
+  ],
+  "scope": "Primary annual and pooled prevalence, denominators, primary SEs, questionnaire wording/universes, source hashes. Model coefficients are not independently replicated."
+}

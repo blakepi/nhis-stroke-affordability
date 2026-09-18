@@ -1,0 +1,236 @@
+path,relative_path,role
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.gitignore,.gitignore,"Project documentation, dependency specification, or launcher"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\.lock,.vendor/.lock,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\bin\pymupdf.exe,.vendor/bin/pymupdf.exe,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\fitz\__init__.py,.vendor/fitz/__init__.py,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\fitz\table.py,.vendor/fitz/table.py,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\fitz\utils.py,.vendor/fitz/utils.py,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\__init__.py,.vendor/pymupdf/__init__.py,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\__main__.py,.vendor/pymupdf/__main__.py,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\__pycache__\__init__.cpython-312.pyc,.vendor/pymupdf/__pycache__/__init__.cpython-312.pyc,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\__pycache__\_build.cpython-312.pyc,.vendor/pymupdf/__pycache__/_build.cpython-312.pyc,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\__pycache__\_table_headers.cpython-312.pyc,.vendor/pymupdf/__pycache__/_table_headers.cpython-312.pyc,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\__pycache__\_table_refine.cpython-312.pyc,.vendor/pymupdf/__pycache__/_table_refine.cpython-312.pyc,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\__pycache__\_table_spans.cpython-312.pyc,.vendor/pymupdf/__pycache__/_table_spans.cpython-312.pyc,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\__pycache__\_wxcolors.cpython-312.pyc,.vendor/pymupdf/__pycache__/_wxcolors.cpython-312.pyc,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\__pycache__\extra.cpython-312.pyc,.vendor/pymupdf/__pycache__/extra.cpython-312.pyc,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\__pycache__\mupdf.cpython-312.pyc,.vendor/pymupdf/__pycache__/mupdf.cpython-312.pyc,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\__pycache__\pymupdf.cpython-312.pyc,.vendor/pymupdf/__pycache__/pymupdf.cpython-312.pyc,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\__pycache__\table.cpython-312.pyc,.vendor/pymupdf/__pycache__/table.cpython-312.pyc,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\__pycache__\utils.cpython-312.pyc,.vendor/pymupdf/__pycache__/utils.cpython-312.pyc,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\_apply_pages.py,.vendor/pymupdf/_apply_pages.py,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\_build.py,.vendor/pymupdf/_build.py,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\_extra.pyd,.vendor/pymupdf/_extra.pyd,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\_mupdf.pyd,.vendor/pymupdf/_mupdf.pyd,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\_table_headers.py,.vendor/pymupdf/_table_headers.py,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\_table_refine.py,.vendor/pymupdf/_table_refine.py,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\_table_spans.py,.vendor/pymupdf/_table_spans.py,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\_table_union.py,.vendor/pymupdf/_table_union.py,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\_wxcolors.py,.vendor/pymupdf/_wxcolors.py,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\extra.py,.vendor/pymupdf/extra.py,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\classes.h,.vendor/pymupdf/mupdf-devel/include/mupdf/classes.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\classes2.h,.vendor/pymupdf/mupdf-devel/include/mupdf/classes2.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\exceptions.h,.vendor/pymupdf/mupdf-devel/include/mupdf/exceptions.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\extra.h,.vendor/pymupdf/mupdf-devel/include/mupdf/extra.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\archive.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/archive.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\band-writer.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/band-writer.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\barcode.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/barcode.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\bidi.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/bidi.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\bitmap.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/bitmap.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\buffer.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/buffer.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\color.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/color.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\compress.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/compress.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\compressed-buffer.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/compressed-buffer.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\config.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/config.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\context.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/context.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\crypt.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/crypt.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\deskew.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/deskew.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\device.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/device.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\display-list.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/display-list.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\document.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/document.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\export.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/export.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\filter.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/filter.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\font.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/font.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\geometry.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/geometry.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\getopt.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/getopt.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\glyph-cache.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/glyph-cache.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\glyph.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/glyph.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\hash.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/hash.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\heap-imp.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/heap-imp.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\heap.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/heap.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\hyphen.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/hyphen.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\image.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/image.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\json.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/json.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\link.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/link.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\log.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/log.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\options.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/options.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\outline.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/outline.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\output-svg.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/output-svg.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\output.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/output.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\path.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/path.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\pixmap.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/pixmap.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\pool.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/pool.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\separation.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/separation.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\shade.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/shade.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\store.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/store.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\story-writer.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/story-writer.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\story.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/story.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\stream.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/stream.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\string-util.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/string-util.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\structured-text.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/structured-text.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\system.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/system.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\text.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/text.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\track-usage.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/track-usage.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\transition.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/transition.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\tree.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/tree.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\types.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/types.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\util.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/util.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\version.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/version.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\write-pixmap.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/write-pixmap.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\writer.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/writer.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz\xml.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz/xml.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\fitz.h,.vendor/pymupdf/mupdf-devel/include/mupdf/fitz.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\functions.h,.vendor/pymupdf/mupdf-devel/include/mupdf/functions.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\helpers\mu-office-lib.h,.vendor/pymupdf/mupdf-devel/include/mupdf/helpers/mu-office-lib.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\helpers\mu-threads.h,.vendor/pymupdf/mupdf-devel/include/mupdf/helpers/mu-threads.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\helpers\pkcs7-openssl.h,.vendor/pymupdf/mupdf-devel/include/mupdf/helpers/pkcs7-openssl.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\html.h,.vendor/pymupdf/mupdf-devel/include/mupdf/html.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\internal.h,.vendor/pymupdf/mupdf-devel/include/mupdf/internal.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\memento.h,.vendor/pymupdf/mupdf-devel/include/mupdf/memento.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf\annot.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf/annot.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf\clean.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf/clean.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf\cmap.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf/cmap.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf\crypt.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf/crypt.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf\document.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf/document.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf\event.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf/event.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf\font.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf/font.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf\form.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf/form.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf\image-rewriter.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf/image-rewriter.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf\interpret.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf/interpret.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf\javascript.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf/javascript.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf\name-table.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf/name-table.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf\object.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf/object.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf\page.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf/page.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf\parse.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf/parse.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf\recolor.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf/recolor.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf\resource.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf/resource.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf\xref.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf/xref.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf\zugferd.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf/zugferd.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\pdf.h,.vendor/pymupdf/mupdf-devel/include/mupdf/pdf.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\include\mupdf\ucdn.h,.vendor/pymupdf/mupdf-devel/include/mupdf/ucdn.h,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\lib\libmuthreads.lib,.vendor/pymupdf/mupdf-devel/lib/libmuthreads.lib,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf-devel\lib\mupdfcpp64.lib,.vendor/pymupdf/mupdf-devel/lib/mupdfcpp64.lib,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdf.py,.vendor/pymupdf/mupdf.py,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\mupdfcpp64.dll,.vendor/pymupdf/mupdfcpp64.dll,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\py.typed,.vendor/pymupdf/py.typed,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\pymupdf.py,.vendor/pymupdf/pymupdf.py,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\table.py,.vendor/pymupdf/table.py,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf\utils.py,.vendor/pymupdf/utils.py,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf-1.28.2.dist-info\COPYING,.vendor/pymupdf-1.28.2.dist-info/COPYING,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf-1.28.2.dist-info\entry_points.txt,.vendor/pymupdf-1.28.2.dist-info/entry_points.txt,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf-1.28.2.dist-info\INSTALLER,.vendor/pymupdf-1.28.2.dist-info/INSTALLER,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf-1.28.2.dist-info\METADATA,.vendor/pymupdf-1.28.2.dist-info/METADATA,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf-1.28.2.dist-info\README.md,.vendor/pymupdf-1.28.2.dist-info/README.md,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf-1.28.2.dist-info\RECORD,.vendor/pymupdf-1.28.2.dist-info/RECORD,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf-1.28.2.dist-info\REQUESTED,.vendor/pymupdf-1.28.2.dist-info/REQUESTED,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\.vendor\pymupdf-1.28.2.dist-info\WHEEL,.vendor/pymupdf-1.28.2.dist-info/WHEEL,Workspace-local PDF-reader dependency; installed for codebook extraction
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2019\adult-codebook.fast.txt,data/documentation/2019/adult-codebook.fast.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2019\adult-codebook.pdf,data/documentation/2019/adult-codebook.pdf,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2019\adult-codebook.txt,data/documentation/2019/adult-codebook.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2019\srvydesc-508.fast.txt,data/documentation/2019/srvydesc-508.fast.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2019\srvydesc-508.pdf,data/documentation/2019/srvydesc-508.pdf,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2019\srvydesc-508.txt,data/documentation/2019/srvydesc-508.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2020\adult-codebook.fast.txt,data/documentation/2020/adult-codebook.fast.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2020\adult-codebook.pdf,data/documentation/2020/adult-codebook.pdf,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2020\adult-codebook.txt,data/documentation/2020/adult-codebook.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2020\outcome_pages.txt,data/documentation/2020/outcome_pages.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2020\srvydesc-508.fast.txt,data/documentation/2020/srvydesc-508.fast.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2020\srvydesc-508.pdf,data/documentation/2020/srvydesc-508.pdf,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2020\srvydesc-508.txt,data/documentation/2020/srvydesc-508.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2021\adult-codebook.fast.txt,data/documentation/2021/adult-codebook.fast.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2021\adult-codebook.pdf,data/documentation/2021/adult-codebook.pdf,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2021\adult-codebook.txt,data/documentation/2021/adult-codebook.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2021\srvydesc-508.fast.txt,data/documentation/2021/srvydesc-508.fast.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2021\srvydesc-508.pdf,data/documentation/2021/srvydesc-508.pdf,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2021\srvydesc-508.txt,data/documentation/2021/srvydesc-508.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2022\adult-codebook.fast.txt,data/documentation/2022/adult-codebook.fast.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2022\adult-codebook.pdf,data/documentation/2022/adult-codebook.pdf,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2022\adult-codebook.txt,data/documentation/2022/adult-codebook.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2022\srvydesc-508.fast.txt,data/documentation/2022/srvydesc-508.fast.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2022\srvydesc-508.pdf,data/documentation/2022/srvydesc-508.pdf,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2022\srvydesc-508.txt,data/documentation/2022/srvydesc-508.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2023\adult-codebook.fast.txt,data/documentation/2023/adult-codebook.fast.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2023\adult-codebook.pdf,data/documentation/2023/adult-codebook.pdf,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2023\adult-codebook.txt,data/documentation/2023/adult-codebook.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2023\srvydesc-508.fast.txt,data/documentation/2023/srvydesc-508.fast.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2023\srvydesc-508.pdf,data/documentation/2023/srvydesc-508.pdf,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2023\srvydesc-508.txt,data/documentation/2023/srvydesc-508.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2024\adult-codebook.fast.txt,data/documentation/2024/adult-codebook.fast.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2024\adult-codebook.pdf,data/documentation/2024/adult-codebook.pdf,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2024\adult-codebook.txt,data/documentation/2024/adult-codebook.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2024\srvydesc-508.fast.txt,data/documentation/2024/srvydesc-508.fast.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2024\srvydesc-508.pdf,data/documentation/2024/srvydesc-508.pdf,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2024\srvydesc-508.txt,data/documentation/2024/srvydesc-508.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2025\adult-codebook.fast.txt,data/documentation/2025/adult-codebook.fast.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2025\adult-codebook.pdf,data/documentation/2025/adult-codebook.pdf,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2025\adult-codebook.txt,data/documentation/2025/adult-codebook.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2025\srvydesc-508.fast.txt,data/documentation/2025/srvydesc-508.fast.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2025\srvydesc-508.pdf,data/documentation/2025/srvydesc-508.pdf,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2025\srvydesc-508.txt,data/documentation/2025/srvydesc-508.txt,CDC documentation or searchable local extraction; reviewed for methods
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\adults_selected.rds,data/processed/adults_selected.rds,"Generated analysis input, unpacked public CSV, or fitted R object"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\demographic_model.rds,data/processed/demographic_model.rds,"Generated analysis input, unpacked public CSV, or fitted R object"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adult19.csv,data/processed/extracted/adult19.csv,"Generated analysis input, unpacked public CSV, or fitted R object"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adult20.csv,data/processed/extracted/adult20.csv,"Generated analysis input, unpacked public CSV, or fitted R object"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adult21.csv,data/processed/extracted/adult21.csv,"Generated analysis input, unpacked public CSV, or fitted R object"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adult22.csv,data/processed/extracted/adult22.csv,"Generated analysis input, unpacked public CSV, or fitted R object"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adult23.csv,data/processed/extracted/adult23.csv,"Generated analysis input, unpacked public CSV, or fitted R object"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adult24.csv,data/processed/extracted/adult24.csv,"Generated analysis input, unpacked public CSV, or fitted R object"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adult25.csv,data/processed/extracted/adult25.csv,"Generated analysis input, unpacked public CSV, or fitted R object"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adultpart20.csv,data/processed/extracted/adultpart20.csv,"Generated analysis input, unpacked public CSV, or fitted R object"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\stroke_records.csv,data/processed/stroke_records.csv,"Generated analysis input, unpacked public CSV, or fitted R object"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2019\adult19csv.zip,data/raw/2019/adult19csv.zip,Untouched CDC public-use data ZIP
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2019\adultinc19csv.zip,data/raw/2019/adultinc19csv.zip,Untouched CDC public-use data ZIP
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2020\adult20csv.zip,data/raw/2020/adult20csv.zip,Untouched CDC public-use data ZIP
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2020\adultinc20csv.zip,data/raw/2020/adultinc20csv.zip,Untouched CDC public-use data ZIP
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2020\adultpart20csv.zip,data/raw/2020/adultpart20csv.zip,Untouched CDC public-use data ZIP
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2021\adult21csv.zip,data/raw/2021/adult21csv.zip,Untouched CDC public-use data ZIP
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2021\adultinc21csv.zip,data/raw/2021/adultinc21csv.zip,Untouched CDC public-use data ZIP
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2022\adult22csv.zip,data/raw/2022/adult22csv.zip,Untouched CDC public-use data ZIP
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2022\adultinc22csv.zip,data/raw/2022/adultinc22csv.zip,Untouched CDC public-use data ZIP
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2023\adult23csv.zip,data/raw/2023/adult23csv.zip,Untouched CDC public-use data ZIP
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2023\adultinc23csv.zip,data/raw/2023/adultinc23csv.zip,Untouched CDC public-use data ZIP
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2024\adult24csv.zip,data/raw/2024/adult24csv.zip,Untouched CDC public-use data ZIP
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2024\adultinc24csv.zip,data/raw/2024/adultinc24csv.zip,Untouched CDC public-use data ZIP
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2025\adult25csv.zip,data/raw/2025/adult25csv.zip,Untouched CDC public-use data ZIP
+C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2025\adultinc25csv.zip,data/raw/2025/adultinc25csv.zip,Untouched CDC public-use data ZIP
+C:\Users\gbp34\Documents\ChatGPT\Stroke\LITERATURE_NOTES.md,LITERATURE_NOTES.md,"Project documentation, dependency specification, or launcher"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\annual_prevalence.csv,outputs/annual_prevalence.csv,"Generated result, validation, provenance, or handoff artifact"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\annual_prevalence.png,outputs/annual_prevalence.png,"Generated result, validation, provenance, or handoff artifact"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\codebook_excerpts.md,outputs/codebook_excerpts.md,"Generated result, validation, provenance, or handoff artifact"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\cohort_flow.csv,outputs/cohort_flow.csv,"Generated result, validation, provenance, or handoff artifact"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\demographic_model.csv,outputs/demographic_model.csv,"Generated result, validation, provenance, or handoff artifact"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\FILE_INVENTORY.csv,outputs/FILE_INVENTORY.csv,"Generated result, validation, provenance, or handoff artifact"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\LAUNCH_REPORT.md,outputs/LAUNCH_REPORT.md,"Generated result, validation, provenance, or handoff artifact"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\missingness.csv,outputs/missingness.csv,"Generated result, validation, provenance, or handoff artifact"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\model_diagnostics.csv,outputs/model_diagnostics.csv,"Generated result, validation, provenance, or handoff artifact"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\pooled_cohort_flow.csv,outputs/pooled_cohort_flow.csv,"Generated result, validation, provenance, or handoff artifact"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\pooled_prevalence.csv,outputs/pooled_prevalence.csv,"Generated result, validation, provenance, or handoff artifact"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\questionnaire_crosswalk.csv,outputs/questionnaire_crosswalk.csv,"Generated result, validation, provenance, or handoff artifact"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\R_session_info.txt,outputs/R_session_info.txt,"Generated result, validation, provenance, or handoff artifact"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\raw_response_counts.csv,outputs/raw_response_counts.csv,"Generated result, validation, provenance, or handoff artifact"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\source_manifest.json,outputs/source_manifest.json,"Generated result, validation, provenance, or handoff artifact"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\validation.json,outputs/validation.json,"Generated result, validation, provenance, or handoff artifact"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\README.md,README.md,"Project documentation, dependency specification, or launcher"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\requirements.txt,requirements.txt,"Project documentation, dependency specification, or launcher"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\run.ps1,run.ps1,"Project documentation, dependency specification, or launcher"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\__pycache__\acquire.cpython-312.pyc,scripts/__pycache__/acquire.cpython-312.pyc,Generated Python bytecode cache
+C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\acquire.py,scripts/acquire.py,"Executable acquisition, analysis, verification, or documentation script"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\acquire_partial.py,scripts/acquire_partial.py,"Executable acquisition, analysis, verification, or documentation script"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\analyze.R,scripts/analyze.R,"Executable acquisition, analysis, verification, or documentation script"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\build_handoff.py,scripts/build_handoff.py,"Executable acquisition, analysis, verification, or documentation script"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\extract_crosswalk.py,scripts/extract_crosswalk.py,"Executable acquisition, analysis, verification, or documentation script"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\inspect_docs.R,scripts/inspect_docs.R,"Executable acquisition, analysis, verification, or documentation script"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\inspect_inputs.py,scripts/inspect_inputs.py,"Executable acquisition, analysis, verification, or documentation script"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\validate.py,scripts/validate.py,"Executable acquisition, analysis, verification, or documentation script"
+C:\Users\gbp34\Documents\ChatGPT\Stroke\STUDY_PROTOCOL.md,STUDY_PROTOCOL.md,"Project documentation, dependency specification, or launcher"
+C:\Users\gbp34\Downloads\deep-research-report (7).md,[external planning reference],"Read only; project proposal, not independently verified instructions or citations"

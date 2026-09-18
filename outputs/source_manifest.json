@@ -1,0 +1,335 @@
+{
+  "checked_utc": "2026-09-18T19:17:46.706663+00:00",
+  "files": [
+    {
+      "year": 2019,
+      "kind": "adult",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2019/adult19csv.zip",
+      "path": "data/raw/2019/adult19csv.zip",
+      "bytes": 4372417,
+      "sha256": "fc105b045c46d871b029c5e6cefa797450fff9e4610fdc9a29e2af3137f16917"
+    },
+    {
+      "year": 2019,
+      "kind": "codebook",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2019/adult-codebook.pdf",
+      "path": "data/documentation/2019/adult-codebook.pdf",
+      "bytes": 3214744,
+      "sha256": "b110ac796cd223a6ebf8de5f70ab4138eed0069164253105f1b6579351e2d710"
+    },
+    {
+      "year": 2019,
+      "kind": "income",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2019/adultinc19csv.zip",
+      "path": "data/raw/2019/adultinc19csv.zip",
+      "bytes": 1360766,
+      "sha256": "438a5177fd223c29dd58fc398b5e56966e0f7bcf7d864b6cba94a59eadb926de"
+    },
+    {
+      "year": 2019,
+      "kind": "index",
+      "url": "https://www.cdc.gov/nchs/nhis/documentation/2019-nhis.html",
+      "status": "HTML returned HTTP 403; direct public distribution URLs used"
+    },
+    {
+      "year": 2019,
+      "kind": "survey_description",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2019/srvydesc-508.pdf",
+      "path": "data/documentation/2019/srvydesc-508.pdf",
+      "bytes": 1492982,
+      "sha256": "be035f7320c88625969fca486f4fa8df978d9f9b7a151937b7cba26d5311afa7"
+    },
+    {
+      "year": 2020,
+      "kind": "adult",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/adult20csv.zip",
+      "path": "data/raw/2020/adult20csv.zip",
+      "bytes": 5154926,
+      "sha256": "a517a49fa93285bef61ff4e849a0d4b5aa6fa99a1998c6caa716bfc9b5d984fe"
+    },
+    {
+      "year": 2020,
+      "kind": "codebook",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/adult-codebook.pdf",
+      "path": "data/documentation/2020/adult-codebook.pdf",
+      "bytes": 2118199,
+      "sha256": "2fa74451239e279d1c69ebed590b42719255f16790072fc448e99e1f68efd324"
+    },
+    {
+      "year": 2020,
+      "kind": "income",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/adultinc20csv.zip",
+      "path": "data/raw/2020/adultinc20csv.zip",
+      "bytes": 1306403,
+      "sha256": "38a5a17431c00392a6beb60b424b05fe3059541e8e816d0012c3c303a369264b"
+    },
+    {
+      "year": 2020,
+      "kind": "index",
+      "url": "https://www.cdc.gov/nchs/nhis/documentation/2020-nhis.html",
+      "status": "HTML returned HTTP 403; direct public distribution URLs used"
+    },
+    {
+      "year": 2020,
+      "kind": "survey_description",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/srvydesc-508.pdf",
+      "path": "data/documentation/2020/srvydesc-508.pdf",
+      "bytes": 2764536,
+      "sha256": "9d707334254ed422103bd1513df88d28fb67a61a1f271e7c6f38e61c341e28f7"
+    },
+    {
+      "year": 2021,
+      "kind": "adult",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2021/adult21csv.zip",
+      "path": "data/raw/2021/adult21csv.zip",
+      "bytes": 4395751,
+      "sha256": "6e71f5a34115f9aef51304957c08b6db7a91f8a0a6eb3d9d21cd4f254cbdbf78"
+    },
+    {
+      "year": 2021,
+      "kind": "codebook",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2021/adult-codebook.pdf",
+      "path": "data/documentation/2021/adult-codebook.pdf",
+      "bytes": 2513945,
+      "sha256": "97f0af9fb8093731aec0bca6c148467a04fbb2a5e8b896428a8292e89e16541a"
+    },
+    {
+      "year": 2021,
+      "kind": "income",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2021/adultinc21csv.zip",
+      "path": "data/raw/2021/adultinc21csv.zip",
+      "bytes": 1005640,
+      "sha256": "08f489d0cadd33950c58146a01651f8862d7b438e868d70c1c015f29b123200d"
+    },
+    {
+      "year": 2021,
+      "kind": "index",
+      "url": "https://www.cdc.gov/nchs/nhis/documentation/2021-nhis.html",
+      "status": "HTML returned HTTP 403; direct public distribution URLs used"
+    },
+    {
+      "year": 2021,
+      "kind": "survey_description",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2021/srvydesc-508.pdf",
+      "path": "data/documentation/2021/srvydesc-508.pdf",
+      "bytes": 1839456,
+      "sha256": "5c46bbde75a06bc81014e1fee5a18cf71dbdaaf19477abc12d9b852a028af9a3"
+    },
+    {
+      "year": 2022,
+      "kind": "adult",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2022/adult22csv.zip",
+      "path": "data/raw/2022/adult22csv.zip",
+      "bytes": 3654579,
+      "sha256": "25083298173acfff35c6635be0fbcaa3ff26b985e0a48fc5e7d9788761864dba"
+    },
+    {
+      "year": 2022,
+      "kind": "codebook",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/adult-codebook.pdf",
+      "path": "data/documentation/2022/adult-codebook.pdf",
+      "bytes": 20953050,
+      "sha256": "e8dca19a0df8bf9fe30c7c0d44d7570c385f49b088921a2a5676e50037aaef0e"
+    },
+    {
+      "year": 2022,
+      "kind": "income",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2022/adultinc22csv.zip",
+      "path": "data/raw/2022/adultinc22csv.zip",
+      "bytes": 784575,
+      "sha256": "477b2b4375fb77b152cab08bd5a1855bad275643f209163cc2053c691c0f6059"
+    },
+    {
+      "year": 2022,
+      "kind": "index",
+      "url": "https://www.cdc.gov/nchs/nhis/documentation/2022-nhis.html",
+      "status": "HTML returned HTTP 403; direct public distribution URLs used"
+    },
+    {
+      "year": 2022,
+      "kind": "survey_description",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/srvydesc-508.pdf",
+      "path": "data/documentation/2022/srvydesc-508.pdf",
+      "bytes": 1979636,
+      "sha256": "d97a00b69c974fcccd446f309d1968b0c5bcba1706497d3a3f56882b69bb8e03"
+    },
+    {
+      "year": 2023,
+      "kind": "adult",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/adult23csv.zip",
+      "path": "data/raw/2023/adult23csv.zip",
+      "bytes": 4780657,
+      "sha256": "e6f0918e683e1d756e4298470737b4c99777e8a90ea9ee7488544b917f058585"
+    },
+    {
+      "year": 2023,
+      "kind": "codebook",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/adult-codebook.pdf",
+      "path": "data/documentation/2023/adult-codebook.pdf",
+      "bytes": 2218147,
+      "sha256": "0afacb59330f1714363db9cee6ee24dbd2a4e9a1edffbb66f8ee9c10b8ba969d"
+    },
+    {
+      "year": 2023,
+      "kind": "income",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/adultinc23csv.zip",
+      "path": "data/raw/2023/adultinc23csv.zip",
+      "bytes": 1003467,
+      "sha256": "2d62c27a4d7b6651b41e7f122ee57a5ab5828323e7752eee4b8adf7adb53e28c"
+    },
+    {
+      "year": 2023,
+      "kind": "index",
+      "url": "https://www.cdc.gov/nchs/nhis/documentation/2023-nhis.html",
+      "status": "HTML returned HTTP 403; direct public distribution URLs used"
+    },
+    {
+      "year": 2023,
+      "kind": "survey_description",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/srvydesc-508.pdf",
+      "path": "data/documentation/2023/srvydesc-508.pdf",
+      "bytes": 4167884,
+      "sha256": "def9a6b8de30fa3af457deb7e2225a34b29d4b4d56e4725ea840cbe2c5696b9f"
+    },
+    {
+      "year": 2024,
+      "kind": "adult",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2024/adult24csv.zip",
+      "path": "data/raw/2024/adult24csv.zip",
+      "bytes": 5543360,
+      "sha256": "5f926b2ec0af508fa84ebc791c83bfefa6f020724754aab599004706981abdaf"
+    },
+    {
+      "year": 2024,
+      "kind": "codebook",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2024/adult-codebook.pdf",
+      "path": "data/documentation/2024/adult-codebook.pdf",
+      "bytes": 2164377,
+      "sha256": "04ef4aa4b86c1b341cfdbae4389d9d7726584c92e579e4acac98b7c240fda3c9"
+    },
+    {
+      "year": 2024,
+      "kind": "income",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2024/adultinc24csv.zip",
+      "path": "data/raw/2024/adultinc24csv.zip",
+      "bytes": 1100177,
+      "sha256": "9bb8de994eb1ee793d47e056a8740607b8005e4c879dbf4a0be7faca606b8d7c"
+    },
+    {
+      "year": 2024,
+      "kind": "index",
+      "url": "https://www.cdc.gov/nchs/nhis/documentation/2024-nhis.html",
+      "status": "HTML returned HTTP 403; direct public distribution URLs used"
+    },
+    {
+      "year": 2024,
+      "kind": "survey_description",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2024/srvydesc-508.pdf",
+      "path": "data/documentation/2024/srvydesc-508.pdf",
+      "bytes": 1980907,
+      "sha256": "d8460727fadc112385e974bacd429930c3558b10f568e5251d150ce9b7b827d9"
+    },
+    {
+      "year": 2025,
+      "kind": "adult",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2025/adult25csv.zip",
+      "path": "data/raw/2025/adult25csv.zip",
+      "bytes": 3579199,
+      "sha256": "94d5477ffc3a03e292a3000da8eb5ad71626ae8032bbaa98c9711b7a3b572570"
+    },
+    {
+      "year": 2025,
+      "kind": "codebook",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2025/adult-codebook.pdf",
+      "path": "data/documentation/2025/adult-codebook.pdf",
+      "bytes": 16573265,
+      "sha256": "e112f79ff5575e2900068471529bf884d43423c465c5275c4abf3becc4a818c5"
+    },
+    {
+      "year": 2025,
+      "kind": "income",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2025/adultinc25csv.zip",
+      "path": "data/raw/2025/adultinc25csv.zip",
+      "bytes": 808371,
+      "sha256": "861bd254d29a375ae276539efe73775374f9205e5b4933ace2f07aa588d42535"
+    },
+    {
+      "year": 2025,
+      "kind": "index",
+      "url": "https://www.cdc.gov/nchs/nhis/documentation/2025-nhis.html",
+      "status": "HTML returned HTTP 403; direct public distribution URLs used"
+    },
+    {
+      "year": 2025,
+      "kind": "survey_description",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2025/srvydesc-508.pdf",
+      "path": "data/documentation/2025/srvydesc-508.pdf",
+      "bytes": 2060384,
+      "sha256": "d8a8cc998bcdef46d4408eaaf275373702131042f49efad9b28e1c87dcf2106c"
+    },
+    {
+      "year": 2020,
+      "kind": "partial",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/adultpart20csv.zip",
+      "path": "data/raw/2020/adultpart20csv.zip",
+      "bytes": 178861,
+      "sha256": "75d72ad200839ee9ecdccf70e72664c73032d26327e8725880021fcf23088762"
+    },
+    {
+      "year": 2020,
+      "kind": "income_technical",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/NHIS2020-imputation-techdoc-508.pdf",
+      "path": "data/documentation/2020/NHIS2020-imputation-techdoc-508.pdf",
+      "bytes": 437560,
+      "sha256": "379ab4c14ea4e1fcd2e4fb7da29f514ac7a57884b32f6921b88648c6cd606105"
+    },
+    {
+      "year": 2019,
+      "kind": "income_technical",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2019/NHIS2019-imputation-techdoc-508.pdf",
+      "path": "data/documentation/2019/NHIS2019-imputation-techdoc-508.pdf",
+      "bytes": 380507,
+      "sha256": "5f0cb2c3c993903a2ef75d79494c5bbe086039c5026b87adceb19f0bdfcf291e"
+    },
+    {
+      "year": 2021,
+      "kind": "income_technical",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2021/NHIS2021-imputation-techdoc-508.pdf",
+      "path": "data/documentation/2021/NHIS2021-imputation-techdoc-508.pdf",
+      "bytes": 640430,
+      "sha256": "5100213bca4635abafee2fad93ed65e4c2c311a0d824bacaaae59df87cb4e31c"
+    },
+    {
+      "year": 2022,
+      "kind": "income_technical",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/NHIS2022-imputation-techdoc-508.pdf",
+      "path": "data/documentation/2022/NHIS2022-imputation-techdoc-508.pdf",
+      "bytes": 794095,
+      "sha256": "2d8463ec11bf8533ad3c94d866aa26c258d0131f5159f860c20e6852cb5a97e5"
+    },
+    {
+      "year": 2023,
+      "kind": "income_technical",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/NHIS2023-imputation-techdoc-508.pdf",
+      "path": "data/documentation/2023/NHIS2023-imputation-techdoc-508.pdf",
+      "bytes": 750439,
+      "sha256": "1a8954f8724cc305305d4c3378e88b458c3c9cfc18707a204f909495d5a39a6b"
+    },
+    {
+      "year": 2024,
+      "kind": "income_technical",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2024/NHIS2024-imputation-techdoc-508.pdf",
+      "path": "data/documentation/2024/NHIS2024-imputation-techdoc-508.pdf",
+      "bytes": 934495,
+      "sha256": "5fa0044e24911ce8dc70ee60806af08e330d7867ce1618de6251e03b5dc4d26b"
+    },
+    {
+      "year": 2025,
+      "kind": "income_technical",
+      "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2025/NHIS2025-imputation-techdoc-508.pdf",
+      "path": "data/documentation/2025/NHIS2025-imputation-techdoc-508.pdf",
+      "bytes": 1201158,
+      "sha256": "199153353ec470fecc491512f1d76a2c9f920e89385c72b59a108b70d07f5600"
+    }
+  ]
+}

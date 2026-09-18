@@ -1,0 +1,9 @@
+﻿Contrast,Marginal PR (95% CI),Reference %,Comparison %
+Income 200–399% FPL vs Income ≥400% FPL,1.99 (1.59–2.49),9.6,19.0
+Income 100–199% FPL vs Income ≥400% FPL,2.41 (1.88–3.09),9.6,23.0
+Income <100% FPL vs Income ≥400% FPL,1.91 (1.45–2.51),9.6,18.3
+"Public without private vs Private, with or without public coverage",0.72 (0.63–0.83),20.1,14.5
+"Military only vs Private, with or without public coverage",0.83 (0.52–1.32),20.1,16.7
+"Uninsured vs Private, with or without public coverage",1.99 (1.63–2.43),20.1,40.0
+With disability vs Without disability,1.18 (1.04–1.33),16.7,19.6
+Age 18–64 years vs Age 65 years or older,2.13 (1.86–2.44),12.0,25.5

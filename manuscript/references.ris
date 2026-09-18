@@ -1,0 +1,178 @@
+TY  - JOUR
+ID  - 1
+TI  - 2021 Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack
+PY  - 2021
+AU  - Kleindorfer DO
+AU  - Towfighi A
+AU  - Chaturvedi S
+JO  - Stroke
+VL  - 52
+IS  - 7
+SP  - e364-e467
+DO  - 10.1161/STR.0000000000000375
+UR  - https://pubmed.ncbi.nlm.nih.gov/34024117/
+N1  - Author list abbreviated as et al in the working source citation; import full metadata from DOI before journal formatting.
+ER  -
+
+TY  - JOUR
+ID  - 2
+TI  - Younger stroke survivors have reduced access to physician care and medications: National Health Interview Survey from years 1998 to 2002
+PY  - 2007
+AU  - Levine DA
+AU  - Kiefe CI
+AU  - Houston TK
+AU  - Allison JJ
+AU  - McCarthy EP
+AU  - Ayanian JZ
+JO  - Archives of Neurology
+VL  - 64
+IS  - 1
+SP  - 37-42
+DO  - 10.1001/archneur.64.1.noc60002
+UR  - https://pubmed.ncbi.nlm.nih.gov/17101819/
+ER  -
+
+TY  - JOUR
+ID  - 3
+TI  - Recent trends in cost-related medication nonadherence among stroke survivors in the United States
+PY  - 2013
+AU  - Levine DA
+AU  - Morgenstern LB
+AU  - Langa KM
+AU  - Piette JD
+AU  - Rogers MAM
+AU  - Karve SJ
+JO  - Annals of Neurology
+VL  - 73
+IS  - 2
+SP  - 180-188
+DO  - 10.1002/ana.23823
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.23823
+ER  -
+
+TY  - JOUR
+ID  - 4
+TI  - Food Insecurity and Perceived Financial Stress are Associated with Cost-related Medication Non-adherence in Stroke
+PY  - 2023
+AU  - Springer MV
+AU  - Skolarus LE
+AU  - Patel M
+JO  - Journal of Health Care for the Poor and Underserved
+VL  - 34
+IS  - 2
+SP  - 625-639
+DO  - 10.1353/hpu.2023.0054
+UR  - https://pubmed.ncbi.nlm.nih.gov/37464522/
+ER  -
+
+TY  - JOUR
+ID  - 5
+TI  - Changes in cost-related nonadherence among US adults with multiple chronic conditions from 2019 to 2023
+PY  - 2025
+AU  - Amill-Rosario A
+AU  - Slejko JF
+AU  - dosReis S
+JO  - Journal of Managed Care and Specialty Pharmacy
+VL  - 31
+IS  - 7
+SP  - 662-670
+DO  - 10.18553/jmcp.2025.31.7.662
+UR  - https://pubmed.ncbi.nlm.nih.gov/40577032/
+ER  -
+
+TY  - RPRT
+ID  - 6
+TI  - 2025 National Health Interview Survey Survey Description
+PY  - 2026
+AU  - National Center for Health Statistics
+UR  - https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2025/srvydesc-508.pdf
+ER  -
+
+TY  - RPRT
+ID  - 7
+TI  - 2020 National Health Interview Survey Survey Description
+PY  - 2021
+AU  - National Center for Health Statistics
+UR  - https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/srvydesc-508.pdf
+ER  -
+
+TY  - RPRT
+ID  - 8
+TI  - Multiple Imputation of Family Income in 2025 National Health Interview Survey Methods
+PY  - 2026
+AU  - National Center for Health Statistics
+UR  - https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2025/NHIS2025-imputation-techdoc-508.pdf
+ER  -
+
+TY  - JOUR
+ID  - 9
+TI  - Analysis of Complex Survey Samples
+PY  - 2004
+AU  - Lumley T
+JO  - Journal of Statistical Software
+VL  - 9
+IS  - 8
+SP  - 1-19
+DO  - 10.18637/jss.v009.i08
+UR  - https://www.jstatsoft.org/index.php/jss/article/view/v009i08
+ER  -
+
+TY  - JOUR
+ID  - 10
+TI  - A modified Poisson regression approach to prospective studies with binary data
+PY  - 2004
+AU  - Zou G
+JO  - American Journal of Epidemiology
+VL  - 159
+IS  - 7
+SP  - 702-706
+DO  - 10.1093/aje/kwh090
+UR  - https://pubmed.ncbi.nlm.nih.gov/15033648/
+ER  -
+
+TY  - JOUR
+ID  - 11
+TI  - Predictive Margins with Survey Data
+PY  - 1999
+AU  - Graubard BI
+AU  - Korn EL
+JO  - Biometrics
+VL  - 55
+IS  - 2
+SP  - 652-659
+DO  - 10.1111/j.0006-341X.1999.00652.x
+UR  - https://onlinelibrary.wiley.com/doi/10.1111/j.0006-341X.1999.00652.x
+ER  -
+
+TY  - JOUR
+ID  - 12
+TI  - National Center for Health Statistics Data Presentation Standards for Proportions
+PY  - 2017
+AU  - Parker JD
+AU  - Talih M
+AU  - Malec DJ
+JO  - Vital and Health Statistics Series 2
+IS  - 175
+SP  - 1-22
+UR  - https://www.cdc.gov/nchs/data/series/sr_02/sr02_175.pdf
+N1  - Author list abbreviated as et al in the working source citation; import full metadata from DOI before journal formatting.
+ER  -
+
+TY  - JOUR
+ID  - 13
+TI  - The Strengthening the Reporting of Observational Studies in Epidemiology Statement Guidelines for Reporting Observational Studies
+PY  - 2007
+AU  - von Elm E
+AU  - Altman DG
+AU  - Egger M
+AU  - Pocock SJ
+AU  - Gøtzsche PC
+AU  - Vandenbroucke JP
+AU  - STROBE Initiative
+JO  - PLoS Medicine
+VL  - 4
+IS  - 10
+SP  - e296
+DO  - 10.1371/journal.pmed.0040296
+UR  - https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0040296
+ER  -

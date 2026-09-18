@@ -1,0 +1,197 @@
+﻿path,absolute_path,role,bytes,included_in_zip
+.gitignore,C:\Users\gbp34\Documents\ChatGPT\Stroke\.gitignore,Project documentation or entrypoint,154,True
+data/documentation/2019/adult-codebook.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2019\adult-codebook.fast.txt,Reviewed source documentation or searchable extract,610847,False
+data/documentation/2019/adult-codebook.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2019\adult-codebook.pdf,Reviewed source documentation or searchable extract,3214744,False
+data/documentation/2019/adult-codebook.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2019\adult-codebook.txt,Reviewed source documentation or searchable extract,575410,False
+data/documentation/2019/NHIS2019-imputation-techdoc-508.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2019\NHIS2019-imputation-techdoc-508.fast.txt,Reviewed source documentation or searchable extract,53262,False
+data/documentation/2019/NHIS2019-imputation-techdoc-508.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2019\NHIS2019-imputation-techdoc-508.pdf,Reviewed source documentation or searchable extract,380507,False
+data/documentation/2019/srvydesc-508.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2019\srvydesc-508.fast.txt,Reviewed source documentation or searchable extract,288661,False
+data/documentation/2019/srvydesc-508.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2019\srvydesc-508.pdf,Reviewed source documentation or searchable extract,1492982,False
+data/documentation/2019/srvydesc-508.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2019\srvydesc-508.txt,Reviewed source documentation or searchable extract,285777,False
+data/documentation/2020/adult-codebook.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2020\adult-codebook.fast.txt,Reviewed source documentation or searchable extract,714507,False
+data/documentation/2020/adult-codebook.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2020\adult-codebook.pdf,Reviewed source documentation or searchable extract,2118199,False
+data/documentation/2020/adult-codebook.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2020\adult-codebook.txt,Reviewed source documentation or searchable extract,728880,False
+data/documentation/2020/NHIS2020-imputation-techdoc-508.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2020\NHIS2020-imputation-techdoc-508.fast.txt,Reviewed source documentation or searchable extract,56363,False
+data/documentation/2020/NHIS2020-imputation-techdoc-508.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2020\NHIS2020-imputation-techdoc-508.pdf,Reviewed source documentation or searchable extract,437560,False
+data/documentation/2020/outcome_pages.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2020\outcome_pages.txt,Reviewed source documentation or searchable extract,13990,False
+data/documentation/2020/srvydesc-508.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2020\srvydesc-508.fast.txt,Reviewed source documentation or searchable extract,380019,False
+data/documentation/2020/srvydesc-508.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2020\srvydesc-508.pdf,Reviewed source documentation or searchable extract,2764536,False
+data/documentation/2020/srvydesc-508.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2020\srvydesc-508.txt,Reviewed source documentation or searchable extract,376903,False
+data/documentation/2021/adult-codebook.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2021\adult-codebook.fast.txt,Reviewed source documentation or searchable extract,732056,False
+data/documentation/2021/adult-codebook.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2021\adult-codebook.pdf,Reviewed source documentation or searchable extract,2513945,False
+data/documentation/2021/adult-codebook.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2021\adult-codebook.txt,Reviewed source documentation or searchable extract,746039,False
+data/documentation/2021/NHIS2021-imputation-techdoc-508.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2021\NHIS2021-imputation-techdoc-508.fast.txt,Reviewed source documentation or searchable extract,55064,False
+data/documentation/2021/NHIS2021-imputation-techdoc-508.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2021\NHIS2021-imputation-techdoc-508.pdf,Reviewed source documentation or searchable extract,640430,False
+data/documentation/2021/srvydesc-508.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2021\srvydesc-508.fast.txt,Reviewed source documentation or searchable extract,371830,False
+data/documentation/2021/srvydesc-508.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2021\srvydesc-508.pdf,Reviewed source documentation or searchable extract,1839456,False
+data/documentation/2021/srvydesc-508.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2021\srvydesc-508.txt,Reviewed source documentation or searchable extract,368812,False
+data/documentation/2022/adult-codebook.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2022\adult-codebook.fast.txt,Reviewed source documentation or searchable extract,753919,False
+data/documentation/2022/adult-codebook.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2022\adult-codebook.pdf,Reviewed source documentation or searchable extract,20953050,False
+data/documentation/2022/adult-codebook.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2022\adult-codebook.txt,Reviewed source documentation or searchable extract,711388,False
+data/documentation/2022/NHIS2022-imputation-techdoc-508.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2022\NHIS2022-imputation-techdoc-508.fast.txt,Reviewed source documentation or searchable extract,65625,False
+data/documentation/2022/NHIS2022-imputation-techdoc-508.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2022\NHIS2022-imputation-techdoc-508.pdf,Reviewed source documentation or searchable extract,794095,False
+data/documentation/2022/srvydesc-508.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2022\srvydesc-508.fast.txt,Reviewed source documentation or searchable extract,395777,False
+data/documentation/2022/srvydesc-508.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2022\srvydesc-508.pdf,Reviewed source documentation or searchable extract,1979636,False
+data/documentation/2022/srvydesc-508.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2022\srvydesc-508.txt,Reviewed source documentation or searchable extract,392469,False
+data/documentation/2023/adult-codebook.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2023\adult-codebook.fast.txt,Reviewed source documentation or searchable extract,752023,False
+data/documentation/2023/adult-codebook.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2023\adult-codebook.pdf,Reviewed source documentation or searchable extract,2218147,False
+data/documentation/2023/adult-codebook.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2023\adult-codebook.txt,Reviewed source documentation or searchable extract,767340,False
+data/documentation/2023/NHIS2023-imputation-techdoc-508.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2023\NHIS2023-imputation-techdoc-508.fast.txt,Reviewed source documentation or searchable extract,65849,False
+data/documentation/2023/NHIS2023-imputation-techdoc-508.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2023\NHIS2023-imputation-techdoc-508.pdf,Reviewed source documentation or searchable extract,750439,False
+data/documentation/2023/srvydesc-508.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2023\srvydesc-508.fast.txt,Reviewed source documentation or searchable extract,385792,False
+data/documentation/2023/srvydesc-508.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2023\srvydesc-508.pdf,Reviewed source documentation or searchable extract,4167884,False
+data/documentation/2023/srvydesc-508.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2023\srvydesc-508.txt,Reviewed source documentation or searchable extract,383245,False
+data/documentation/2024/adult-codebook.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2024\adult-codebook.fast.txt,Reviewed source documentation or searchable extract,737488,False
+data/documentation/2024/adult-codebook.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2024\adult-codebook.pdf,Reviewed source documentation or searchable extract,2164377,False
+data/documentation/2024/adult-codebook.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2024\adult-codebook.txt,Reviewed source documentation or searchable extract,752943,False
+data/documentation/2024/NHIS2024-imputation-techdoc-508.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2024\NHIS2024-imputation-techdoc-508.fast.txt,Reviewed source documentation or searchable extract,89214,False
+data/documentation/2024/NHIS2024-imputation-techdoc-508.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2024\NHIS2024-imputation-techdoc-508.pdf,Reviewed source documentation or searchable extract,934495,False
+data/documentation/2024/srvydesc-508.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2024\srvydesc-508.fast.txt,Reviewed source documentation or searchable extract,410521,False
+data/documentation/2024/srvydesc-508.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2024\srvydesc-508.pdf,Reviewed source documentation or searchable extract,1980907,False
+data/documentation/2024/srvydesc-508.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2024\srvydesc-508.txt,Reviewed source documentation or searchable extract,406880,False
+data/documentation/2025/adult-codebook.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2025\adult-codebook.fast.txt,Reviewed source documentation or searchable extract,714794,False
+data/documentation/2025/adult-codebook.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2025\adult-codebook.pdf,Reviewed source documentation or searchable extract,16573265,False
+data/documentation/2025/adult-codebook.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2025\adult-codebook.txt,Reviewed source documentation or searchable extract,676696,False
+data/documentation/2025/NHIS2025-imputation-techdoc-508.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2025\NHIS2025-imputation-techdoc-508.fast.txt,Reviewed source documentation or searchable extract,89292,False
+data/documentation/2025/NHIS2025-imputation-techdoc-508.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2025\NHIS2025-imputation-techdoc-508.pdf,Reviewed source documentation or searchable extract,1201158,False
+data/documentation/2025/srvydesc-508.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2025\srvydesc-508.fast.txt,Reviewed source documentation or searchable extract,418630,False
+data/documentation/2025/srvydesc-508.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2025\srvydesc-508.pdf,Reviewed source documentation or searchable extract,2060384,False
+data/documentation/2025/srvydesc-508.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2025\srvydesc-508.txt,Reviewed source documentation or searchable extract,414520,False
+data/processed/adults_selected.rds,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\adults_selected.rds,Generated analytic records or fitted model object; retained locally,3421597,False
+data/processed/demographic_model.rds,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\demographic_model.rds,Generated analytic records or fitted model object; retained locally,2263813,False
+data/processed/extracted/adult19.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adult19.csv,Generated analytic records or fitted model object; retained locally,26763510,False
+data/processed/extracted/adult20.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adult20.csv,Generated analytic records or fitted model object; retained locally,30453241,False
+data/processed/extracted/adult21.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adult21.csv,Generated analytic records or fitted model object; retained locally,28007329,False
+data/processed/extracted/adult22.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adult22.csv,Generated analytic records or fitted model object; retained locally,28118163,False
+data/processed/extracted/adult23.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adult23.csv,Generated analytic records or fitted model object; retained locally,29427128,False
+data/processed/extracted/adult24.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adult24.csv,Generated analytic records or fitted model object; retained locally,32782569,False
+data/processed/extracted/adult25.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adult25.csv,Generated analytic records or fitted model object; retained locally,22038942,False
+data/processed/extracted/adultinc19.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adultinc19.csv,Generated analytic records or fitted model object; retained locally,10853345,False
+data/processed/extracted/adultinc20.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adultinc20.csv,Generated analytic records or fitted model object; retained locally,10740360,False
+data/processed/extracted/adultinc21.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adultinc21.csv,Generated analytic records or fitted model object; retained locally,7000843,False
+data/processed/extracted/adultinc22.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adultinc22.csv,Generated analytic records or fitted model object; retained locally,7120737,False
+data/processed/extracted/adultinc23.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adultinc23.csv,Generated analytic records or fitted model object; retained locally,7594385,False
+data/processed/extracted/adultinc24.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adultinc24.csv,Generated analytic records or fitted model object; retained locally,8394470,False
+data/processed/extracted/adultinc25.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adultinc25.csv,Generated analytic records or fitted model object; retained locally,6237095,False
+data/processed/extracted/adultpart20.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\extracted\adultpart20.csv,Generated analytic records or fitted model object; retained locally,556618,False
+data/processed/full/base.rds,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\full\base.rds,Generated analytic records or fitted model object; retained locally,5509520,False
+data/processed/full/imputation_model_summaries.rds,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\full\imputation_model_summaries.rds,Generated analytic records or fitted model object; retained locally,954164,False
+data/processed/full/income.rds,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\full\income.rds,Generated analytic records or fitted model object; retained locally,3188301,False
+data/processed/full/model_matrix_m1.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\full\model_matrix_m1.csv,Generated analytic records or fitted model object; retained locally,996907,False
+data/processed/full/pooled_models.rds,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\full\pooled_models.rds,Generated analytic records or fitted model object; retained locally,112504,False
+data/processed/full/stroke_covariates.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\full\stroke_covariates.csv,Generated analytic records or fitted model object; retained locally,1749814,False
+data/processed/stroke_records.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\processed\stroke_records.csv,Generated analytic records or fitted model object; retained locally,880849,False
+data/raw/2019/adult19csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2019\adult19csv.zip,Unchanged public CDC microdata ZIP; retained locally,4372417,False
+data/raw/2019/adultinc19csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2019\adultinc19csv.zip,Unchanged public CDC microdata ZIP; retained locally,1360766,False
+data/raw/2020/adult20csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2020\adult20csv.zip,Unchanged public CDC microdata ZIP; retained locally,5154926,False
+data/raw/2020/adultinc20csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2020\adultinc20csv.zip,Unchanged public CDC microdata ZIP; retained locally,1306403,False
+data/raw/2020/adultpart20csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2020\adultpart20csv.zip,Unchanged public CDC microdata ZIP; retained locally,178861,False
+data/raw/2021/adult21csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2021\adult21csv.zip,Unchanged public CDC microdata ZIP; retained locally,4395751,False
+data/raw/2021/adultinc21csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2021\adultinc21csv.zip,Unchanged public CDC microdata ZIP; retained locally,1005640,False
+data/raw/2022/adult22csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2022\adult22csv.zip,Unchanged public CDC microdata ZIP; retained locally,3654579,False
+data/raw/2022/adultinc22csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2022\adultinc22csv.zip,Unchanged public CDC microdata ZIP; retained locally,784575,False
+data/raw/2023/adult23csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2023\adult23csv.zip,Unchanged public CDC microdata ZIP; retained locally,4780657,False
+data/raw/2023/adultinc23csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2023\adultinc23csv.zip,Unchanged public CDC microdata ZIP; retained locally,1003467,False
+data/raw/2024/adult24csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2024\adult24csv.zip,Unchanged public CDC microdata ZIP; retained locally,5543360,False
+data/raw/2024/adultinc24csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2024\adultinc24csv.zip,Unchanged public CDC microdata ZIP; retained locally,1100177,False
+data/raw/2025/adult25csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2025\adult25csv.zip,Unchanged public CDC microdata ZIP; retained locally,3579199,False
+data/raw/2025/adultinc25csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2025\adultinc25csv.zip,Unchanged public CDC microdata ZIP; retained locally,808371,False
+HANDOFF.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\HANDOFF.md,Project documentation or entrypoint,8316,True
+LICENSE,C:\Users\gbp34\Documents\ChatGPT\Stroke\LICENSE,Project documentation or entrypoint,1245,True
+LITERATURE_NOTES.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\LITERATURE_NOTES.md,Project documentation or entrypoint,3996,True
+manuscript/AUTHOR_INFORMATION.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\AUTHOR_INFORMATION.md,"Manuscript, source text or supporting writing",1975,True
+manuscript/draft_source.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\draft_source.md,"Manuscript, source text or supporting writing",31248,True
+manuscript/EDITORIAL_MATERIAL.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\EDITORIAL_MATERIAL.md,"Manuscript, source text or supporting writing",3755,True
+manuscript/figures/figure1_annual_prevalence.png,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure1_annual_prevalence.png,Scientific figure,160947,True
+manuscript/figures/figure2_adjusted_associations.png,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure2_adjusted_associations.png,Scientific figure,142540,True
+manuscript/figures/figureS1_cohort_flow.png,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figureS1_cohort_flow.png,Scientific figure,126717,True
+manuscript/manuscript.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.docx,"Manuscript, source text or supporting writing",315238,True
+manuscript/manuscript.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.md,"Manuscript, source text or supporting writing",40271,True
+manuscript/manuscript.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.pdf,"Manuscript, source text or supporting writing",553216,True
+manuscript/references.json,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\references.json,"Manuscript, source text or supporting writing",4358,True
+manuscript/references.ris,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\references.ris,"Manuscript, source text or supporting writing",4667,True
+manuscript/supplement.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement.docx,"Manuscript, source text or supporting writing",162075,True
+manuscript/supplement.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement.md,"Manuscript, source text or supporting writing",29906,True
+manuscript/supplement.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement.pdf,"Manuscript, source text or supporting writing",536472,True
+manuscript/supplement_source.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement_source.md,"Manuscript, source text or supporting writing",13074,True
+manuscript/tables/definitions_covariates.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\definitions_covariates.csv,Editable formatted table,781,True
+manuscript/tables/definitions_outcomes.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\definitions_outcomes.csv,Editable formatted table,496,True
+manuscript/tables/STROBE_checklist.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\STROBE_checklist.csv,Editable formatted table,1731,True
+manuscript/tables/table1.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\table1.csv,Editable formatted table,1380,True
+manuscript/tables/table2.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\table2.csv,Editable formatted table,463,True
+manuscript/tables/table3.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\table3.csv,Editable formatted table,1296,True
+manuscript/tables/tableS1.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS1.csv,Editable formatted table,301,True
+manuscript/tables/tableS2.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS2.csv,Editable formatted table,256,True
+manuscript/tables/tableS3.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS3.csv,Editable formatted table,2786,True
+manuscript/tables/tableS4.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS4.csv,Editable formatted table,373,True
+manuscript/tables/tableS5.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS5.csv,Editable formatted table,1769,True
+manuscript/tables/tableS6.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS6.csv,Editable formatted table,854,True
+manuscript/tables/tableS7.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS7.csv,Editable formatted table,689,True
+manuscript/tables/tableS8.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS8.csv,Editable formatted table,610,True
+manuscript/tables/tableS9.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS9.csv,Editable formatted table,819,True
+outputs/annual_prevalence.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\annual_prevalence.csv,Launch output or shared provenance; see HANDOFF for current status,9857,True
+outputs/annual_prevalence.png,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\annual_prevalence.png,Launch output or shared provenance; see HANDOFF for current status,79175,False
+outputs/codebook_excerpts.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\codebook_excerpts.md,Launch output or shared provenance; see HANDOFF for current status,125712,True
+outputs/cohort_flow.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\cohort_flow.csv,Launch output or shared provenance; see HANDOFF for current status,402,True
+outputs/covariate_codebook_excerpts.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\covariate_codebook_excerpts.md,Launch output or shared provenance; see HANDOFF for current status,108984,True
+outputs/covariate_crosswalk.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\covariate_crosswalk.csv,Launch output or shared provenance; see HANDOFF for current status,14724,True
+outputs/covariate_review.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\covariate_review.txt,Launch output or shared provenance; see HANDOFF for current status,16129,False
+outputs/demographic_model.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\demographic_model.csv,Launch output or shared provenance; see HANDOFF for current status,2118,False
+outputs/FILE_INVENTORY.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\FILE_INVENTORY.csv,Launch output or shared provenance; see HANDOFF for current status,46322,False
+outputs/full/adjusted_annual_prevalence.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\adjusted_annual_prevalence.csv,Current aggregate result or verification output,880,True
+outputs/full/adjusted_year_difference.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\adjusted_year_difference.csv,Current aggregate result or verification output,129,True
+outputs/full/complete_case_comparison.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\complete_case_comparison.csv,Current aggregate result or verification output,313,True
+outputs/full/component_prevalence.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\component_prevalence.csv,Current aggregate result or verification output,844,True
+outputs/full/covariate_missingness.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\covariate_missingness.csv,Current aggregate result or verification output,404,True
+outputs/full/income_imputation_summary.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\income_imputation_summary.csv,Current aggregate result or verification output,343,True
+outputs/full/income_merge_checks.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\income_merge_checks.csv,Current aggregate result or verification output,242,True
+outputs/full/joint_tests.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\joint_tests.csv,Current aggregate result or verification output,297,True
+outputs/full/logistic_diagnostics.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\logistic_diagnostics.csv,Current aggregate result or verification output,1227,True
+outputs/full/logistic_sensitivity.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\logistic_sensitivity.csv,Current aggregate result or verification output,1010,True
+outputs/full/logistic_sensitivity_imputations.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\logistic_sensitivity_imputations.csv,Current aggregate result or verification output,8962,True
+outputs/full/manuscript_checks.json,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\manuscript_checks.json,Current aggregate result or verification output,1039,True
+outputs/full/manuscript_metadata.json,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\manuscript_metadata.json,Current aggregate result or verification output,281,True
+outputs/full/model_coefficients.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\model_coefficients.csv,Current aggregate result or verification output,90627,True
+outputs/full/model_diagnostics.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\model_diagnostics.csv,Current aggregate result or verification output,7905,True
+outputs/full/model_imputation_summaries.json,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\model_imputation_summaries.json,Current aggregate result or verification output,4407122,True
+outputs/full/R_session_info.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\R_session_info.txt,Current aggregate result or verification output,1130,True
+outputs/full/subgroup_imputations.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\subgroup_imputations.csv,Current aggregate result or verification output,17736,True
+outputs/full/subgroup_prevalence.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\subgroup_prevalence.csv,Current aggregate result or verification output,1428,True
+outputs/full/table1_characteristics.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\table1_characteristics.csv,Current aggregate result or verification output,10484,True
+outputs/full/table1_imputations.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\table1_imputations.csv,Current aggregate result or verification output,126602,True
+outputs/full/validation.json,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\full\validation.json,Current aggregate result or verification output,3365,True
+outputs/LAUNCH_REPORT.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\LAUNCH_REPORT.md,Launch output or shared provenance; see HANDOFF for current status,8856,False
+outputs/missingness.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\missingness.csv,Launch output or shared provenance; see HANDOFF for current status,2685,True
+outputs/model_diagnostics.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\model_diagnostics.csv,Launch output or shared provenance; see HANDOFF for current status,177,False
+outputs/pooled_cohort_flow.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\pooled_cohort_flow.csv,Launch output or shared provenance; see HANDOFF for current status,229,True
+outputs/pooled_prevalence.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\pooled_prevalence.csv,Launch output or shared provenance; see HANDOFF for current status,1853,True
+outputs/questionnaire_crosswalk.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\questionnaire_crosswalk.csv,Launch output or shared provenance; see HANDOFF for current status,40189,True
+outputs/R_session_info.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\R_session_info.txt,Launch output or shared provenance; see HANDOFF for current status,1194,True
+outputs/raw_response_counts.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\raw_response_counts.csv,Launch output or shared provenance; see HANDOFF for current status,6173,False
+outputs/source_manifest.json,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\source_manifest.json,Launch output or shared provenance; see HANDOFF for current status,13994,True
+outputs/validation.json,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\validation.json,Launch output or shared provenance; see HANDOFF for current status,2495,True
+README.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\README.md,Project documentation or entrypoint,5151,True
+requirements.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\requirements.txt,Project documentation or entrypoint,66,True
+run.ps1,C:\Users\gbp34\Documents\ChatGPT\Stroke\run.ps1,Project documentation or entrypoint,1270,True
+run_full.ps1,C:\Users\gbp34\Documents\ChatGPT\Stroke\run_full.ps1,Project documentation or entrypoint,1656,True
+scripts/acquire.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\acquire.py,"Acquisition, analysis, verification or writing code",4958,True
+scripts/acquire_income_docs.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\acquire_income_docs.py,"Acquisition, analysis, verification or writing code",944,True
+scripts/acquire_partial.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\acquire_partial.py,"Acquisition, analysis, verification or writing code",592,True
+scripts/analyze.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\analyze.R,"Acquisition, analysis, verification or writing code",10255,True
+scripts/build_handoff.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\build_handoff.py,"Acquisition, analysis, verification or writing code",11529,True
+scripts/build_manuscript.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\build_manuscript.py,"Acquisition, analysis, verification or writing code",25976,True
+scripts/check_manuscript.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\check_manuscript.py,"Acquisition, analysis, verification or writing code",4930,True
+scripts/extend_covariate_crosswalk.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\extend_covariate_crosswalk.py,"Acquisition, analysis, verification or writing code",1815,True
+scripts/extract_crosswalk.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\extract_crosswalk.py,"Acquisition, analysis, verification or writing code",3236,True
+scripts/full_analysis.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\full_analysis.R,"Acquisition, analysis, verification or writing code",12741,True
+scripts/inspect_docs.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\inspect_docs.R,"Acquisition, analysis, verification or writing code",465,True
+scripts/inspect_inputs.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\inspect_inputs.py,"Acquisition, analysis, verification or writing code",720,True
+scripts/inspect_survey_methods.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\inspect_survey_methods.R,"Acquisition, analysis, verification or writing code",249,True
+scripts/logistic_sensitivity.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\logistic_sensitivity.R,"Acquisition, analysis, verification or writing code",2866,True
+scripts/make_figures.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\make_figures.R,"Acquisition, analysis, verification or writing code",3716,True
+scripts/package_manuscript.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\package_manuscript.py,"Acquisition, analysis, verification or writing code",4399,True
+scripts/prepare_full_data.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\prepare_full_data.R,"Acquisition, analysis, verification or writing code",4857,True
+scripts/validate.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\validate.py,"Acquisition, analysis, verification or writing code",5102,True
+scripts/validate_full.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\validate_full.py,"Acquisition, analysis, verification or writing code",3876,True
+STUDY_PROTOCOL.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\STUDY_PROTOCOL.md,Project documentation or entrypoint,5750,True
+EXTERNAL_REFERENCE,C:/Users/gbp34/Downloads/deep-research-report (7).md,User planning attachment materially reviewed; not modified or included,,False

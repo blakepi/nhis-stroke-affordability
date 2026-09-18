@@ -1,0 +1,17 @@
+﻿Model,n,Events,Fitted >1 per imputation,Largest fitted value,Convergence
+M1,6777,1117,0–0,0.517,All converged
+M2,6777,1117,3–4,1.190,All converged
+M3,6777,1117,14–16,1.943,All converged
+Age_M1,6777,1117,0–0,0.466,All converged
+Age_M2,6777,1117,3–4,1.106,All converged
+Age_M3,6777,1117,15–17,1.912,All converged
+AgeInteraction,6777,1117,17–19,1.888,All converged
+No2020,6124,1016,12–16,1.943,All converged
+WorkingAge,2231,620,14–15,2.127,All converged
+NoDisability,4209,607,5–6,1.802,All converged
+Universal,6776,955,13–17,1.972,All converged
+Delayed,6774,523,3–5,1.518,All converged
+ForgoneCare,6776,509,4–8,1.651,All converged
+ForgoneRx,6775,610,4–6,1.488,All converged
+RxUnderuse,6449,598,5–6,1.709,All converged
+MissingCategory,7104,1184,16–19,1.891,All converged

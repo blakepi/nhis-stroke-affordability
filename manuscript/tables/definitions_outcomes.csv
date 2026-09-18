@@ -1,0 +1,8 @@
+﻿Measure,NHIS variables,Universe
+Stroke history,STREV_A,All sample adults
+Delayed medical care,MEDDL12M_A,All sample adults
+Forgone medical care,MEDNG12M_A,All sample adults
+Forgone needed prescriptions,RXDG12M_A,All sample adults
+Prescription use,RX12M_A,All sample adults
+"Dose skipping, dose reduction, delayed filling",RXSK12M_A; RXLS12M_A; RXDL12M_A,RX12M_A=1
+Any affordability barrier,Any applicable positive among six items,Known applicability and response rules described below

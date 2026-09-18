@@ -1,0 +1,181 @@
+group,variable,level,n_mean,n_min,n_max,denominator,weighted_pct
+Overall,young,65+,4763,4763,4763,7104,58.9834627332109
+Overall,young,18-64,2341,2341,2341,7104,41.0165372667891
+Overall,young,Missing,0,0,0,7104,0
+Overall,sex,1,3269,3269,3269,7104,48.5404902962712
+Overall,sex,2,3835,3835,3835,7104,51.4595097037288
+Overall,sex,Missing,0,0,0,7104,0
+Overall,race,1,599,599,599,7104,11.4656297625519
+Overall,race,2,5052,5052,5052,7104,66.5793519426178
+Overall,race,3,1068,1068,1068,7104,15.7732619844168
+Overall,race,4,171,171,171,7104,3.33384373259341
+Overall,race,5,77,77,77,7104,0.914405139082075
+Overall,race,6,91,91,91,7104,1.2606015157818
+Overall,race,7,46,46,46,7104,0.672905922956289
+Overall,race,Missing,0,0,0,7104,0
+Overall,region,1,1032,1032,1032,7104,15.5722647111389
+Overall,region,2,1681,1681,1681,7104,21.9733331559988
+Overall,region,3,2942,2942,2942,7104,43.1034607914369
+Overall,region,4,1449,1449,1449,7104,19.3509413414254
+Overall,region,Missing,0,0,0,7104,0
+Overall,education,Bachelor or higher,1670,1670,1670,7104,20.0594694496923
+Overall,education,Some college or associate,2149,2149,2149,7104,28.7035088015196
+Overall,education,High school or GED,2202,2202,2202,7104,32.3183409358645
+Overall,education,Less than high school,1050,1050,1050,7104,18.301849618428
+Overall,education,Unknown,33,33,33,7104,0.616831194495467
+Overall,education,Missing,0,0,0,7104,0
+Overall,income_group,400%+,1681.2,1672,1694,7104,24.1526003843365
+Overall,income_group,200-399%,2133.3,2115,2163,7104,30.9914195720413
+Overall,income_group,100-199%,1986.9,1970,2014,7104,27.4767921202417
+Overall,income_group,<100%,1302.6,1290,1321,7104,17.3791879233806
+Overall,income_group,Missing,0,0,0,7104,0
+Overall,insurance,Private,2888,2888,2888,7104,40.2556361156756
+Overall,insurance,Public without private,3871,3871,3871,7104,53.5688884206503
+Overall,insurance,Military only,109,109,109,7104,1.64255339869284
+Overall,insurance,Uninsured,207,207,207,7104,4.01168581159693
+Overall,insurance,Unknown,29,29,29,7104,0.52123625338439
+Overall,insurance,Missing,0,0,0,7104,0
+Overall,hypertension,No,1747,1747,1747,7104,25.718636789635
+Overall,hypertension,Yes,5349,5349,5349,7104,74.1692645866206
+Overall,hypertension,Unknown,8,8,8,7104,0.112098623744417
+Overall,hypertension,Missing,0,0,0,7104,0
+Overall,diabetes,No,5136,5136,5136,7104,71.335608944225
+Overall,diabetes,Yes,1960,1960,1960,7104,28.5891012980771
+Overall,diabetes,Unknown,8,8,8,7104,0.075289757697927
+Overall,diabetes,Missing,0,0,0,7104,0
+Overall,coronary,No,5212,5212,5212,7104,74.0363004987016
+Overall,coronary,Yes,1828,1828,1828,7104,25.2252523991925
+Overall,coronary,Unknown,64,64,64,7104,0.738447102105903
+Overall,coronary,Missing,0,0,0,7104,0
+Overall,smoking,Never,3196,3196,3196,7104,46.0052272102848
+Overall,smoking,Former,2592,2592,2592,7104,34.0226602060739
+Overall,smoking,Current,1132,1132,1132,7104,16.7766128842217
+Overall,smoking,Unknown,184,184,184,7104,3.19549969941956
+Overall,smoking,Missing,0,0,0,7104,0
+Overall,fairpoor,Good or better,3607,3607,3607,7104,48.0009409936872
+Overall,fairpoor,Fair or poor,3486,3486,3486,7104,51.8558623068889
+Overall,fairpoor,Unknown,11,11,11,7104,0.143196699423978
+Overall,fairpoor,Missing,0,0,0,7104,0
+Overall,disability,Without disability,4384,4384,4384,7104,61.2374964216707
+Overall,disability,With disability,2720,2720,2720,7104,38.7625035783293
+Overall,disability,Missing,0,0,0,7104,0
+No barrier,young,65+,4237,4237,4237,5920,64.0293448774437
+No barrier,young,18-64,1683,1683,1683,5920,35.9706551225564
+No barrier,young,Missing,0,0,0,5920,0
+No barrier,sex,1,2777,2777,2777,5920,49.6844718254879
+No barrier,sex,2,3143,3143,3143,5920,50.3155281745121
+No barrier,sex,Missing,0,0,0,5920,0
+No barrier,race,1,478,478,478,5920,11.1674743737091
+No barrier,race,2,4279,4279,4279,5920,67.6478410651081
+No barrier,race,3,852,852,852,5920,14.918592778545
+No barrier,race,4,146,146,146,5920,3.54544218108883
+No barrier,race,5,66,66,66,5920,0.936001387298833
+No barrier,race,6,63,63,63,5920,1.14591900963082
+No barrier,race,7,36,36,36,5920,0.638729204619333
+No barrier,race,Missing,0,0,0,5920,0
+No barrier,region,1,901,901,901,5920,16.3982511011061
+No barrier,region,2,1405,1405,1405,5920,22.2826465892697
+No barrier,region,3,2362,2362,2362,5920,41.0083301728144
+No barrier,region,4,1252,1252,1252,5920,20.3107721368097
+No barrier,region,Missing,0,0,0,5920,0
+No barrier,education,Bachelor or higher,1437,1437,1437,5920,20.6491522527498
+No barrier,education,Some college or associate,1743,1743,1743,5920,28.2236135233151
+No barrier,education,High school or GED,1848,1848,1848,5920,32.6475632971705
+No barrier,education,Less than high school,866,866,866,5920,17.9885536254857
+No barrier,education,Unknown,26,26,26,5920,0.49111730127897
+No barrier,education,Missing,0,0,0,5920,0
+No barrier,income_group,400%+,1559.9,1550,1569,5920,27.0179351900361
+No barrier,income_group,200-399%,1786.9,1767,1817,5920,30.9504131371643
+No barrier,income_group,100-199%,1549.6,1533,1580,5920,25.614137795942
+No barrier,income_group,<100%,1023.6,1012,1041,5920,16.4175138768577
+No barrier,income_group,Missing,0,0,0,5920,0
+No barrier,insurance,Private,2465,2465,2465,5920,40.9238216434299
+No barrier,insurance,Public without private,3263,3263,3263,5920,54.9214243245428
+No barrier,insurance,Military only,92,92,92,5920,1.63654965076695
+No barrier,insurance,Uninsured,80,80,80,5920,2.01723822817995
+No barrier,insurance,Unknown,20,20,20,5920,0.500966153080363
+No barrier,insurance,Missing,0,0,0,5920,0
+No barrier,hypertension,No,1455,1455,1455,5920,25.2693807732114
+No barrier,hypertension,Yes,4458,4458,4458,5920,74.6140235801088
+No barrier,hypertension,Unknown,7,7,7,5920,0.116595646679812
+No barrier,hypertension,Missing,0,0,0,5920,0
+No barrier,diabetes,No,4330,4330,4330,5920,72.2929627622851
+No barrier,diabetes,Yes,1583,1583,1583,5920,27.6256229751697
+No barrier,diabetes,Unknown,7,7,7,5920,0.0814142625451869
+No barrier,diabetes,Missing,0,0,0,5920,0
+No barrier,coronary,No,4369,4369,4369,5920,74.7524022832822
+No barrier,coronary,Yes,1500,1500,1500,5920,24.5282827751338
+No barrier,coronary,Unknown,51,51,51,5920,0.71931494158402
+No barrier,coronary,Missing,0,0,0,5920,0
+No barrier,smoking,Never,2710,2710,2710,5920,46.5558596147424
+No barrier,smoking,Former,2240,2240,2240,5920,35.5081655303002
+No barrier,smoking,Current,821,821,821,5920,14.704345849714
+No barrier,smoking,Unknown,149,149,149,5920,3.23162900524341
+No barrier,smoking,Missing,0,0,0,5920,0
+No barrier,fairpoor,Good or better,3201,3201,3201,5920,51.55469301769
+No barrier,fairpoor,Fair or poor,2712,2712,2712,5920,48.3136638572404
+No barrier,fairpoor,Unknown,7,7,7,5920,0.131643125069572
+No barrier,fairpoor,Missing,0,0,0,5920,0
+No barrier,disability,Without disability,3742,3742,3742,5920,62.3079500422565
+No barrier,disability,With disability,2178,2178,2178,5920,37.6920499577435
+No barrier,disability,Missing,0,0,0,5920,0
+Any barrier,young,65+,526,526,526,1184,35.8638447134171
+Any barrier,young,18-64,658,658,658,1184,64.1361552865829
+Any barrier,young,Missing,0,0,0,1184,0
+Any barrier,sex,1,492,492,492,1184,43.2989061250237
+Any barrier,sex,2,692,692,692,1184,56.7010938749763
+Any barrier,sex,Missing,0,0,0,1184,0
+Any barrier,race,1,121,121,121,1184,12.831741475737
+Any barrier,race,2,773,773,773,1184,61.6836647933417
+Any barrier,race,3,216,216,216,1184,19.6892522925975
+Any barrier,race,4,25,25,25,1184,2.36432538813766
+Any barrier,race,5,11,11,11,1184,0.815453757507937
+Any barrier,race,6,28,28,28,1184,1.78606280480413
+Any barrier,race,7,10,10,10,1184,0.829499487874091
+Any barrier,race,Missing,0,0,0,1184,0
+Any barrier,region,1,131,131,131,1184,11.7876955754098
+Any barrier,region,2,276,276,276,1184,20.5560966409154
+Any barrier,region,3,580,580,580,1184,52.7030943578866
+Any barrier,region,4,197,197,197,1184,14.9531134257882
+Any barrier,region,Missing,0,0,0,1184,0
+Any barrier,education,Bachelor or higher,233,233,233,1184,17.3576145965994
+Any barrier,education,Some college or associate,406,406,406,1184,30.9023305742941
+Any barrier,education,High school or GED,354,354,354,1184,30.8098841349726
+Any barrier,education,Less than high school,184,184,184,1184,19.7373337373421
+Any barrier,education,Unknown,7,7,7,1184,1.19283695679187
+Any barrier,education,Missing,0,0,0,1184,0
+Any barrier,income_group,400%+,121.3,118,129,1184,11.0239849484187
+Any barrier,income_group,200-399%,346.4,343,354,1184,31.1793060671301
+Any barrier,income_group,100-199%,437.3,431,441,1184,36.0112475929971
+Any barrier,income_group,<100%,279,272,283,1184,21.7854613914541
+Any barrier,income_group,Missing,0,0,0,1184,0
+Any barrier,insurance,Private,423,423,423,1184,37.1940913299552
+Any barrier,insurance,Public without private,608,608,608,1184,47.3717334807964
+Any barrier,insurance,Military only,17,17,17,1184,1.67006184117451
+Any barrier,insurance,Uninsured,127,127,127,1184,13.1500019614905
+Any barrier,insurance,Unknown,9,9,9,1184,0.614111386583382
+Any barrier,insurance,Missing,0,0,0,1184,0
+Any barrier,hypertension,No,292,292,292,1184,27.7770731930057
+Any barrier,hypertension,Yes,891,891,891,1184,72.131432995158
+Any barrier,hypertension,Unknown,1,1,1,1184,0.0914938118362711
+Any barrier,hypertension,Missing,0,0,0,1184,0
+Any barrier,diabetes,No,806,806,806,1184,66.9491302372975
+Any barrier,diabetes,Yes,377,377,377,1184,33.0036417410066
+Any barrier,diabetes,Unknown,1,1,1,1184,0.0472280216958555
+Any barrier,diabetes,Missing,0,0,0,1184,0
+Any barrier,coronary,No,843,843,843,1184,70.7552092544841
+Any barrier,coronary,Yes,328,328,328,1184,28.4186824118323
+Any barrier,coronary,Unknown,13,13,13,1184,0.826108333683591
+Any barrier,coronary,Missing,0,0,0,1184,0
+Any barrier,smoking,Never,486,486,486,1184,43.4822965320624
+Any barrier,smoking,Former,352,352,352,1184,27.216255561499
+Any barrier,smoking,Current,311,311,311,1184,26.2714882902178
+Any barrier,smoking,Unknown,35,35,35,1184,3.02995961622077
+Any barrier,smoking,Missing,0,0,0,1184,0
+Any barrier,fairpoor,Good or better,406,406,406,1184,31.7180816276746
+Any barrier,fairpoor,Fair or poor,774,774,774,1184,68.0857846010076
+Any barrier,fairpoor,Unknown,4,4,4,1184,0.19613377131783
+Any barrier,fairpoor,Missing,0,0,0,1184,0
+Any barrier,disability,Without disability,642,642,642,1184,56.3328081811544
+Any barrier,disability,With disability,542,542,542,1184,43.6671918188456
+Any barrier,disability,Missing,0,0,0,1184,0

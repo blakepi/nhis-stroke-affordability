@@ -1,0 +1,1082 @@
+26 =====
+ 
+2025 NATIONAL HEALTH INTERVIEW SURVEY (NHIS) 
+Codebook for Sample Adult File (Version: 29 July 2026) 
+PUBLIC USE 
+Variable Information: 
+Variable: 
+EDUCP_A 
+Module: 
+Roster 
+Section: 
+HHC : Household Composition 
+File(s): 
+Adult 
+Data Type: 
+Numeric 
+Length: 
+2 
+Question Text: 
+Description: 
+Educational level of sample adult 
+Recode: 
+Yes 
+Universe: 
+HHSTAT=1 
+Universe Description: 
+Sample adults 18+ 
+Sources: 
+EDUC 
+Question ID: 
+Keywords: 
+schooling 
+Notes: 
+Grades 0-11 include those who never attended school, completed kindergarten 
+only, or grades 1-11. In 2019-2024, the category 0 for “Never 
+attended/kindergarten only” was listed as a separate category even though the 
+data for this level was combined with those in “grades 1-11". 
+Evaluation Report: 
+Unweighted frequencies: 
+EDUCP_A 
+Educational level of sample adult 
+Code 
+Description 
+Frequency 
+Percent 
+01 
+Grade 0-11 
+1428 
+5.90 
+02 
+12th grade, no diploma 
+377 
+1.56 
+03 
+GED or equivalent 
+572 
+2.36 
+04 
+High School Graduate 
+5523 
+22.81 
+05 
+Some college, no degree 
+3391 
+14.00 
+06 
+Associate degree: occupational, technical, or vocational program 
+955 
+3.94 
+07 
+Associate degree: academic program 
+2309 
+9.54 
+08 
+Bachelor's degree (Example: BA, AB, BS, BBA) 
+5738 
+23.70 
+09 
+Master's degree (Example: MA, MS, MEng, MEd, MBA) 
+2866 
+11.84 
+10 
+Professional School or Doctoral degree (Example: MD, DDS, DVM, JD, 
+PhD, EdD) 
+973 
+4.02 
+97 
+Refused 
+28 
+0.12 
+98 
+Not Ascertained 
+0
+0.00 
+99 
+Don't Know 
+55 
+0.23 
+Frequency Missing: 
+Page 26 
+
+
+===== PDF PAGE 32 =====
+ 
+2025 NATIONAL HEALTH INTERVIEW SURVEY (NHIS) 
+Codebook for Sample Adult File (Version: 29 July 2026) 
+PUBLIC USE 
+Variable Information: 
+Variable: 
+PHSTAT_A 
+Module: 
+Adult 
+Section: 
+HIS : Health Status 
+File(s): 
+Adult 
+Data Type: 
+Numeric 
+Length: 
+1 
+Question Text: 
+Would you say your health in general is excellent, very good, good, fair, or 
+poor? 
+Description: 
+General health status 
+Recode: 
+Universe: 
+HHSTAT_A=1 
+Universe Description: 
+Sample adults 18+ 
+Sources: 
+Question ID: 
+HIS.0010.00.1 
+Keywords: 
+well-being; fitness; physical condition 
+Notes: 
+Evaluation Report: 
+https://wwwn.cdc.gov/qbank/Reports.aspx#/Reports/1203 
+Unweighted frequencies: 
+PHSTAT_A 
+General health status 
+Code 
+Description 
+Frequency 
+Percent 
+1 
+Excellent 
+4789 
+19.78 
+2 
+Very Good 
+8215 
+33.93 
+3 
+Good 
+7389 
+30.51 
+4 
+Fair 
+2970 
+12.27 
+5 
+Poor 
+845 
+3.49 
+7 
+Refused 
+4
+0.02 
+8 
+Not Ascertained 
+0
+0.00 
+9 
+Don't Know 
+3
+0.01 
+Frequency Missing: 
+Page 32 
+
+
+===== PDF PAGE 34 =====
+ 
+2025 NATIONAL HEALTH INTERVIEW SURVEY (NHIS) 
+Codebook for Sample Adult File (Version: 29 July 2026) 
+PUBLIC USE 
+Variable Information: 
+Variable: 
+HYPEV_A 
+Module: 
+Adult 
+Section: 
+HYP : Hypertension 
+File(s): 
+Adult 
+Data Type: 
+Numeric 
+Length: 
+1 
+Question Text: 
+Have you EVER been told by a doctor or other health professional that you had 
+...Hypertension, also called high blood pressure? 
+* Enter '1' if respondent is taking medication to control his/her high blood 
+pressure. 
+Description: 
+Ever been told you had hypertension 
+Recode: 
+Universe: 
+HHSTAT_A=1 
+Universe Description: 
+Sample adults 18+ 
+Sources: 
+Question ID: 
+HYP.0020.00.1 
+Keywords: 
+HBP 
+Notes: 
+Evaluation Report: 
+https://wwwn.cdc.gov/qbank/Reports.aspx#/Reports/1203 
+Unweighted frequencies: 
+HYPEV_A 
+Ever been told you had hypertension 
+Code 
+Description 
+Frequency 
+Percent 
+1 
+Yes 
+9324 
+38.51 
+2 
+No 
+14839 
+61.28 
+7 
+Refused 
+32 
+0.13 
+8 
+Not Ascertained 
+0
+0.00 
+9 
+Don't Know 
+20 
+0.08 
+Frequency Missing: 
+Page 34 
+
+
+===== PDF PAGE 41 =====
+ 
+2025 NATIONAL HEALTH INTERVIEW SURVEY (NHIS) 
+Codebook for Sample Adult File (Version: 29 July 2026) 
+PUBLIC USE 
+Variable Information: 
+Variable: 
+CHDEV_A 
+Module: 
+Adult 
+Section: 
+CVC : Cardiovascular Conditions 
+File(s): 
+Adult 
+Data Type: 
+Numeric 
+Length: 
+1 
+Question Text: 
+Have you EVER been told by a doctor or other health professional that you had 
+...Coronary heart disease? 
+Description: 
+Ever had coronary heart disease 
+Recode: 
+Universe: 
+HHSTAT_A=1 
+Universe Description: 
+Sample adults 18+ 
+Sources: 
+Question ID: 
+CVC.0010.00.1 
+Keywords: 
+atherosclerotic heart disease; coronary artery disease 
+Notes: 
+Evaluation Report: 
+Unweighted frequencies: 
+CHDEV_A 
+Ever had coronary heart disease 
+Code 
+Description 
+Frequency 
+Percent 
+1 
+Yes 
+1608 
+6.64 
+2 
+No 
+22533 
+93.05 
+7 
+Refused 
+22 
+0.09 
+8 
+Not Ascertained 
+0
+0.00 
+9 
+Don't Know 
+52 
+0.21 
+Frequency Missing: 
+Page 41 
+
+
+===== PDF PAGE 115 =====
+ 
+2025 NATIONAL HEALTH INTERVIEW SURVEY (NHIS) 
+Codebook for Sample Adult File (Version: 29 July 2026) 
+PUBLIC USE 
+Variable Information: 
+Variable: 
+DIBEV_A 
+Module: 
+Adult 
+Section: 
+DIB : Diabetes 
+File(s): 
+Adult 
+Data Type: 
+Numeric 
+Length: 
+1 
+Question Text: 
+^NOTPREGDM a doctor or other health professional EVER told you that you had 
+diabetes? 
+Fills: 
+^NOTPREGDM.............. 
+Has/Not including (gestational diabetes, 
+prediabetes), has 
+Description: 
+Ever had diabetes 
+Recode: 
+Universe: 
+HHSTAT_A=1 
+Universe Description: 
+Sample adults 18+ 
+Sources: 
+Question ID: 
+DIB.0030.00.1 
+Keywords: 
+high blood sugar; diabetic; endocrine; insulin resistance 
+Notes: 
+Evaluation Report: 
+Unweighted frequencies: 
+DIBEV_A 
+Ever had diabetes 
+Code 
+Description 
+Frequency 
+Percent 
+1 
+Yes 
+2700 
+11.15 
+2 
+No 
+21487 
+88.73 
+7 
+Refused 
+19 
+0.08 
+8 
+Not Ascertained 
+0
+0.00 
+9 
+Don't Know 
+9
+0.04 
+Frequency Missing: 
+Page 115 
+
+
+===== PDF PAGE 188 =====
+ 
+2025 NATIONAL HEALTH INTERVIEW SURVEY (NHIS) 
+Codebook for Sample Adult File (Version: 29 July 2026) 
+PUBLIC USE 
+Variable Information: 
+Variable: 
+NOTCOV_A 
+Module: 
+Adult 
+Section: 
+INS : Health Insurance 
+File(s): 
+Adult 
+Data Type: 
+Numeric 
+Length: 
+1 
+Question Text: 
+Description: 
+Coverage status as used in Health United States 
+Recode: 
+Yes 
+Universe: 
+HHSTAT_A=1 
+Universe Description: 
+Sample adults 18+ 
+Sources: 
+MEDICARE_A; MEDICAID_A; PRIVATE_A; CHIP_A; OTHPUB_A; OTHGOV_A; MILITARY_A 
+Question ID: 
+Keywords: 
+Uninsured; insured 
+Notes: 
+Adults are considered uninsured if they did not have private health insurance, 
+Medicare, Medicaid, State Children's Health Insurance Program (CHIP), a state-
+sponsored health plan, other government programs, or military health plan 
+(includes TRICARE, VA, and CHAMP-VA) at the time of interview. This definition 
+of uninsured matches that used in Health United States. 
+Evaluation Report: 
+Unweighted frequencies: 
+NOTCOV_A 
+Coverage status as used in Health United States 
+Code 
+Description 
+Frequency 
+Percent 
+1 
+Not covered 
+1626 
+6.71 
+2 
+Covered 
+22520 
+93.00 
+7 
+Refused 
+0
+0.00 
+8 
+Not Ascertained 
+0
+0.00 
+9 
+Don't Know 
+69 
+0.28 
+Frequency Missing: 
+Page 188 
+
+
+===== PDF PAGE 194 =====
+ 
+2025 NATIONAL HEALTH INTERVIEW SURVEY (NHIS) 
+Codebook for Sample Adult File (Version: 29 July 2026) 
+PUBLIC USE 
+Variable Information: 
+Variable: 
+MEDICARE_A 
+Module: 
+Adult 
+Section: 
+INS : Health Insurance 
+File(s): 
+Adult 
+Data Type: 
+Numeric 
+Length: 
+1 
+Question Text: 
+Description: 
+Medicare recode 
+Recode: 
+Yes 
+Universe: 
+HHSTAT_A=1 
+Universe Description: 
+Sample adults 18+ 
+Sources: 
+HIKIND02_A; MCAREPRB_A 
+Question ID: 
+Keywords: 
+Medicare 
+Notes: 
+Evaluation Report: 
+Unweighted frequencies: 
+MEDICARE_A 
+Medicare recode 
+Code 
+Description 
+Frequency 
+Percent 
+1 
+Yes, information 
+8685 
+35.87 
+2 
+Yes, but no information 
+9
+0.04 
+3 
+No 
+15440 
+63.76 
+7 
+Refused 
+37 
+0.15 
+8 
+Not Ascertained 
+2
+0.01 
+9 
+Don't Know 
+42 
+0.17 
+Frequency Missing: 
+Page 194 
+
+
+===== PDF PAGE 202 =====
+ 
+2025 NATIONAL HEALTH INTERVIEW SURVEY (NHIS) 
+Codebook for Sample Adult File (Version: 29 July 2026) 
+PUBLIC USE 
+Variable Information: 
+Variable: 
+MEDICAID_A 
+Module: 
+Adult 
+Section: 
+INS : Health Insurance 
+File(s): 
+Adult 
+Data Type: 
+Numeric 
+Length: 
+1 
+Question Text: 
+Description: 
+Medicaid recode 
+Recode: 
+Yes 
+Universe: 
+HHSTAT_A=1 
+Universe Description: 
+Sample adults 18+ 
+Sources: 
+MCAIDPRB_A; HIKIND04_A 
+Question ID: 
+Keywords: 
+Medicaid; Title 19; Title XIX 
+Notes: 
+Evaluation Report: 
+Unweighted frequencies: 
+MEDICAID_A 
+Medicaid recode 
+Code 
+Description 
+Frequency 
+Percent 
+1 
+Yes, information 
+2690 
+11.11 
+2 
+Yes, but no information 
+18 
+0.07 
+3 
+No 
+21444 
+88.56 
+7 
+Refused 
+37 
+0.15 
+8 
+Not Ascertained 
+0
+0.00 
+9 
+Don't Know 
+26 
+0.11 
+Frequency Missing: 
+Page 202 
+
+
+===== PDF PAGE 208 =====
+ 
+2025 NATIONAL HEALTH INTERVIEW SURVEY (NHIS) 
+Codebook for Sample Adult File (Version: 29 July 2026) 
+PUBLIC USE 
+Variable Information: 
+Variable: 
+PRIVATE_A 
+Module: 
+Adult 
+Section: 
+INS : Health Insurance 
+File(s): 
+Adult 
+Data Type: 
+Numeric 
+Length: 
+1 
+Question Text: 
+Description: 
+Private health insurance recode 
+Recode: 
+Yes 
+Universe: 
+HHSTAT_A=1 
+Universe Description: 
+Sample adults 18+ 
+Sources: 
+HIKIND01_A; HIKIND03_A 
+Question ID: 
+Keywords: 
+Private health insurance 
+Notes: 
+Evaluation Report: 
+Unweighted frequencies: 
+PRIVATE_A 
+Private health insurance recode 
+Code 
+Description 
+Frequency 
+Percent 
+1 
+Yes, information 
+14927 
+61.64 
+2 
+Yes, but no information 
+0
+0.00 
+3 
+No 
+9193 
+37.96 
+7 
+Refused 
+48 
+0.20 
+8 
+Not Ascertained 
+0
+0.00 
+9 
+Don't Know 
+47 
+0.19 
+Frequency Missing: 
+Page 208 
+
+
+===== PDF PAGE 254 =====
+ 
+2025 NATIONAL HEALTH INTERVIEW SURVEY (NHIS) 
+Codebook for Sample Adult File (Version: 29 July 2026) 
+PUBLIC USE 
+Variable Information: 
+Variable: 
+CHIP_A 
+Module: 
+Adult 
+Section: 
+INS : Health Insurance 
+File(s): 
+Adult 
+Data Type: 
+Numeric 
+Length: 
+1 
+Question Text: 
+Description: 
+Children's Health Insurance Program (CHIP) recode 
+Recode: 
+Yes 
+Universe: 
+HHSTAT_A=1 
+Universe Description: 
+Sample adults 18+ 
+Sources: 
+HIKIND05_A 
+Question ID: 
+Keywords: 
+CHIP 
+Notes: 
+Evaluation Report: 
+Unweighted frequencies: 
+CHIP_A 
+Children's Health Insurance Program (CHIP) recode 
+Code 
+Description 
+Frequency 
+Percent 
+1 
+Yes, information 
+3
+0.01 
+2 
+Yes, but no information 
+0
+0.00 
+3 
+No 
+24116 
+99.59 
+7 
+Refused 
+48 
+0.20 
+8 
+Not Ascertained 
+0
+0.00 
+9 
+Don't Know 
+48 
+0.20 
+Frequency Missing: 
+Page 254 
+
+
+===== PDF PAGE 260 =====
+ 
+2025 NATIONAL HEALTH INTERVIEW SURVEY (NHIS) 
+Codebook for Sample Adult File (Version: 29 July 2026) 
+PUBLIC USE 
+Variable Information: 
+Variable: 
+OTHPUB_A 
+Module: 
+Adult 
+Section: 
+INS : Health Insurance 
+File(s): 
+Adult 
+Data Type: 
+Numeric 
+Length: 
+1 
+Question Text: 
+Description: 
+State-sponsored health plan recode 
+Recode: 
+Yes 
+Universe: 
+HHSTAT_A=1 
+Universe Description: 
+Sample adults 18+ 
+Sources: 
+HIKIND08_A 
+Question ID: 
+Keywords: 
+State-sponsored health plan 
+Notes: 
+Evaluation Report: 
+Unweighted frequencies: 
+OTHPUB_A 
+State-sponsored health plan recode 
+Code 
+Description 
+Frequency 
+Percent 
+1 
+Yes, information 
+116 
+0.48 
+2 
+Yes, but no information 
+0
+0.00 
+3 
+No 
+24003 
+99.12 
+7 
+Refused 
+48 
+0.20 
+8 
+Not Ascertained 
+0
+0.00 
+9 
+Don't Know 
+48 
+0.20 
+Frequency Missing: 
+Page 260 
+
+
+===== PDF PAGE 267 =====
+ 
+2025 NATIONAL HEALTH INTERVIEW SURVEY (NHIS) 
+Codebook for Sample Adult File (Version: 29 July 2026) 
+PUBLIC USE 
+Variable Information: 
+Variable: 
+OTHGOV_A 
+Module: 
+Adult 
+Section: 
+INS : Health Insurance 
+File(s): 
+Adult 
+Data Type: 
+Numeric 
+Length: 
+1 
+Question Text: 
+Description: 
+Other government program recode 
+Recode: 
+Yes 
+Universe: 
+HHSTAT_A=1 
+Universe Description: 
+Sample adults 18+ 
+Sources: 
+HIKIND09_A 
+Question ID: 
+Keywords: 
+Other government program 
+Notes: 
+Evaluation Report: 
+Unweighted frequencies: 
+OTHGOV_A 
+Other government program recode 
+Code 
+Description 
+Frequency 
+Percent 
+1 
+Yes, information 
+48 
+0.20 
+2 
+Yes, but no information 
+0
+0.00 
+3 
+No 
+24071 
+99.41 
+7 
+Refused 
+48 
+0.20 
+8 
+Not Ascertained 
+0
+0.00 
+9 
+Don't Know 
+48 
+0.20 
+Frequency Missing: 
+Page 267 
+
+
+===== PDF PAGE 274 =====
+ 
+2025 NATIONAL HEALTH INTERVIEW SURVEY (NHIS) 
+Codebook for Sample Adult File (Version: 29 July 2026) 
+PUBLIC USE 
+Variable Information: 
+Variable: 
+MILITARY_A 
+Module: 
+Adult 
+Section: 
+INS : Health Insurance 
+File(s): 
+Adult 
+Data Type: 
+Numeric 
+Length: 
+1 
+Question Text: 
+Description: 
+Military health care coverage recode 
+Recode: 
+Yes 
+Universe: 
+HHSTAT_A=1 
+Universe Description: 
+Sample adults 18+ 
+Sources: 
+HIKIND06_A; VAHOSP_A; VACAREEV_A 
+Question ID: 
+Keywords: 
+VA; TRICARE(CHAMPUS); CHAMP-VA; Military health care 
+Notes: 
+Evaluation Report: 
+Unweighted frequencies: 
+MILITARY_A 
+Military health care coverage recode 
+Code 
+Description 
+Frequency 
+Percent 
+1 
+Yes, information 
+1495 
+6.17 
+2 
+Yes, but no information 
+0
+0.00 
+3 
+No 
+22624 
+93.43 
+7 
+Refused 
+48 
+0.20 
+8 
+Not Ascertained 
+0
+0.00 
+9 
+Don't Know 
+48 
+0.20 
+Frequency Missing: 
+Page 274 
+
+
+===== PDF PAGE 465 =====
+ 
+2025 NATIONAL HEALTH INTERVIEW SURVEY (NHIS) 
+Codebook for Sample Adult File (Version: 29 July 2026) 
+PUBLIC USE 
+Variable Information: 
+Variable: 
+SMKCIGST_A 
+Module: 
+Adult 
+Section: 
+CIG : Cigarettes and E-cigarettes w/ Cigarette History 
+File(s): 
+Adult 
+Data Type: 
+Numeric 
+Length: 
+1 
+Question Text: 
+Description: 
+Cigarette smoking status 
+Recode: 
+Yes 
+Universe: 
+HHSTAT_A=1 
+Universe Description: 
+Sample adults 18+ 
+Sources: 
+SMKEV_A; SMKNOW_A 
+Question ID: 
+Keywords: 
+nicotine; tobacco use; health behavior 
+Notes: 
+Some day smokers includes those who reported smoking zero days in the past 30 
+days. 
+Evaluation Report: 
+Unweighted frequencies: 
+SMKCIGST_A 
+Cigarette smoking status 
+Code 
+Description 
+Frequency 
+Percent 
+1 
+Current every day smoker 
+1626 
+6.71 
+2 
+Current some day smoker 
+609 
+2.51 
+3 
+Former smoker 
+6133 
+25.33 
+4 
+Never smoker 
+15171 
+62.65 
+5 
+Smoker, current status unknown 
+1
+0.00 
+9 
+Unknown if ever smoked 
+675 
+2.79 
+Frequency Missing: 
+Page 465 
+
+
+===== PDF PAGE 550 =====
+ 
+2025 NATIONAL HEALTH INTERVIEW SURVEY (NHIS) 
+Codebook for Sample Adult File (Version: 29 July 2026) 
+PUBLIC USE 
+Variable Information: 
+Variable: 
+EMPDYSMSS3_A 
+Module: 
+Adult 
+Section: 
+EMP : Employment 
+File(s): 
+Adult 
+Data Type: 
+Numeric 
+Length: 
+3 
+Question Text: 
+Description: 
+Days missed work, past 12 months (top-coded) 
+Recode: 
+Yes 
+Universe: 
+HHSTAT_A=1 and (EMPLASTWK_A=1 or EMPNOWRK_A=1 or EMPWHYNOT_A=7 or 
+EMPWHENWRK_A=1) 
+Universe Description: 
+Sample adults 18+ who were working at or were on temporary leave from a paid 
+job or business last week OR who work, but not for pay at family business OR 
+who are not currently working but who had some period of employment in the past 
+12 months 
+Sources: 
+EMPDAYMISS_A 
+Question ID: 
+Keywords: 
+work days missed; sick days; sick leave; medical leave 
+Notes: 
+Note that this recode was updated starting in 2021 and is not directly 
+comparable to the EMPDYSMSS2_A recode in 2020, which included all 
+seasonal/contract workers in the universe. Only seasonal/contract workers who 
+worked in the past 12 months are in universe for EMPDYSMSS3_A. 
+Evaluation Report: 
+Unweighted frequencies: 
+EMPDYSMSS3_A Days missed work, past 12 months (top-coded) 
+Code 
+Description 
+Frequency 
+Percent 
+000-129 
+0-129 days 
+14456 
+98.65 
+130 
+130+ days 
+70 
+0.48 
+997 
+Refused 
+28 
+0.19 
+998 
+Not Ascertained 
+4
+0.03 
+999 
+Don't Know 
+96 
+0.66 
+Frequency Missing: 
+9561
+Page 550 
+

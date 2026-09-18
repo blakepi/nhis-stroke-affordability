@@ -1,0 +1,10 @@
+data/raw/
+data/documentation/
+data/processed/
+.Rlib/
+.vendor/
+__pycache__/
+*.RData
+*.Rhistory
+*.part
+NHIS_Stroke_Manuscript_Working_Package.zip

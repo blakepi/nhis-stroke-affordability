@@ -1,0 +1,2 @@
+model,n,events,converged,fitted_min,fitted_max,fitted_above_one,residual_df,model_rank
+demographic_quasi_poisson,7104,1184,TRUE,0.0246489847085125,0.501626356868634,0,1012,20
