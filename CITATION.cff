@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the repository and, once available, the archived release DOI."
+title: "Cost-Related Healthcare Affordability Barriers Among US Stroke Survivors From 2019 Through 2025: analysis code, aggregate results and working manuscript"
+type: software
+authors:
+  - family-names: Pierpoint
+    given-names: G. Blake
+    orcid: "https://orcid.org/0000-0001-8288-8549"
+    affiliation: "Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University, Norfolk, Virginia, USA"
+  - family-names: Musto
+    given-names: Alberto E.
+    orcid: "https://orcid.org/0000-0002-0877-8883"
+    affiliation: "Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University, Norfolk, Virginia, USA"
+repository-code: "https://github.com/blakepi/nhis-stroke-affordability"
+license: MIT
+date-released: "2026-09-18"
+version: "1.0.0"
+keywords:
+  - stroke
+  - healthcare access
+  - affordability
+  - National Health Interview Survey

@@ -1,0 +1,38 @@
+{
+  "title": "Cost-Related Healthcare Affordability Barriers Among US Stroke Survivors From 2019 Through 2025: analysis code, aggregate results and working manuscript",
+  "upload_type": "software",
+  "description": "<p>Reproducible analysis code, aggregate results, tables, figures and working manuscript for a repeated cross-sectional analysis of the 2019&ndash;2025 National Health Interview Survey (NHIS) examining cost-related healthcare affordability barriers among US adults reporting prior stroke. Analyses use annual and 2020 partial-sample weights, all ten NCHS income imputations, survey-weighted modified Poisson models and standardized annual prevalence. Raw NHIS public-use microdata are not included; acquisition scripts download them from NCHS and verify file hashes.</p>",
+  "creators": [
+    {
+      "name": "Pierpoint, G. Blake",
+      "affiliation": "Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University, Norfolk, Virginia, USA",
+      "orcid": "0000-0001-8288-8549"
+    },
+    {
+      "name": "Musto, Alberto E.",
+      "affiliation": "Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University, Norfolk, Virginia, USA",
+      "orcid": "0000-0002-0877-8883"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "stroke",
+    "healthcare access",
+    "affordability",
+    "cost-related nonadherence",
+    "health insurance",
+    "National Health Interview Survey",
+    "NHIS",
+    "survey analysis",
+    "R",
+    "Python"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/blakepi/nhis-stroke-affordability",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ]
+}

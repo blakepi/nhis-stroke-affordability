@@ -7,7 +7,7 @@ import zipfile
 
 ROOT=Path(__file__).resolve().parents[1]
 ARCHIVE=ROOT/'NHIS_Stroke_Manuscript_Working_Package.zip'
-TOP={'README.md','LICENSE','HANDOFF.md','STUDY_PROTOCOL.md','LITERATURE_NOTES.md','requirements.txt','run.ps1','run_full.ps1','.gitignore'}
+TOP={'README.md','LICENSE','CITATION.cff','.zenodo.json','HANDOFF.md','STUDY_PROTOCOL.md','LITERATURE_NOTES.md','requirements.txt','run.ps1','run_full.ps1','.gitignore'}
 CURRENT_OUTPUTS={'source_manifest.json','questionnaire_crosswalk.csv','codebook_excerpts.md','covariate_crosswalk.csv','covariate_codebook_excerpts.md','annual_prevalence.csv','pooled_prevalence.csv','cohort_flow.csv','pooled_cohort_flow.csv','missingness.csv','validation.json','R_session_info.txt'}
 
 def role(rel):
