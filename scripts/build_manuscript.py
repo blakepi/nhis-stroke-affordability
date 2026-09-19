@@ -266,7 +266,7 @@ for source,outname in [('draft_source.md','manuscript'),('supplement_source.md',
         text=text.replace('{{counts}}',f'Word count: abstract, {abstract_n}; main text, {body_n:,}. References: {len(refs)}. Tables: 3. Figures: 2. Supplementary material: Supplementary Methods, Tables S1–S12, Figure S1.')
     assert not re.search(r'\{\{[^}]+\}\}',text),'Unresolved numeric/content token'
     (DEST/f'{outname}.md').write_text(text,encoding='utf-8')
-    write_docx(text,DEST/f'{outname}.docx',body_spacing=2.0 if outname=='manuscript' else 1.15,line_numbers=(outname=='manuscript'))
+    write_docx(text,DEST/f'{outname}.docx',body_spacing=2.0 if outname=='manuscript' else 1.15,line_numbers=False)
     metadata[outname]={'words_including_tables_and_references':len(text.split()),'tables':text.count('\n| ---'),'images':len(re.findall(r'!\[',text))}
     if outname=='manuscript':
         metadata[outname]['abstract_words']=len(text.split('## Abstract')[1].split('## Introduction')[0].split())

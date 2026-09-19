@@ -6,7 +6,7 @@ The analysis uses the 2019–2025 CDC public-use files. Start with the [manuscri
 
 ## Manuscript files
 
-- manuscript/manuscript.docx, .pdf and .md: title page, structured abstract, full text with continuous line numbers, declarations, 15 references, three tables, figure legends and two figures.
+- manuscript/manuscript.docx, .pdf and .md: title page, structured abstract, full text, declarations, 15 references, three tables, figure legends and two figures.
 - manuscript/supplement.docx, .pdf and .md: supplementary methods, Tables S1–S12 (including outcome and covariate definitions and the STROBE checklist) and Figure S1.
 - manuscript/tables/: editable CSV for each formatted table.
 - manuscript/figures/: each figure as 300-dpi PNG and TIFF and as vector PDF.
