@@ -4,7 +4,7 @@
 
 Dear Editor,
 
-We are pleased to submit our manuscript, "Cost-Related Barriers to Care and Medications Among US Stroke Survivors, 2019–2025," for consideration as an original research article.
+We are pleased to submit our manuscript, "Cost-Related Barriers to Care and Medications Among US Stroke Survivors, 2019–2025," to *Stroke* for consideration as an Original Contribution.
 
 Secondary prevention after stroke works only when survivors can keep their follow-up appointments and fill their prescriptions. Using seven consecutive years of the National Health Interview Survey through 2025, we show that one in six US stroke survivors, and more than one in four of working age, delayed or went without medical care, could not afford a needed prescription, or rationed medication because of cost in the preceding year. Nearly three in five uninsured survivors reported a barrier. Working-age survivors remained more than twice as likely as older survivors to report a barrier after adjustment for income, insurance, education, and health status, and across a period that included the pandemic and its temporary coverage protections we found no evidence that affordability improved.
 
@@ -14,7 +14,7 @@ The analysis is fully reproducible. Acquisition, analysis, verification, and man
 
 The manuscript has not been published and is not under consideration elsewhere. The authors declare no competing interests. No institutional review was required for this secondary analysis of public-use, de-identified data. Both authors have approved the manuscript and agree to its submission.
 
-We believe this work will interest your readers concerned with stroke care delivery, health equity, and the practical circumstances that determine whether guideline-recommended prevention reaches patients.
+We believe this work will interest readers of *Stroke* concerned with stroke care delivery, health equity, and the practical circumstances that determine whether guideline-recommended prevention reaches patients.
 
 Sincerely,
 

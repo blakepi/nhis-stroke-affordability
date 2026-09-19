@@ -16,7 +16,7 @@ Short title: Affordability barriers after stroke
 
 Keywords: stroke; secondary prevention; healthcare access; cost-related nonadherence; health insurance; National Health Interview Survey
 
-Word count: abstract, 284; main text, 2,840. References: 15. Tables: 3. Figures: 2. Supplementary material: Supplementary Methods, Tables S1–S12, Figure S1.
+Total word count: 5,028 (title page, abstract, text, references, tables, and figure legends). Main text: 2,908 words. Abstract: 284 words. Tables: 3. Figures: 2.
 
 ## Abstract
 
@@ -27,6 +27,10 @@ Word count: abstract, 284; main text, 2,840. References: 15. Tables: 3. Figures:
 **Results:** Among 7,104 stroke survivors, 1,184 reported a cost-related barrier, a weighted prevalence of 17.9% (95% CI, 16.8%–19.1%). Prevalence was 28.0% (95% CI, 25.9%–30.2%) at ages 18–64 years versus 10.9% (95% CI, 9.8%–12.0%) at 65 years and older, and 58.7% (95% CI, 50.7%–66.3%) among uninsured survivors. After full adjustment, working-age survivors remained more than twice as likely to report a barrier (PR, 2.18 (95% CI, 1.90–2.50)). Income of 100%–199% of the federal poverty level (PR, 2.50 (95% CI, 1.94–3.21)), uninsured status (PR, 1.79 (95% CI, 1.49–2.16)), and disability (PR, 1.19 (95% CI, 1.05–1.35)) were independently associated with barriers. Standardized prevalence was 19.2% (95% CI, 16.6%–22.0%) in 2019 and 17.0% (95% CI, 14.3%–20.1%) in 2025, with no evidence of change across years (P=0.258).
 
 **Conclusions:** One in six US stroke survivors, and more than one in four of working age, reported forgoing or rationing care because of cost, with no improvement over seven years. Affordability is a persistent, measurable threat to secondary prevention that concentrates in identifiable groups and warrants routine attention in post-stroke care.
+
+## Non-standard Abbreviations and Acronyms
+
+FPL, federal poverty level; NCHS, National Center for Health Statistics; NHIS, National Health Interview Survey; PR, prevalence ratio; STROBE, Strengthening the Reporting of Observational Studies in Epidemiology
 
 ## Introduction
 
@@ -40,11 +44,15 @@ We used the 2019–2025 NHIS to estimate the prevalence of cost-related barriers
 
 ## Methods
 
+### Data Availability
+
+NHIS public-use files and documentation are available from NCHS; no agency endorsement is implied. All acquisition, analysis, verification, and manuscript-generation code, source file hashes, aggregate results, tables, and figures are publicly available at https://github.com/blakepi/nhis-stroke-affordability (release v1.1.0). One author (G.B.P.) had full access to all the data in the study and takes responsibility for its integrity and the data analysis.
+
 ### Data source and study population
 
 NHIS is a continuous, cross-sectional household survey of the civilian noninstitutionalized US population conducted by the National Center for Health Statistics (NCHS), with a stratified, multistage probability design.[8] We conducted a repeated cross-sectional analysis of the public-use Sample Adult files for 2019 through 2025. Stroke survivors were adults who reported ever having been told by a doctor or other health professional that they had a stroke. We required a positive survey weight and a valid age of 18–85 years (85 representing 85 years and older); 10 records with unknown age were excluded. The survey does not record stroke subtype, timing, severity, or recurrence.
 
-Annual estimates used each year's full Sample Adult file and its annual weight. Because the 2020 survey re-interviewed a subset of 2019 respondents, pooled analyses followed NCHS guidance for combining 2020 with other years: the follow-back respondents were omitted, and the remaining 2020 records were assigned the partial-sample weight.[9] Weights were divided by seven to represent an average annual population. The public-use stratum and primary sampling unit identifiers were used without modification, consistent with NCHS instructions for pooling survey years from 2019 onward.[8] Survey designs were specified on the full adult files before restricting analyses to the stroke-survivor domain, preserving the design structure for variance estimation. Because NHIS uses publicly available, de-identified data, this study did not require institutional review.
+Annual estimates used each year's full Sample Adult file and its annual weight. Because the 2020 survey re-interviewed a subset of 2019 respondents, pooled analyses followed NCHS guidance for combining 2020 with other years: the follow-back respondents were omitted, and the remaining 2020 records were assigned the partial-sample weight.[9] Weights were divided by seven to represent an average annual population. The public-use stratum and primary sampling unit identifiers were used without modification, consistent with NCHS instructions for pooling survey years from 2019 onward.[8] Survey designs were specified on the full adult files before restricting analyses to the stroke-survivor domain, preserving the design structure for variance estimation. Because NHIS data are publicly available and de-identified, this study did not require institutional review board approval or informed consent.
 
 ### Outcomes
 
@@ -110,49 +118,57 @@ Several limitations apply. Stroke history and cost-related barriers were self-re
 
 Cost-related barriers to medical care and medications affect approximately one in six US stroke survivors and more than one in four of working age, and they showed no improvement between 2019 and 2025. Because these barriers interrupt the follow-up and pharmacotherapy on which secondary prevention depends, affordability should be assessed as routinely as blood pressure in the care of stroke survivors, with particular attention to younger, lower-income, uninsured, and disabled patients.
 
-## Declarations
+## Acknowledgments
 
-**Ethics and consent:** This secondary analysis used publicly available, de-identified NHIS files released by NCHS. No participants were recruited, no new consent was obtained, and institutional review was not required.
+Generative artificial intelligence tools were used to assist with statistical programming, numerical verification, and drafting of text. The authors reviewed and edited all content and take full responsibility for the manuscript.
 
-**Competing interests:** The authors declare no competing interests.
+## Sources of Funding
 
-**Author contributions:** G. Blake Pierpoint: Resources; Software; Supervision; Validation; Visualization; Writing – original draft; Writing – review & editing; Investigation; Methodology; Data curation; Formal analysis. Alberto E. Musto: Conceptualization; Supervision; Validation; Investigation; Methodology; Project administration; Writing – review & editing; Data curation; Formal analysis.
+None.
 
-**Data and code availability:** NHIS public-use files and documentation are available from NCHS; no agency endorsement is implied. All acquisition, analysis, verification, and manuscript-generation code, source file hashes, aggregate results, tables, and figures are publicly available at https://github.com/blakepi/nhis-stroke-affordability (release v1.1.0).
+## Disclosures
 
-**Use of artificial intelligence:** Generative artificial intelligence tools were used to assist with statistical programming, numerical verification, and drafting of text. The authors reviewed and edited all content and take full responsibility for the manuscript.
+None.
+
+## Supplemental Material
+
+Supplemental Methods
+
+Figure S1
+
+Tables S1–S12
 
 ## References
 
-1. Palaniappan LP, Allen NB, Almarzooq ZI, et al. 2026 Heart Disease and Stroke Statistics: A Report of US and Global Data From the American Heart Association. Circulation. 2026;153(9):e275-e906. doi:10.1161/CIR.0000000000001412
+1. Palaniappan LP, Allen NB, Almarzooq ZI, et al. 2026 Heart Disease and Stroke Statistics: A Report of US and Global Data From the American Heart Association. Circulation. 2026;153:e275–e906. doi:10.1161/CIR.0000000000001412
 
-2. Kleindorfer DO, Towfighi A, Chaturvedi S, et al. 2021 Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack. Stroke. 2021;52(7):e364-e467. doi:10.1161/STR.0000000000000375
+2. Kleindorfer DO, Towfighi A, Chaturvedi S, Cockroft KM, Gutierrez J, Lombardi-Hill D, Kamel H, Kernan WN, Kittner SJ, Leira EC, et al. 2021 Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack: A Guideline From the American Heart Association/American Stroke Association. Stroke. 2021;52:e364–e467. doi:10.1161/STR.0000000000000375
 
-3. Levine DA, Kiefe CI, Houston TK, Allison JJ, McCarthy EP, Ayanian JZ. Younger stroke survivors have reduced access to physician care and medications: National Health Interview Survey from years 1998 to 2002. Arch Neurol. 2007;64(1):37-42. doi:10.1001/archneur.64.1.noc60002
+3. Levine DA, Kiefe CI, Houston TK, Allison JJ, McCarthy EP, Ayanian JZ. Younger stroke survivors have reduced access to physician care and medications: National Health Interview Survey from years 1998 to 2002. Arch Neurol. 2007;64:37–42. doi:10.1001/archneur.64.1.noc60002
 
-4. Levine DA, Morgenstern LB, Langa KM, Piette JD, Rogers MAM, Karve SJ. Recent trends in cost-related medication nonadherence among stroke survivors in the United States. Ann Neurol. 2013;73(2):180-188. doi:10.1002/ana.23823
+4. Levine DA, Morgenstern LB, Langa KM, Piette JD, Rogers MAM, Karve SJ. Recent trends in cost-related medication nonadherence among stroke survivors in the United States. Ann Neurol. 2013;73:180–188. doi:10.1002/ana.23823
 
-5. Springer MV, Skolarus LE, Patel M. Food Insecurity and Perceived Financial Stress are Associated with Cost-related Medication Non-adherence in Stroke. J Health Care Poor Underserved. 2023;34(2):625-639. doi:10.1353/hpu.2023.0054
+5. Springer MV, Skolarus LE, Patel M. Food Insecurity and Perceived Financial Stress are Associated with Cost-related Medication Non-adherence in Stroke. J Health Care Poor Underserved. 2023;34:625–639. doi:10.1353/hpu.2023.0054
 
 6. Ansong R, Kyei G, Miezah D, Abubakari M, Kyei E. Cost-related medication nonadherence among adults with stroke in the United States: insight from the 2020-2023 National Health Interview Survey. J Racial Ethn Health Disparities. Published online January 27, 2026. doi:10.1007/s40615-026-02863-w
 
-7. Amill-Rosario A, Slejko JF, dosReis S. Changes in cost-related nonadherence among US adults with multiple chronic conditions from 2019 to 2023. J Manag Care Spec Pharm. 2025;31(7):662-670. doi:10.18553/jmcp.2025.31.7.662
+7. Amill-Rosario A, Slejko JF, dosReis S. Changes in cost-related nonadherence among US adults with multiple chronic conditions from 2019 to 2023. J Manag Care Spec Pharm. 2025;31:662–670. doi:10.18553/jmcp.2025.31.7.662
 
 8. National Center for Health Statistics. 2025 National Health Interview Survey Survey Description. National Center for Health Statistics; 2026. Accessed September 18, 2026. https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2025/srvydesc-508.pdf
 
 9. National Center for Health Statistics. 2020 National Health Interview Survey Survey Description. National Center for Health Statistics; 2021. Accessed September 18, 2026. https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/srvydesc-508.pdf
 
-10. Lumley T. Analysis of Complex Survey Samples. J Stat Softw. 2004;9(8):1-19. doi:10.18637/jss.v009.i08
+10. Lumley T. Analysis of Complex Survey Samples. J Stat Softw. 2004;9:1–19. doi:10.18637/jss.v009.i08
 
-11. Parker JD, Talih M, Malec DJ, et al. National Center for Health Statistics Data Presentation Standards for Proportions. Vital Health Stat 2. 2017;(175):1-22.
+11. Parker JD, Talih M, Malec DJ, et al. National Center for Health Statistics Data Presentation Standards for Proportions. Vital Health Stat 2. 2017;:1–22.
 
 12. National Center for Health Statistics. Multiple Imputation of Family Income in 2025 National Health Interview Survey Methods. National Center for Health Statistics; 2026. Accessed September 18, 2026. https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2025/NHIS2025-imputation-techdoc-508.pdf
 
-13. Zou G. A modified Poisson regression approach to prospective studies with binary data. Am J Epidemiol. 2004;159(7):702-706. doi:10.1093/aje/kwh090
+13. Zou G. A modified Poisson regression approach to prospective studies with binary data. Am J Epidemiol. 2004;159:702–706. doi:10.1093/aje/kwh090
 
-14. Graubard BI, Korn EL. Predictive Margins with Survey Data. Biometrics. 1999;55(2):652-659. doi:10.1111/j.0006-341X.1999.00652.x
+14. Graubard BI, Korn EL. Predictive Margins with Survey Data. Biometrics. 1999;55:652–659. doi:10.1111/j.0006-341X.1999.00652.x
 
-15. von Elm E, Altman DG, Egger M, Pocock SJ, Gøtzsche PC, Vandenbroucke JP, STROBE Initiative. The Strengthening the Reporting of Observational Studies in Epidemiology Statement Guidelines for Reporting Observational Studies. PLoS Med. 2007;4(10):e296. doi:10.1371/journal.pmed.0040296
+15. von Elm E, Altman DG, Egger M, Pocock SJ, Gøtzsche PC, Vandenbroucke JP, STROBE Initiative. The Strengthening the Reporting of Observational Studies in Epidemiology Statement Guidelines for Reporting Observational Studies. PLoS Med. 2007;4:e296. doi:10.1371/journal.pmed.0040296
 
 ## Tables
 
@@ -226,12 +242,12 @@ Survey-weighted modified Poisson regression with ten income imputations; all mod
 
 
 
-## Figure Legends
-
-**Figure 1. Cost-related barriers among US stroke survivors, 2019–2025.** (A) Annual prevalence of any cost-related barrier, observed with annual survey weights (blue circles) and standardized to the pooled covariate distribution from the fully adjusted logistic model (orange triangles). (B) Pooled prevalence of the composite outcome and each component barrier. Medication underuse is estimated among survivors prescribed medication in the past 12 months. Error bars are 95% confidence intervals.
-
-**Figure 2. Distribution of cost-related barriers by survivor characteristics.** (A) Unadjusted pooled prevalence of any cost-related barrier within groups defined by age, family income, insurance coverage, and disability. (B) Fully adjusted prevalence ratios (Model 3) from survey-weighted modified Poisson regression incorporating ten income imputations; the age contrast is from the parallel model that replaces the age spline with an age-group indicator. Reference groups are age 65 years and older, income 400% or more of the federal poverty level (FPL), private insurance, and no disability. Error bars are 95% confidence intervals; the dashed line marks a prevalence ratio of 1.
+## Figures
 
 ![Figure 1](figures/figure1_annual_prevalence.png)
 
+**Figure 1. Cost-related barriers among US stroke survivors, 2019–2025.** (A) Annual prevalence of any cost-related barrier, observed with annual survey weights (blue circles) and standardized to the pooled covariate distribution from the fully adjusted logistic model (orange triangles). (B) Pooled prevalence of the composite outcome and each component barrier. Medication underuse is estimated among survivors prescribed medication in the past 12 months. Error bars are 95% CIs.
+
 ![Figure 2](figures/figure2_adjusted_associations.png)
+
+**Figure 2. Distribution of cost-related barriers by survivor characteristics.** (A) Unadjusted pooled prevalence of any cost-related barrier within groups defined by age, family income, insurance coverage, and disability. (B) Fully adjusted prevalence ratios (Model 3) from survey-weighted modified Poisson regression incorporating ten income imputations; the age contrast is from the parallel model that replaces the age spline with an age-group indicator. Reference groups are age 65 years and older, income 400% or more of the federal poverty level (FPL), private insurance, and no disability. Error bars are 95% CIs; the dashed line marks a prevalence ratio of 1. PR indicates prevalence ratio.

@@ -6,10 +6,10 @@ The analysis uses the 2019–2025 CDC public-use files. Start with the [manuscri
 
 ## Manuscript files
 
-- manuscript/manuscript.docx, .pdf and .md: title page, structured abstract, full text, declarations, 15 references, three tables, figure legends and two figures.
+- manuscript/manuscript.docx, .pdf and .md: title page, structured abstract, full text in the AHA/Stroke section order (Abstract, Non-standard Abbreviations, Introduction, Methods, Results, Discussion, Acknowledgments, Sources of Funding, Disclosures, Supplemental Material list, References, Tables, Figures with legends), 15 references, three tables and two figures.
 - manuscript/supplement.docx, .pdf and .md: supplementary methods, Tables S1–S12 (including outcome and covariate definitions and the STROBE checklist) and Figure S1.
 - manuscript/tables/: editable CSV for each formatted table.
-- manuscript/figures/: each figure as 300-dpi PNG and TIFF and as vector PDF.
+- manuscript/figures/: each figure as 300-dpi PNG and TIFF and as vector PDF, plus graphic_abstract.jpg (7 x 7 in, 300 dpi) for Stroke.
 - manuscript/references.json and .ris: verified source-linked reference metadata.
 - manuscript/EDITORIAL_MATERIAL.md: cover letter, key points, plain-language summary and short title.
 - manuscript/AUTHOR_INFORMATION.md: record of the author-supplied declarations.

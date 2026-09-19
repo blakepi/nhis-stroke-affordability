@@ -4,7 +4,7 @@ Cost-Related Barriers to Care and Medications Among US Stroke Survivors, 2019–
 
 G. Blake Pierpoint and Alberto E. Musto
 
-Reference numbers refer to the reference list of the main manuscript.
+Reference numbers refer to the reference list of the main manuscript. Contents: Supplemental Methods; Figure S1; Tables S1–S12 (Table S12 is the STROBE checklist).
 
 ## Supplementary Methods
 
@@ -91,6 +91,12 @@ All 160 modified Poisson fits and all 20 bounded logistic fits converged. The fu
 ### Analytic decisions
 
 Employment status was not included because it overlaps strongly with age and disability and would have required additional harmonization across years. A year-by-insurance interaction was not fit because the military-only group contributed only 109 observed records and 17 events across the seven years. No data-driven significance criterion was used to select the final model. The ten records with unknown age were excluded rather than imputed.
+
+## Supplementary Figure
+
+![Figure S1](figures/figureS1_cohort_flow.png)
+
+**Figure S1. Selection of the annual and pooled analytic samples.** Annual and pooled samples apply different inclusion and weighting rules for 2020. The 7,555 annual stroke records include the full 2020 sample; the 7,181 pooled stroke records exclude the 2020 follow-back respondents and use the partial-sample weights. Adjusted models additionally require an observed outcome and complete nonincome covariates. Counts are records, not unique persons across years.
 
 ## Supplementary Tables
 
@@ -308,12 +314,6 @@ Income counts are averages across ten imputations. The unknown-insurance subgrou
 Ten fits per specification. Fitted log-link values above one are not interpreted as individual probabilities. The bounded logistic sensitivity supports the major associations; it does not establish perfect specification. Model labels correspond to the accompanying script and coefficient CSV.
 
 
-
-## Supplementary Figure
-
-**Figure S1. Selection of the annual and pooled analytic samples.** Annual and pooled samples apply different inclusion and weighting rules for 2020. The 7,555 annual stroke records include the full 2020 sample; the 7,181 pooled stroke records exclude the 2020 follow-back respondents and use the partial-sample weights. Adjusted models additionally require an observed outcome and complete nonincome covariates. Counts are records, not unique persons across years.
-
-![Figure S1](figures/figureS1_cohort_flow.png)
 
 ## STROBE Checklist
 

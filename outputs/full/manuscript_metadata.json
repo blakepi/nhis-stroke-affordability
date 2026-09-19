@@ -1,13 +1,13 @@
 {
   "manuscript": {
-    "words_including_tables_and_references": 5038,
+    "words_including_tables_and_references": 5056,
     "tables": 3,
     "images": 2,
     "abstract_words": 284,
-    "body_words": 2840
+    "body_words": 2908
   },
   "supplement": {
-    "words_including_tables_and_references": 4610,
+    "words_including_tables_and_references": 4623,
     "tables": 12,
     "images": 1
   }

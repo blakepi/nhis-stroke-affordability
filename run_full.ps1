@@ -31,6 +31,7 @@ if (!$WritingOnly) {
     Invoke-NhisPython 'scripts/validate_full.py'
 }
 Invoke-NhisR 'scripts/make_figures.R'
+Invoke-NhisR 'scripts/make_graphical_abstract.R'
 Invoke-NhisPython 'scripts/build_manuscript.py'
 Invoke-NhisPython 'scripts/check_manuscript.py'
 Invoke-NhisPython 'scripts/package_manuscript.py'

@@ -127,13 +127,15 @@ strobe=table('STROBE_checklist','Table S12. STROBE checklist for cross-sectional
 
 JABBR={'Circulation':'Circulation','Stroke':'Stroke','Archives of Neurology':'Arch Neurol','Annals of Neurology':'Ann Neurol','Journal of Health Care for the Poor and Underserved':'J Health Care Poor Underserved','Journal of Racial and Ethnic Health Disparities':'J Racial Ethn Health Disparities','Journal of Managed Care and Specialty Pharmacy':'J Manag Care Spec Pharm','Journal of Statistical Software':'J Stat Softw','American Journal of Epidemiology':'Am J Epidemiol','Biometrics':'Biometrics','Vital and Health Statistics Series 2':'Vital Health Stat 2','PLoS Medicine':'PLoS Med'}
 def cite(r):
-    authors=', '.join(r['authors']).rstrip('.')
+    names=[a for a in r['authors'] if a!='et al.']
+    authors=', '.join(names[:10])+(', et al' if (len(names)>10 or 'et al.' in r['authors']) else '')
     if r.get('journal'):
         j=JABBR.get(r['journal'],r['journal'])
         if r.get('online'):
             tail=f"{j}. Published online {r['online']}. doi:{r['doi']}"
         else:
-            tail=f"{j}. {r['year']};{r.get('volume','')}"+(f"({r['issue']})" if r.get('issue') else '')+(f":{r['pages']}" if r.get('pages') else '')+'.'
+            pages=str(r.get('pages','')).replace('-','\u2013')
+            tail=f"{j}. {r['year']};{r.get('volume','')}"+(f":{pages}" if pages else '')+'.'
             if r.get('doi'):tail+=f" doi:{r['doi']}"
         return f"{r['id']}. {authors}. {r['title']}. {tail}"
     return f"{r['id']}. {authors}. {r['title']}. National Center for Health Statistics; {r['year']}. Accessed September 18, 2026. {r['url']}"
@@ -183,15 +185,17 @@ def write_docx(markdown,path,body_spacing=2.0,line_numbers=False,figure_width=6.
     if bdr is not None:tpr.remove(bdr)
     for name,size,italic in [('Heading 1',12,False),('Heading 2',12,True),('Heading 3',12,True)]:
         h=doc.styles[name];h.font.size=Pt(size);h.font.bold=True;h.font.italic=italic;h.paragraph_format.space_before=Pt(12);h.paragraph_format.space_after=Pt(0);h.paragraph_format.keep_with_next=True;h.paragraph_format.line_spacing=body_spacing
+    s.different_first_page_header_footer=True
     footer=s.footer.paragraphs[0];footer.alignment=WD_ALIGN_PARAGRAPH.CENTER
     fld=OxmlElement('w:fldSimple');fld.set(qn('w:instr'),'PAGE');footer._p.append(fld)
     if line_numbers:set_line_numbers(s)
-    lines=markdown.splitlines();i=0;title_page=True
-    break_before={'## Abstract','## Introduction','## References','## Tables','## Figure Legends','## Supplementary Tables','## Supplementary Figure','## STROBE Checklist'}
+    lines=markdown.splitlines();i=0;title_page=True;last_kind='start'
+    break_before={'## Abstract','## Introduction','## References','## Tables','## Figures','## Supplementary Tables','## Supplementary Figure','## STROBE Checklist'}
     while i<len(lines):
         line=lines[i].strip()
         if not line:i+=1;continue
-        if line in break_before:add_page_break(doc);title_page=False
+        want_break=line in break_before
+        if want_break:title_page=False
         if line.startswith('| '):
             rows=[]
             while i<len(lines) and lines[i].strip().startswith('|'):
@@ -203,9 +207,9 @@ def write_docx(markdown,path,body_spacing=2.0,line_numbers=False,figure_width=6.
             widths=[first]+[(6.5-first)/(count-1)]*(count-1)
             for j,w in enumerate(widths):tab.columns[j].width=Inches(w)
             borders=OxmlElement('w:tblBorders')
-            for edge,sz in [('top','8'),('bottom','8'),('insideH','4')]:
-                e=OxmlElement('w:'+edge);e.set(qn('w:val'),'single');e.set(qn('w:sz'),sz);e.set(qn('w:color'),'000000' if sz=='8' else 'BFBFBF');borders.append(e)
-            for edge in ['left','right','insideV']:
+            for edge,sz in [('top','8'),('bottom','8')]:
+                e=OxmlElement('w:'+edge);e.set(qn('w:val'),'single');e.set(qn('w:sz'),sz);e.set(qn('w:color'),'000000');borders.append(e)
+            for edge in ['left','right','insideV','insideH']:
                 e=OxmlElement('w:'+edge);e.set(qn('w:val'),'nil');borders.append(e)
             tab._tbl.tblPr.append(borders)
             for k,values in enumerate(rows):
@@ -218,29 +222,32 @@ def write_docx(markdown,path,body_spacing=2.0,line_numbers=False,figure_width=6.
                     run=p.add_run(value);run.font.size=Pt(9);run.bold=(k==0)
                     if k==0:
                         bb=OxmlElement('w:tcBorders');b=OxmlElement('w:bottom');b.set(qn('w:val'),'single');b.set(qn('w:sz'),'6');b.set(qn('w:color'),'000000');bb.append(b);cell._tc.get_or_add_tcPr().append(bb)
-            continue
+            last_kind='table';continue
         if line.startswith('!['):
             m=re.match(r'!\[(.*?)\]\((.*?)\)',line);img=DEST/m.group(2)
             width=5.4 if 'cohort' in img.name else figure_width
-            add_page_break(doc)
-            cap=doc.add_paragraph();cap.paragraph_format.line_spacing=1.15;cap.add_run(m.group(1)).bold=True
-            p=doc.add_paragraph();p.alignment=WD_ALIGN_PARAGRAPH.CENTER;p.add_run().add_picture(str(img),width=Inches(width));i+=1;continue
+            p=doc.add_paragraph();p.alignment=WD_ALIGN_PARAGRAPH.CENTER
+            if last_kind!='heading':p.paragraph_format.page_break_before=True
+            p.paragraph_format.keep_with_next=True
+            p.add_run().add_picture(str(img),width=Inches(width));last_kind='image';i+=1;continue
         if line.startswith('#'):
             n=len(line)-len(line.lstrip('#'));text=line[n:].strip()
             if n==1:
-                doc.add_paragraph(text,style='Title')
+                doc.add_paragraph(text,style='Title');last_kind='title'
             elif re.match(r'^Table S?\d+\.',text):
-                if re.match(r'^Table [2-9]\.',text):add_page_break(doc)
                 p=doc.add_paragraph();p.paragraph_format.keep_with_next=True;p.paragraph_format.line_spacing=1.15;p.paragraph_format.space_before=Pt(12);p.paragraph_format.space_after=Pt(4)
-                m=re.match(r'^(Table S?\d+\.)\s*(.*)$',text);p.add_run(m.group(1)+' ').bold=True;p.add_run(m.group(2))
+                if re.match(r'^Table [2-9]\.',text):p.paragraph_format.page_break_before=True
+                m=re.match(r'^(Table S?\d+\.)\s*(.*)$',text);p.add_run(m.group(1)+' ').bold=True;p.add_run(m.group(2));last_kind='caption'
             else:
-                doc.add_paragraph(text,style='Heading '+str(min(n-1,3)))
+                h=doc.add_paragraph(text,style='Heading '+str(min(n-1,3)))
+                if want_break:h.paragraph_format.page_break_before=True
+                last_kind='heading'
             i+=1;continue
         p=doc.add_paragraph()
         j=i-1
         while j>=0 and not lines[j].strip():j-=1
         prev=lines[j].strip() if j>=0 else ''
-        is_note=prev.startswith('|')
+        is_note=prev.startswith('|') or prev.startswith('![')
         if is_note:
             p.paragraph_format.line_spacing=1.15;p.paragraph_format.space_after=Pt(6)
             for r in inline_runs(p,line):r.font.size=Pt(9)
@@ -250,7 +257,7 @@ def write_docx(markdown,path,body_spacing=2.0,line_numbers=False,figure_width=6.
             inline(p,line)
         else:
             inline(p,line)
-        i+=1
+        last_kind='para';i+=1
     doc.core_properties.title=markdown.splitlines()[0].lstrip('# ')
     doc.core_properties.subject='Cost-related barriers to care and medications among US stroke survivors, NHIS 2019-2025'
     doc.core_properties.author='G. Blake Pierpoint; Alberto E. Musto'
@@ -261,16 +268,17 @@ for source,outname in [('draft_source.md','manuscript'),('supplement_source.md',
     text=(DEST/source).read_text(encoding='utf-8')
     for key,value in tokens.items():text=text.replace('{{'+key+'}}',value)
     if outname=='manuscript':
-        abstract_n=len(text.split('## Abstract')[1].split('## Introduction')[0].split())
-        body_n=len(text.split('## Introduction')[1].split('## Declarations')[0].split())
-        text=text.replace('{{counts}}',f'Word count: abstract, {abstract_n}; main text, {body_n:,}. References: {len(refs)}. Tables: 3. Figures: 2. Supplementary material: Supplementary Methods, Tables S1–S12, Figure S1.')
+        abstract_n=len(text.split('## Abstract')[1].split('## Non-standard')[0].split())
+        body_n=len(text.split('## Introduction')[1].split('## Acknowledgments')[0].split())
+        total_n=len(re.sub(r'!\[[^\]]*\]\([^)]+\)','',text.replace('{{counts}}','')).split())
+        text=text.replace('{{counts}}',f'Total word count: {total_n:,} (title page, abstract, text, references, tables, and figure legends). Main text: {body_n:,} words. Abstract: {abstract_n} words. Tables: 3. Figures: 2.')
     assert not re.search(r'\{\{[^}]+\}\}',text),'Unresolved numeric/content token'
     (DEST/f'{outname}.md').write_text(text,encoding='utf-8')
     write_docx(text,DEST/f'{outname}.docx',body_spacing=2.0 if outname=='manuscript' else 1.15,line_numbers=False)
     metadata[outname]={'words_including_tables_and_references':len(text.split()),'tables':text.count('\n| ---'),'images':len(re.findall(r'!\[',text))}
     if outname=='manuscript':
-        metadata[outname]['abstract_words']=len(text.split('## Abstract')[1].split('## Introduction')[0].split())
-        metadata[outname]['body_words']=len(text.split('## Introduction')[1].split('## Declarations')[0].split())
+        metadata[outname]['abstract_words']=len(text.split('## Abstract')[1].split('## Non-standard')[0].split())
+        metadata[outname]['body_words']=len(text.split('## Introduction')[1].split('## Acknowledgments')[0].split())
 ris=[]
 for r in refs:
     a=['TY  - JOUR' if r.get('journal') else 'TY  - RPRT',f"ID  - {r['id']}",f"TI  - {r['title']}",f"PY  - {r['year']}"]
