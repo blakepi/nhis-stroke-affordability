@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use this code or these results, please cite the repository release v1.0.0."
-title: "Cost-Related Healthcare Affordability Barriers Among US Stroke Survivors From 2019 Through 2025: analysis code, aggregate results and working manuscript"
+message: "If you use this code or these results, please cite the repository release v1.1.0."
+title: "Cost-Related Barriers to Care and Medications Among US Stroke Survivors, 2019–2025: analysis code, aggregate results and manuscript"
 type: software
 authors:
   - family-names: Pierpoint
@@ -14,7 +14,7 @@ authors:
 repository-code: "https://github.com/blakepi/nhis-stroke-affordability"
 license: MIT
 date-released: "2026-09-18"
-version: "1.0.0"
+version: "1.1.0"
 keywords:
   - stroke
   - healthcare access

@@ -1,5 +1,20 @@
 TY  - JOUR
 ID  - 1
+TI  - 2026 Heart Disease and Stroke Statistics: A Report of US and Global Data From the American Heart Association
+PY  - 2026
+AU  - Palaniappan LP
+AU  - Allen NB
+AU  - Almarzooq ZI
+JO  - Circulation
+VL  - 153
+IS  - 9
+SP  - e275-e906
+DO  - 10.1161/CIR.0000000000001412
+UR  - https://pubmed.ncbi.nlm.nih.gov/41562125/
+ER  -
+
+TY  - JOUR
+ID  - 2
 TI  - 2021 Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack
 PY  - 2021
 AU  - Kleindorfer DO
@@ -11,11 +26,10 @@ IS  - 7
 SP  - e364-e467
 DO  - 10.1161/STR.0000000000000375
 UR  - https://pubmed.ncbi.nlm.nih.gov/34024117/
-N1  - Author list abbreviated as et al in the working source citation; import full metadata from DOI before journal formatting.
 ER  -
 
 TY  - JOUR
-ID  - 2
+ID  - 3
 TI  - Younger stroke survivors have reduced access to physician care and medications: National Health Interview Survey from years 1998 to 2002
 PY  - 2007
 AU  - Levine DA
@@ -33,7 +47,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/17101819/
 ER  -
 
 TY  - JOUR
-ID  - 3
+ID  - 4
 TI  - Recent trends in cost-related medication nonadherence among stroke survivors in the United States
 PY  - 2013
 AU  - Levine DA
@@ -51,7 +65,7 @@ UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.23823
 ER  -
 
 TY  - JOUR
-ID  - 4
+ID  - 5
 TI  - Food Insecurity and Perceived Financial Stress are Associated with Cost-related Medication Non-adherence in Stroke
 PY  - 2023
 AU  - Springer MV
@@ -66,7 +80,21 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/37464522/
 ER  -
 
 TY  - JOUR
-ID  - 5
+ID  - 6
+TI  - Cost-related medication nonadherence among adults with stroke in the United States: insight from the 2020-2023 National Health Interview Survey
+PY  - 2026
+AU  - Ansong R
+AU  - Kyei G
+AU  - Miezah D
+AU  - Abubakari M
+AU  - Kyei E
+JO  - Journal of Racial and Ethnic Health Disparities
+DO  - 10.1007/s40615-026-02863-w
+UR  - https://pubmed.ncbi.nlm.nih.gov/41591737/
+ER  -
+
+TY  - JOUR
+ID  - 7
 TI  - Changes in cost-related nonadherence among US adults with multiple chronic conditions from 2019 to 2023
 PY  - 2025
 AU  - Amill-Rosario A
@@ -81,7 +109,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/40577032/
 ER  -
 
 TY  - RPRT
-ID  - 6
+ID  - 8
 TI  - 2025 National Health Interview Survey Survey Description
 PY  - 2026
 AU  - National Center for Health Statistics
@@ -89,23 +117,15 @@ UR  - https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/
 ER  -
 
 TY  - RPRT
-ID  - 7
+ID  - 9
 TI  - 2020 National Health Interview Survey Survey Description
 PY  - 2021
 AU  - National Center for Health Statistics
 UR  - https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/srvydesc-508.pdf
 ER  -
 
-TY  - RPRT
-ID  - 8
-TI  - Multiple Imputation of Family Income in 2025 National Health Interview Survey Methods
-PY  - 2026
-AU  - National Center for Health Statistics
-UR  - https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2025/NHIS2025-imputation-techdoc-508.pdf
-ER  -
-
 TY  - JOUR
-ID  - 9
+ID  - 10
 TI  - Analysis of Complex Survey Samples
 PY  - 2004
 AU  - Lumley T
@@ -118,7 +138,28 @@ UR  - https://www.jstatsoft.org/index.php/jss/article/view/v009i08
 ER  -
 
 TY  - JOUR
-ID  - 10
+ID  - 11
+TI  - National Center for Health Statistics Data Presentation Standards for Proportions
+PY  - 2017
+AU  - Parker JD
+AU  - Talih M
+AU  - Malec DJ
+JO  - Vital and Health Statistics Series 2
+IS  - 175
+SP  - 1-22
+UR  - https://www.cdc.gov/nchs/data/series/sr_02/sr02_175.pdf
+ER  -
+
+TY  - RPRT
+ID  - 12
+TI  - Multiple Imputation of Family Income in 2025 National Health Interview Survey Methods
+PY  - 2026
+AU  - National Center for Health Statistics
+UR  - https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2025/NHIS2025-imputation-techdoc-508.pdf
+ER  -
+
+TY  - JOUR
+ID  - 13
 TI  - A modified Poisson regression approach to prospective studies with binary data
 PY  - 2004
 AU  - Zou G
@@ -131,7 +172,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/15033648/
 ER  -
 
 TY  - JOUR
-ID  - 11
+ID  - 14
 TI  - Predictive Margins with Survey Data
 PY  - 1999
 AU  - Graubard BI
@@ -145,21 +186,7 @@ UR  - https://onlinelibrary.wiley.com/doi/10.1111/j.0006-341X.1999.00652.x
 ER  -
 
 TY  - JOUR
-ID  - 12
-TI  - National Center for Health Statistics Data Presentation Standards for Proportions
-PY  - 2017
-AU  - Parker JD
-AU  - Talih M
-AU  - Malec DJ
-JO  - Vital and Health Statistics Series 2
-IS  - 175
-SP  - 1-22
-UR  - https://www.cdc.gov/nchs/data/series/sr_02/sr02_175.pdf
-N1  - Author list abbreviated as et al in the working source citation; import full metadata from DOI before journal formatting.
-ER  -
-
-TY  - JOUR
-ID  - 13
+ID  - 15
 TI  - The Strengthening the Reporting of Observational Studies in Epidemiology Statement Guidelines for Reporting Observational Studies
 PY  - 2007
 AU  - von Elm E

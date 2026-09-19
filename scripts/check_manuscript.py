@@ -74,7 +74,7 @@ def main():
     cited=set()
     for m in re.findall(r'\[([0-9,]+)\]',md.split('## References')[0]):cited.update(map(int,m.split(',')))
     assert cited==ids,(cited,ids)
-    assert len(ids)==13
+    assert len(ids)==15
     c=pd.read_csv(ROOT/'outputs/full/component_prevalence.csv').set_index('outcome')
     assert c.loc['any_barrier','n']==7104 and c.loc['any_barrier','events']==1184
     diag=pd.read_csv(ROOT/'outputs/full/model_diagnostics.csv')
@@ -83,7 +83,7 @@ def main():
     assert len(ld)==20 and ld.converged.all() and ld.max_fitted.le(1).all() and ld.min_fitted.ge(0).all()
     for name in ['validation.json','full/validation.json']:
         assert json.loads((ROOT/'outputs'/name).read_text())['status']=='PASS'
-    record={'status':'PASS','documents':results,'references_verified_for_in_text_numbering':13,
+    record={'status':'PASS','documents':results,'references_verified_for_in_text_numbering':15,
       'tables_match_generated_markdown':True,'embedded_images_match_current_files':True,
       'page_rendering':render_pdfs(),
       'limits':'Structural and content checks do not replace a visual pagination review of each rebuild. The remaining ethics-determination and acknowledgment placeholders are intentional.'}

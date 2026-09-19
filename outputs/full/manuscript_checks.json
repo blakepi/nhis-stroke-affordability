@@ -14,15 +14,15 @@
       "status": "PASS"
     }
   ],
-  "references_verified_for_in_text_numbering": 13,
+  "references_verified_for_in_text_numbering": 15,
   "tables_match_generated_markdown": true,
   "embedded_images_match_current_files": true,
   "page_rendering": {
     "status": "COMPLETED",
     "renderer": "Microsoft Word SaveAs2 PDF",
     "pages": {
-      "manuscript": 14,
-      "supplement": 14
+      "manuscript": 24,
+      "supplement": 13
     },
     "note": "Page counts come from Word; layout was inspected visually on 18 September 2026."
   },

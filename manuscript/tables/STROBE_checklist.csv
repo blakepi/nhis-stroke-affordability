@@ -1,5 +1,5 @@
-﻿Item,Location,Coverage
-1,Title and abstract,"Design, population, period and quantitative findings supplied."
+﻿Item,Location in manuscript,Content
+1,Title and Abstract,"Design, population, period and principal quantitative findings."
 2–3,Introduction,"Background, prior studies and objectives stated."
 4–5,Methods / Study design,"Repeated cross-sectional design, public NHIS setting and 2019–2025 period."
 6,Methods / Population; Figure S1,"Eligibility, stroke definition, age exclusion, annual vs pooled selection."
@@ -14,4 +14,4 @@
 16,Table 3; Table S5; Results,"Adjusted PRs, covariate sets, precision and absolute annual difference."
 17,Sensitivity Results; Tables S6–S9,Sensitivity estimates and model diagnostics.
 18–21,Discussion and Conclusions,"Key results, limitations, cautious interpretation and generalizability."
-22,Declarations,Author contributions and competing-interests statement supplied; no funding statement is included at the direction of the authors.
+22,Declarations,No external funding is reported.

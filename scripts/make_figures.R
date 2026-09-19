@@ -1,17 +1,157 @@
-suppressPackageStartupMessages({library(data.table);library(ggplot2)})
+## Publication figures for the NHIS stroke affordability manuscript.
+## Outputs: manuscript/figures/*.png (300 dpi), *.tiff (300 dpi, LZW) and *.pdf (vector).
+suppressPackageStartupMessages({library(data.table);library(ggplot2);library(patchwork);library(scales);library(ragg)})
 dir.create("manuscript/figures",recursive=TRUE,showWarnings=FALSE)
-theme_set(theme_minimal(base_size=12)+theme(panel.grid.minor=element_blank(),plot.title=element_text(face="bold",size=15),plot.subtitle=element_text(size=10),legend.position="bottom"))
+
+## ---- Style ----------------------------------------------------------------
+FONT<-"Arial"
+INK<-"#1a1a1a"; INK2<-"#4a4a4a"; MUTED<-"#767676"; GRID<-"#e4e4e4"; AXIS<-"#bdbdbd"
+BLUE<-"#2a78d6"; ORANGE<-"#eb6834"; BLUE_D<-"#1c5cab"; BLUE_L<-"#b7d3f6"
+EN<-"–"
+theme_pub<-function(base=9){
+  theme_minimal(base_size=base,base_family=FONT)+
+    theme(panel.grid.minor=element_blank(),
+          panel.grid.major=element_line(colour=GRID,linewidth=.3),
+          axis.line.x=element_line(colour=AXIS,linewidth=.4),
+          axis.ticks.x=element_line(colour=AXIS,linewidth=.4),
+          axis.ticks.length=unit(2,"pt"),
+          axis.text=element_text(colour=INK2,size=base-.5),
+          axis.title=element_text(colour=INK,size=base),
+          legend.text=element_text(size=base-.5,colour=INK2),
+          legend.key.height=unit(9,"pt"),legend.key.width=unit(18,"pt"),
+          legend.margin=margin(0,0,0,0),
+          plot.title.position="plot",
+          plot.tag=element_text(face="bold",size=base+2,family=FONT),
+          plot.margin=margin(6,10,6,6),
+          strip.text=element_text(face="bold",size=base,colour=INK,hjust=0),
+          strip.placement="outside")
+}
+save_fig<-function(p,name,w,h){
+  ggsave(sprintf("manuscript/figures/%s.png",name),p,width=w,height=h,units="in",dpi=300,bg="white",device=ragg::agg_png)
+  ggsave(sprintf("manuscript/figures/%s.tiff",name),p,width=w,height=h,units="in",dpi=300,bg="white",device=ragg::agg_tiff,compression="lzw")
+  ggsave(sprintf("manuscript/figures/%s.pdf",name),p,width=w,height=h,units="in",bg="white",device=cairo_pdf)
+}
+
+## ---- Figure 1: annual trend (A) and component prevalence (B) --------------
 annual<-fread("outputs/annual_prevalence.csv")[outcome=="any_barrier" & group=="All survivors"]
 adj<-fread("outputs/full/adjusted_annual_prevalence.csv")
-a<-rbindlist(list(annual[,.(year,estimate,lower,upper,series="Annual observed")],adj[,.(year,estimate,lower,upper,series="Standardized pooled model")]))
-p<-ggplot(a,aes(year,100*estimate,color=series,shape=series,group=series))+geom_line(linewidth=.7)+geom_pointrange(aes(ymin=100*lower,ymax=100*upper),position=position_dodge(width=.18),linewidth=.45)+scale_x_continuous(breaks=2019:2025)+scale_y_continuous(limits=c(0,30),breaks=seq(0,30,5))+scale_color_manual(values=c("Annual observed"="#0b526b","Standardized pooled model"="#b15c21"))+labs(title="Healthcare affordability barriers among stroke survivors",subtitle="National Health Interview Survey 2019-2025",x="Survey year",y="Prevalence (%) with 95% confidence interval",color=NULL,shape=NULL)
-ggsave("manuscript/figures/figure1_annual_prevalence.png",p,width=8,height=5,dpi=320,bg="white")
+a<-rbindlist(list(annual[,.(year,estimate,lower,upper,series="Observed (annual weights)")],
+                  adj[,.(year,estimate,lower,upper,series="Standardized (fully adjusted model)")]))
+a[,series:=factor(series,levels=c("Observed (annual weights)","Standardized (fully adjusted model)"))]
+pooled<-fread("outputs/full/component_prevalence.csv")[outcome=="any_barrier"]
+p1a<-ggplot(a,aes(year,100*estimate,colour=series,shape=series))+
+  annotate("rect",xmin=2018.6,xmax=2025.4,ymin=100*pooled$lower,ymax=100*pooled$upper,fill=BLUE_L,alpha=.35)+
+  annotate("text",x=2018.7,y=25.6,label=sprintf("Shaded band: pooled 2019%s2025 prevalence,\n%.1f%% (95%% CI %.1f%s%.1f)",EN,100*pooled$estimate,100*pooled$lower,EN,100*pooled$upper),
+           hjust=0,vjust=1,size=2.5,colour=INK2,family=FONT,lineheight=.95)+
+  geom_line(aes(group=series),linewidth=.6,position=position_dodge(width=.22))+
+  geom_errorbar(aes(ymin=100*lower,ymax=100*upper),width=0,linewidth=.5,position=position_dodge(width=.22))+
+  geom_point(size=2.3,position=position_dodge(width=.22),stroke=0)+
+  scale_colour_manual(values=c(BLUE,ORANGE),name=NULL)+
+  scale_shape_manual(values=c(16,17),name=NULL)+
+  scale_x_continuous(breaks=2019:2025,expand=expansion(add=.35))+
+  scale_y_continuous(limits=c(0,30),breaks=seq(0,30,5),expand=expansion(0))+
+  labs(x="Survey year",y="Prevalence of any cost-related barrier (%)",tag="A")+
+  theme_pub()+theme(panel.grid.major.x=element_blank(),axis.text.x=element_text(size=7.5),
+                    legend.position=c(.01,.995),legend.justification=c(0,1),legend.direction="vertical",
+                    legend.background=element_rect(fill="white",colour=NA),legend.key.height=unit(10,"pt"))
+
+comp<-fread("outputs/full/component_prevalence.csv")
+lab<-c(any_barrier="Any cost-related barrier",forgone_rx="Could not afford needed prescription",
+       delayed_care="Delayed medical care because of cost",forgone_care="Did not get medical care because of cost",
+       rx_underuse="Skipped, reduced, or delayed medication\nto save money (among those prescribed)")
+comp<-comp[outcome %in% names(lab)]
+comp[,label:=factor(lab[outcome],levels=rev(lab))]
+comp[,fill:=ifelse(outcome=="any_barrier",BLUE_D,BLUE)]
+p1b<-ggplot(comp,aes(100*estimate,label))+
+  geom_col(aes(fill=fill),width=.58)+
+  geom_errorbar(aes(xmin=100*lower,xmax=100*upper),width=.18,linewidth=.45,colour=INK)+
+  geom_text(aes(x=100*upper+.6,label=sprintf("%.1f",100*estimate)),hjust=0,size=2.8,colour=INK,family=FONT)+
+  scale_fill_identity()+
+  scale_x_continuous(limits=c(0,24),breaks=seq(0,20,5),expand=expansion(0))+
+  labs(x=sprintf("Pooled prevalence, 2019%s2025 (%%)",EN),y=NULL,tag="B")+
+  theme_pub()+theme(panel.grid.major.y=element_blank(),axis.text.y=element_text(colour=INK,size=8.5,lineheight=.9))
+fig1<-p1a+p1b+plot_layout(widths=c(1.15,1))
+save_fig(fig1,"figure1_annual_prevalence",7.3,3.5)
+
+## ---- Figure 2: subgroup prevalence (A) aligned with adjusted PRs (B) -------
+sg<-fread("outputs/full/subgroup_prevalence.csv")
 co<-fread("outputs/full/model_coefficients.csv")
-want<-data.table(model=c("Age_M3",rep("M3",7)),term=c("young18-64","income_group200-399%","income_group100-199%","income_group<100%","insurancePublic without private","insuranceMilitary only","insuranceUninsured","disabilityWith disability"),label=c("Age 18-64 vs 65+","Income 200-399% vs 400%+ FPL","Income 100-199% vs 400%+ FPL","Income <100% vs 400%+ FPL","Public without private vs private","Military only vs private","Uninsured vs private","Disability vs no disability"),order=1:8)
-f<-merge(want,co,by=c("model","term"));f[,label:=factor(label,levels=rev(want$label))]
-p<-ggplot(f,aes(PR,label))+geom_vline(xintercept=1,linetype=2,color="gray55")+geom_errorbar(aes(xmin=lower,xmax=upper),orientation="y",width=.15,color="#0b526b")+geom_point(size=2.6,color="#0b526b")+scale_x_log10(breaks=c(.5,1,1.5,2,3,4),limits=c(.45,4))+labs(title="Adjusted associations with affordability barriers",subtitle="Survey-weighted modified Poisson models with ten income imputations",x="Adjusted prevalence ratio with 95% confidence interval",y=NULL)+theme(panel.grid.major.y=element_blank())
-ggsave("manuscript/figures/figure2_adjusted_associations.png",p,width=9,height=5.4,dpi=320,bg="white")
-# Simple flow figure keeps annual and pooled populations visibly distinct.
-nodes<-data.table(x=c(0,0,0,0,0,0),y=c(6,5,4,3,2,1),label=c("207,064 annual Sample Adult records\n2019-2025 full annual files","7,565 records reporting prior stroke\n10 excluded for unknown age","7,555 age-eligible annual stroke records\n7,476 with observed primary outcome","7,181 pooled stroke records\n2020 followback records omitted; partial weights used","7,104 with observed primary outcome\n1,184 report at least one barrier","6,777 in sequential adjusted models\n1,117 report at least one barrier"))
-p<-ggplot(nodes,aes(x,y))+geom_label(aes(label=label),size=3.6,lineheight=1.08,fill="#f5f8fa",linewidth=.3,label.padding=grid::unit(.5,"lines"))+annotate("segment",x=0,xend=0,y=c(5.68,4.68,3.68,2.68,1.68),yend=c(5.32,4.32,3.32,2.32,1.32),arrow=grid::arrow(length=grid::unit(.12,"inches")))+coord_cartesian(xlim=c(-1,1),ylim=c(.6,6.4),clip="off")+theme_void()+labs(title="Selection of annual and pooled analytic samples")+theme(plot.title=element_text(hjust=.5,face="bold",size=14))
-ggsave("manuscript/figures/figureS1_cohort_flow.png",p,width=7,height=8.4,dpi=250,bg="white")
+rows<-data.table(
+  group=c("Age","Age","Family income (% FPL)","Family income (% FPL)","Family income (% FPL)","Family income (% FPL)",
+          "Insurance","Insurance","Insurance","Insurance","Disability","Disability"),
+  variable=c("young","young","income_group","income_group","income_group","income_group",
+             "insurance","insurance","insurance","insurance","disability","disability"),
+  level=c("65+","18-64","400%+","200-399%","100-199%","<100%","Private","Public without private","Military only","Uninsured","Without disability","With disability"),
+  label=c("65 years or older (ref)",paste0("18",EN,"64 years"),"≥400% (ref)",paste0("200",EN,"399%"),paste0("100",EN,"199%"),"<100%",
+          "Private (ref)","Public, no private","Military only","Uninsured","No disability (ref)","Disability"),
+  model=c("Age_M3","Age_M3","M3","M3","M3","M3","M3","M3","M3","M3","M3","M3"),
+  term=c(NA,"young18-64",NA,"income_group200-399%","income_group100-199%","income_group<100%",
+         NA,"insurancePublic without private","insuranceMilitary only","insuranceUninsured",NA,"disabilityWith disability"))
+rows[,order:=.I]
+d<-merge(rows,sg[,.(variable,level,n=n_mean,estimate,lower,upper)],by=c("variable","level"),all.x=TRUE)
+d<-merge(d,co[,.(model,term,PR,lower_pr=lower,upper_pr=upper)],by=c("model","term"),all.x=TRUE)
+setorder(d,order)
+d[is.na(term),`:=`(PR=1,lower_pr=NA_real_,upper_pr=NA_real_)]
+d[,label:=factor(label,levels=rev(label))]
+d[,group:=factor(group,levels=unique(rows$group))]
+d[,ref:=is.na(term)]
+d[,pr_text:=ifelse(ref,"1 (reference)",sprintf("%.2f (%.2f%s%.2f)",PR,lower_pr,EN,upper_pr))]
+d[,prev_text:=sprintf("%.1f (%.1f%s%.1f)",100*estimate,100*lower,EN,100*upper)]
+
+p2a<-ggplot(d,aes(100*estimate,label))+
+  geom_segment(aes(x=0,xend=100*estimate,yend=label),colour=BLUE_L,linewidth=2.6,lineend="butt")+
+  geom_errorbar(aes(xmin=100*lower,xmax=100*upper),width=0,linewidth=.5,colour=INK)+
+  geom_point(size=2.2,colour=BLUE_D)+
+  geom_text(aes(x=72,label=prev_text),hjust=0,size=2.6,colour=INK2,family=FONT)+
+  facet_grid(rows=vars(group),scales="free_y",space="free_y",switch="y")+
+  scale_x_continuous(limits=c(0,100),breaks=seq(0,60,20),expand=expansion(0))+
+  coord_cartesian(clip="off")+
+  labs(x="Prevalence, % (95% CI)",y=NULL,tag="A")+
+  theme_pub()+theme(panel.grid.major.y=element_blank(),strip.text.y.left=element_text(angle=0,hjust=1,vjust=1),
+                    panel.spacing.y=unit(6,"pt"),axis.text.y=element_text(colour=INK,size=8.5),axis.title.x=element_text(hjust=0))
+
+p2b<-ggplot(d,aes(PR,label))+
+  geom_vline(xintercept=1,linetype="22",colour=MUTED,linewidth=.4)+
+  geom_errorbar(aes(xmin=lower_pr,xmax=upper_pr),width=0,linewidth=.5,colour=INK,na.rm=TRUE)+
+  geom_point(aes(shape=ref,fill=ref),size=2.4,colour=BLUE_D)+
+  geom_text(aes(x=4.2,label=pr_text),hjust=0,size=2.6,colour=INK2,family=FONT)+
+  scale_shape_manual(values=c(`FALSE`=21,`TRUE`=23),guide="none")+
+  scale_fill_manual(values=c(`FALSE`=BLUE_D,`TRUE`="white"),guide="none")+
+  facet_grid(rows=vars(group),scales="free_y",space="free_y")+
+  scale_x_log10(limits=c(.45,40),breaks=c(.5,1,2,3),labels=c("0.5","1","2","3"),expand=expansion(0))+
+  coord_cartesian(clip="off")+
+  labs(x="Adjusted PR (95% CI), log scale",y=NULL,tag="B")+
+  theme_pub()+theme(panel.grid.major.y=element_blank(),strip.text=element_blank(),
+                    axis.text.y=element_blank(),panel.spacing.y=unit(6,"pt"),axis.title.x=element_text(hjust=0))
+fig2<-p2a+p2b+plot_layout(widths=c(1.25,1))
+save_fig(fig2,"figure2_adjusted_associations",7.3,4.6)
+
+## ---- Figure S1: sample selection flow --------------------------------------
+box<-function(x,y,w,h,text,fill="white",col=INK,size=2.9,face="plain"){
+  list(annotate("rect",xmin=x-w/2,xmax=x+w/2,ymin=y-h/2,ymax=y+h/2,fill=fill,colour=AXIS,linewidth=.4),
+       annotate("text",x=x,y=y,label=text,size=size,colour=col,family=FONT,lineheight=.95,fontface=face))
+}
+arrow<-function(x1,y1,x2,y2){annotate("segment",x=x1,y=y1,xend=x2,yend=y2,colour=INK2,linewidth=.45,
+                                     arrow=grid::arrow(length=unit(4,"pt"),type="closed"))}
+ps1<-ggplot()+
+  box(0,10,5.6,1.15,sprintf("207,064 Sample Adult records\nNHIS 2019%s2025 annual files",EN),fill="#f3f6fa",face="bold")+
+  arrow(0,9.42,0,8.78)+
+  box(0,8.2,5.6,1.15,"7,565 adults reporting a prior stroke",fill="#f3f6fa")+
+  box(4.75,8.2,2.9,.85,"10 excluded:\nunknown age",size=2.6,col=INK2)+
+  annotate("segment",x=2.8,y=8.2,xend=3.3,yend=8.2,colour=INK2,linewidth=.45)+
+  arrow(0,7.62,0,6.98)+
+  box(0,6.4,5.6,1.15,"7,555 age-eligible stroke survivors\n(annual analyses; 7,476 with observed outcome)",fill="#f3f6fa")+
+  annotate("segment",x=0,y=5.82,xend=0,yend=5.45,colour=INK2,linewidth=.45)+
+  annotate("segment",x=-2.4,y=5.45,xend=2.4,yend=5.45,colour=INK2,linewidth=.45)+
+  arrow(-2.4,5.45,-2.4,4.95)+arrow(2.4,5.45,2.4,4.95)+
+  box(-2.4,4.3,4.4,1.25,"Annual estimates\nFull 2020 sample, annual weights\n(Figure 1A, Table 2)",fill="white")+
+  box(2.4,4.3,4.4,1.25,"Pooled estimates\n2020 follow-back respondents removed;\npartial-sample weights",fill="white")+
+  arrow(2.4,3.67,2.4,3.05)+
+  box(2.4,2.5,4.4,1.05,"7,181 pooled stroke survivors\n7,104 with observed outcome (1,184 with a barrier)",fill="#f3f6fa")+
+  box(-2.6,2.5,3.6,.85,"327 excluded from models:\nmissing adjustment covariate",size=2.6,col=INK2)+
+  annotate("segment",x=-0.8,y=2.5,xend=0.2,yend=2.5,colour=INK2,linewidth=.45)+
+  arrow(2.4,1.97,2.4,1.35)+
+  box(2.4,.8,4.4,1.05,"6,777 in adjusted models\n1,117 with a barrier",fill="#f3f6fa",face="bold")+
+  coord_cartesian(xlim=c(-4.8,6.4),ylim=c(.2,10.65),expand=FALSE)+theme_void()+theme(plot.margin=margin(4,4,4,4))
+save_fig(ps1,"figureS1_cohort_flow",6.2,6.6)
+cat("figures written\n")

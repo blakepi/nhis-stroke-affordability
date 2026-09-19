@@ -1,15 +1,228 @@
 [
- {"id":1,"authors":["Kleindorfer DO","Towfighi A","Chaturvedi S","et al."],"title":"2021 Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack","journal":"Stroke","year":2021,"volume":"52","issue":"7","pages":"e364-e467","doi":"10.1161/STR.0000000000000375","url":"https://pubmed.ncbi.nlm.nih.gov/34024117/"},
- {"id":2,"authors":["Levine DA","Kiefe CI","Houston TK","Allison JJ","McCarthy EP","Ayanian JZ"],"title":"Younger stroke survivors have reduced access to physician care and medications: National Health Interview Survey from years 1998 to 2002","journal":"Archives of Neurology","year":2007,"volume":"64","issue":"1","pages":"37-42","doi":"10.1001/archneur.64.1.noc60002","url":"https://pubmed.ncbi.nlm.nih.gov/17101819/"},
- {"id":3,"authors":["Levine DA","Morgenstern LB","Langa KM","Piette JD","Rogers MAM","Karve SJ"],"title":"Recent trends in cost-related medication nonadherence among stroke survivors in the United States","journal":"Annals of Neurology","year":2013,"volume":"73","issue":"2","pages":"180-188","doi":"10.1002/ana.23823","url":"https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.23823"},
- {"id":4,"authors":["Springer MV","Skolarus LE","Patel M"],"title":"Food Insecurity and Perceived Financial Stress are Associated with Cost-related Medication Non-adherence in Stroke","journal":"Journal of Health Care for the Poor and Underserved","year":2023,"volume":"34","issue":"2","pages":"625-639","doi":"10.1353/hpu.2023.0054","url":"https://pubmed.ncbi.nlm.nih.gov/37464522/"},
- {"id":5,"authors":["Amill-Rosario A","Slejko JF","dosReis S"],"title":"Changes in cost-related nonadherence among US adults with multiple chronic conditions from 2019 to 2023","journal":"Journal of Managed Care and Specialty Pharmacy","year":2025,"volume":"31","issue":"7","pages":"662-670","doi":"10.18553/jmcp.2025.31.7.662","url":"https://pubmed.ncbi.nlm.nih.gov/40577032/"},
- {"id":6,"authors":["National Center for Health Statistics"],"title":"2025 National Health Interview Survey Survey Description","year":2026,"url":"https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2025/srvydesc-508.pdf"},
- {"id":7,"authors":["National Center for Health Statistics"],"title":"2020 National Health Interview Survey Survey Description","year":2021,"url":"https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/srvydesc-508.pdf"},
- {"id":8,"authors":["National Center for Health Statistics"],"title":"Multiple Imputation of Family Income in 2025 National Health Interview Survey Methods","year":2026,"url":"https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2025/NHIS2025-imputation-techdoc-508.pdf"},
- {"id":9,"authors":["Lumley T"],"title":"Analysis of Complex Survey Samples","journal":"Journal of Statistical Software","year":2004,"volume":"9","issue":"8","pages":"1-19","doi":"10.18637/jss.v009.i08","url":"https://www.jstatsoft.org/index.php/jss/article/view/v009i08"},
- {"id":10,"authors":["Zou G"],"title":"A modified Poisson regression approach to prospective studies with binary data","journal":"American Journal of Epidemiology","year":2004,"volume":"159","issue":"7","pages":"702-706","doi":"10.1093/aje/kwh090","url":"https://pubmed.ncbi.nlm.nih.gov/15033648/"},
- {"id":11,"authors":["Graubard BI","Korn EL"],"title":"Predictive Margins with Survey Data","journal":"Biometrics","year":1999,"volume":"55","issue":"2","pages":"652-659","doi":"10.1111/j.0006-341X.1999.00652.x","url":"https://onlinelibrary.wiley.com/doi/10.1111/j.0006-341X.1999.00652.x"},
- {"id":12,"authors":["Parker JD","Talih M","Malec DJ","et al."],"title":"National Center for Health Statistics Data Presentation Standards for Proportions","journal":"Vital and Health Statistics Series 2","year":2017,"issue":"175","pages":"1-22","url":"https://www.cdc.gov/nchs/data/series/sr_02/sr02_175.pdf"},
- {"id":13,"authors":["von Elm E","Altman DG","Egger M","Pocock SJ","Gøtzsche PC","Vandenbroucke JP","STROBE Initiative"],"title":"The Strengthening the Reporting of Observational Studies in Epidemiology Statement Guidelines for Reporting Observational Studies","journal":"PLoS Medicine","year":2007,"volume":"4","issue":"10","pages":"e296","doi":"10.1371/journal.pmed.0040296","url":"https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0040296"}
+ {
+  "authors": [
+   "Palaniappan LP",
+   "Allen NB",
+   "Almarzooq ZI",
+   "et al."
+  ],
+  "title": "2026 Heart Disease and Stroke Statistics: A Report of US and Global Data From the American Heart Association",
+  "journal": "Circulation",
+  "year": 2026,
+  "volume": "153",
+  "issue": "9",
+  "pages": "e275-e906",
+  "doi": "10.1161/CIR.0000000000001412",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41562125/",
+  "id": 1
+ },
+ {
+  "id": 2,
+  "authors": [
+   "Kleindorfer DO",
+   "Towfighi A",
+   "Chaturvedi S",
+   "et al."
+  ],
+  "title": "2021 Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack",
+  "journal": "Stroke",
+  "year": 2021,
+  "volume": "52",
+  "issue": "7",
+  "pages": "e364-e467",
+  "doi": "10.1161/STR.0000000000000375",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34024117/"
+ },
+ {
+  "id": 3,
+  "authors": [
+   "Levine DA",
+   "Kiefe CI",
+   "Houston TK",
+   "Allison JJ",
+   "McCarthy EP",
+   "Ayanian JZ"
+  ],
+  "title": "Younger stroke survivors have reduced access to physician care and medications: National Health Interview Survey from years 1998 to 2002",
+  "journal": "Archives of Neurology",
+  "year": 2007,
+  "volume": "64",
+  "issue": "1",
+  "pages": "37-42",
+  "doi": "10.1001/archneur.64.1.noc60002",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/17101819/"
+ },
+ {
+  "id": 4,
+  "authors": [
+   "Levine DA",
+   "Morgenstern LB",
+   "Langa KM",
+   "Piette JD",
+   "Rogers MAM",
+   "Karve SJ"
+  ],
+  "title": "Recent trends in cost-related medication nonadherence among stroke survivors in the United States",
+  "journal": "Annals of Neurology",
+  "year": 2013,
+  "volume": "73",
+  "issue": "2",
+  "pages": "180-188",
+  "doi": "10.1002/ana.23823",
+  "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.23823"
+ },
+ {
+  "id": 5,
+  "authors": [
+   "Springer MV",
+   "Skolarus LE",
+   "Patel M"
+  ],
+  "title": "Food Insecurity and Perceived Financial Stress are Associated with Cost-related Medication Non-adherence in Stroke",
+  "journal": "Journal of Health Care for the Poor and Underserved",
+  "year": 2023,
+  "volume": "34",
+  "issue": "2",
+  "pages": "625-639",
+  "doi": "10.1353/hpu.2023.0054",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37464522/"
+ },
+ {
+  "authors": [
+   "Ansong R",
+   "Kyei G",
+   "Miezah D",
+   "Abubakari M",
+   "Kyei E"
+  ],
+  "title": "Cost-related medication nonadherence among adults with stroke in the United States: insight from the 2020-2023 National Health Interview Survey",
+  "journal": "Journal of Racial and Ethnic Health Disparities",
+  "year": 2026,
+  "doi": "10.1007/s40615-026-02863-w",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41591737/",
+  "epub": true,
+  "id": 6,
+  "online": "January 27, 2026"
+ },
+ {
+  "id": 7,
+  "authors": [
+   "Amill-Rosario A",
+   "Slejko JF",
+   "dosReis S"
+  ],
+  "title": "Changes in cost-related nonadherence among US adults with multiple chronic conditions from 2019 to 2023",
+  "journal": "Journal of Managed Care and Specialty Pharmacy",
+  "year": 2025,
+  "volume": "31",
+  "issue": "7",
+  "pages": "662-670",
+  "doi": "10.18553/jmcp.2025.31.7.662",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40577032/"
+ },
+ {
+  "id": 8,
+  "authors": [
+   "National Center for Health Statistics"
+  ],
+  "title": "2025 National Health Interview Survey Survey Description",
+  "year": 2026,
+  "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2025/srvydesc-508.pdf"
+ },
+ {
+  "id": 9,
+  "authors": [
+   "National Center for Health Statistics"
+  ],
+  "title": "2020 National Health Interview Survey Survey Description",
+  "year": 2021,
+  "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/srvydesc-508.pdf"
+ },
+ {
+  "id": 10,
+  "authors": [
+   "Lumley T"
+  ],
+  "title": "Analysis of Complex Survey Samples",
+  "journal": "Journal of Statistical Software",
+  "year": 2004,
+  "volume": "9",
+  "issue": "8",
+  "pages": "1-19",
+  "doi": "10.18637/jss.v009.i08",
+  "url": "https://www.jstatsoft.org/index.php/jss/article/view/v009i08"
+ },
+ {
+  "id": 11,
+  "authors": [
+   "Parker JD",
+   "Talih M",
+   "Malec DJ",
+   "et al."
+  ],
+  "title": "National Center for Health Statistics Data Presentation Standards for Proportions",
+  "journal": "Vital and Health Statistics Series 2",
+  "year": 2017,
+  "issue": "175",
+  "pages": "1-22",
+  "url": "https://www.cdc.gov/nchs/data/series/sr_02/sr02_175.pdf"
+ },
+ {
+  "id": 12,
+  "authors": [
+   "National Center for Health Statistics"
+  ],
+  "title": "Multiple Imputation of Family Income in 2025 National Health Interview Survey Methods",
+  "year": 2026,
+  "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2025/NHIS2025-imputation-techdoc-508.pdf"
+ },
+ {
+  "id": 13,
+  "authors": [
+   "Zou G"
+  ],
+  "title": "A modified Poisson regression approach to prospective studies with binary data",
+  "journal": "American Journal of Epidemiology",
+  "year": 2004,
+  "volume": "159",
+  "issue": "7",
+  "pages": "702-706",
+  "doi": "10.1093/aje/kwh090",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/15033648/"
+ },
+ {
+  "id": 14,
+  "authors": [
+   "Graubard BI",
+   "Korn EL"
+  ],
+  "title": "Predictive Margins with Survey Data",
+  "journal": "Biometrics",
+  "year": 1999,
+  "volume": "55",
+  "issue": "2",
+  "pages": "652-659",
+  "doi": "10.1111/j.0006-341X.1999.00652.x",
+  "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.0006-341X.1999.00652.x"
+ },
+ {
+  "id": 15,
+  "authors": [
+   "von Elm E",
+   "Altman DG",
+   "Egger M",
+   "Pocock SJ",
+   "Gøtzsche PC",
+   "Vandenbroucke JP",
+   "STROBE Initiative"
+  ],
+  "title": "The Strengthening the Reporting of Observational Studies in Epidemiology Statement Guidelines for Reporting Observational Studies",
+  "journal": "PLoS Medicine",
+  "year": 2007,
+  "volume": "4",
+  "issue": "10",
+  "pages": "e296",
+  "doi": "10.1371/journal.pmed.0040296",
+  "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0040296"
+ }
 ]

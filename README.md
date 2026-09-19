@@ -1,18 +1,17 @@
 # NHIS stroke survivor healthcare affordability study
 
-Code, aggregate results, and working manuscript for *Cost-Related Healthcare Affordability Barriers Among US Stroke Survivors From 2019 Through 2025* (G. Blake Pierpoint and Alberto E. Musto, Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University). Public repository: https://github.com/blakepi/nhis-stroke-affordability. Tagged release: [v1.0.0](https://github.com/blakepi/nhis-stroke-affordability/releases/tag/v1.0.0). Analysis code is released under the MIT License (see LICENSE); the manuscript text, tables and figures remain the authors' work and are provided for review.
+Code, aggregate results, and submission-ready manuscript for *Cost-Related Barriers to Care and Medications Among US Stroke Survivors, 2019–2025* (G. Blake Pierpoint and Alberto E. Musto, Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University). Public repository: https://github.com/blakepi/nhis-stroke-affordability. Tagged release cited in the manuscript: [v1.1.0](https://github.com/blakepi/nhis-stroke-affordability/releases/tag/v1.1.0). Analysis code is released under the MIT License (see LICENSE); the manuscript text, tables and figures remain the authors' work and are provided for review.
 
-The full **working manuscript package is prepared** from real 2019–2025 CDC public-use data. Start with [the Word manuscript](manuscript/manuscript.docx) or [Markdown version](manuscript/manuscript.md). [HANDOFF.md](HANDOFF.md) records completed work, verification, limitations and continuation.
+The analysis uses the 2019–2025 CDC public-use files. Start with the [manuscript PDF](manuscript/manuscript.pdf) or [Word file](manuscript/manuscript.docx); the [supplement](manuscript/supplement.pdf) contains the supplementary methods, Tables S1–S12 and Figure S1. [HANDOFF.md](HANDOFF.md) records the build history and verification.
 
-## Writing package
+## Manuscript files
 
-- manuscript/manuscript.docx and .md: title page, structured abstract, full manuscript, declarations, 13 references, three main tables and two figures.
-- manuscript/supplement.docx and .md: supplementary methods, nine numbered supplementary tables, two definition tables, cohort figure and draft STROBE checklist.
+- manuscript/manuscript.docx, .pdf and .md: title page, structured abstract, full text with continuous line numbers, declarations, 15 references, three tables, figure legends and two figures.
+- manuscript/supplement.docx, .pdf and .md: supplementary methods, Tables S1–S12 (including outcome and covariate definitions and the STROBE checklist) and Figure S1.
 - manuscript/tables/: editable CSV for each formatted table.
-- manuscript/figures/: three high-resolution PNGs.
+- manuscript/figures/: each figure as 300-dpi PNG and TIFF and as vector PDF.
 - manuscript/references.json and .ris: verified source-linked reference metadata.
-- manuscript/EDITORIAL_MATERIAL.md: key messages, plain-language summary, short title and cover-letter draft.
-- manuscript/manuscript.pdf and supplement.pdf: page-checked PDF exports from Word.
+- manuscript/EDITORIAL_MATERIAL.md: cover letter, key points, plain-language summary and short title.
 - manuscript/AUTHOR_INFORMATION.md: record of the author-supplied declarations.
 - NHIS_Stroke_Manuscript_Working_Package.zip (built locally, not committed): portable writing, aggregate results and reproducibility code. Public microdata and large PDFs are not committed; they are downloadable with the included scripts.
 

@@ -1,4 +1,4 @@
-﻿Year,Observed outcome n,Events,Observed % (95% CI),Standardized % (95% CI)
+﻿Year,No. with observed outcome,No. with barrier,"Observed prevalence, % (95% CI)","Standardized prevalence, % (95% CI)"
 2019,"1,191",231,20.6 (17.9–23.6),19.2 (16.6–22.0)
 2020,"1,051",156,17.3 (14.4–20.6),17.1 (13.8–21.0)
 2021,"1,001",179,19.4 (16.5–22.8),18.5 (15.6–21.8)

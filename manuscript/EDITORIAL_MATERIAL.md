@@ -1,43 +1,44 @@
-# Supporting editorial text
+# Submission materials
 
-These are working text blocks for the author team. They have not been sent to a journal.
+## Cover letter
 
-## Key messages
+Dear Editor,
 
-- In pooled 2019–2025 NHIS data, 17.9% of US adults reporting prior stroke experienced a past-year healthcare affordability barrier.
-- Working-age, lower-income, and uninsured survivors had greater adjusted prevalence; disability was also associated with greater overall burden.
-- Annual estimates fluctuated, without clear evidence of overall temporal heterogeneity. The survey does not identify whether barriers interrupted stroke-specific treatment.
+We are pleased to submit our manuscript, "Cost-Related Barriers to Care and Medications Among US Stroke Survivors, 2019–2025," for consideration as an original research article.
 
-## Plain language summary
+Secondary prevention after stroke works only when survivors can keep their follow-up appointments and fill their prescriptions. Using seven consecutive years of the National Health Interview Survey through 2025, we show that one in six US stroke survivors, and more than one in four of working age, delayed or went without medical care, could not afford a needed prescription, or rationed medication because of cost in the preceding year. Nearly three in five uninsured survivors reported a barrier. Working-age survivors remained more than twice as likely as older survivors to report a barrier after adjustment for income, insurance, education, and health status, and across a period that included the pandemic and its temporary coverage protections we found no evidence that affordability improved.
 
-We used a national US survey to study whether people who had experienced a stroke could afford medical care and prescriptions. The study covered 2019 through 2025. About 18% reported delaying or going without care, being unable to obtain needed prescriptions, or reducing medication use to save money. Problems were particularly common among adults younger than 65, people with lower incomes, and people without health insurance. The study did not show a clear pattern of improvement across the seven years. Because the survey did not identify the care or medications involved, these findings cannot tell us whether the barriers caused another stroke. They show which groups may need closer attention to affordability during ongoing care.
+The study makes three contributions. It provides the first stroke-specific national estimates that capture cost barriers to physician visits as well as to medications, the two points at which secondary prevention is delivered. It extends the evidence base through 2025 using the NCHS-recommended weights for pooling the redesigned 2020 survey and all ten NCHS income imputations. And it shows, through sequential adjustment within a single analytic sample, that the excess burden among working-age survivors is only partly explained by measurable socioeconomic and clinical differences, which argues for affordability screening that is not limited to the uninsured.
 
-## Cover letter draft
+The analysis is fully reproducible. Acquisition, analysis, verification, and manuscript-generation code, together with source file hashes and aggregate results, are publicly available at https://github.com/blakepi/nhis-stroke-affordability. All primary estimates were independently reproduced in a second software environment.
 
-Dear Editors,
+The manuscript has not been published and is not under consideration elsewhere. The authors declare no competing interests. No institutional review was required for this secondary analysis of public-use, de-identified data. Both authors have approved the manuscript and agree to its submission.
 
-Please consider our manuscript, “Cost-Related Healthcare Affordability Barriers Among US Stroke Survivors From 2019 Through 2025,” for consideration as an original research article in [JOURNAL].
-
-Using seven years of National Health Interview Survey data, we examined cost-related barriers to medical care and prescriptions among adults reporting a history of stroke. The pooled sample included 7,104 records with observed affordability outcomes. Approximately 18% reported at least one barrier, with greater burden among working-age, lower-income, and uninsured survivors. Adjusted analyses did not establish a consistent improvement across years.
-
-The study updates earlier stroke-survivor affordability research through 2025 and considers several access domains together. It incorporates the special 2020 pooling weights, all ten income imputations, survey-design variance estimation, and sensitivity analyses using separate outcomes and bounded logistic predictions. The manuscript distinguishes general healthcare affordability from stroke-specific adherence and does not infer causal policy effects or recurrent stroke risk.
-
-We believe these findings will interest readers concerned with access to care after stroke and the practical circumstances affecting long-term disease management. The manuscript is accompanied by tables, figures, supplementary methods, a reporting checklist, and reproducible analysis code.
-
-The authors declare no competing interests. No institutional review was required for this secondary analysis of public-use data. All analysis code and aggregate results are publicly available at https://github.com/blakepi/nhis-stroke-affordability (release v1.0.0). [Before use, insert statements about exclusive submission and related publications as the target journal requires.]
+We believe this work will interest your readers concerned with stroke care delivery, health equity, and the practical circumstances that determine whether guideline-recommended prevention reaches patients.
 
 Sincerely,
 
 G. Blake Pierpoint
-Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University, Norfolk, Virginia, USA
+Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University
+Norfolk, Virginia, USA
 pierpogb@odu.edu
 
 On behalf of Alberto E. Musto
 
+## Key points
+
+- **Question:** How often do US stroke survivors delay or forgo medical care or medications because of cost, and who is most affected?
+- **Findings:** In the 2019–2025 National Health Interview Survey, 17.9% of stroke survivors reported a cost-related barrier in the past year: 28.0% of those aged 18–64 years, 58.7% of the uninsured, and 8.2% to 23.5% across income strata. Working-age survivors remained more than twice as likely to report a barrier after full adjustment, and prevalence did not change across the seven years.
+- **Meaning:** Affordability is a persistent, measurable threat to secondary prevention after stroke that concentrates in identifiable groups and warrants routine attention in post-stroke care.
+
+## Plain-language summary
+
+After a stroke, keeping follow-up appointments and taking preventive medications is essential to avoid another stroke. We used a large national survey of US adults from 2019 through 2025 to ask how often stroke survivors could not afford this care. About one in six survivors said that in the past year they had delayed or gone without medical care, could not get a prescription they needed, or skipped or reduced their medication to save money. The problem was far more common among survivors younger than 65, those with lower incomes, those without insurance, and those with a disability, and it did not improve over the seven years. Clinicians who care for stroke survivors should ask about cost, especially in these groups, so that affordable alternatives and assistance can be arranged before treatment lapses.
+
 ## Suggested short title
 
-Healthcare affordability after stroke
+Affordability barriers after stroke
 
-## One sentence study description
+## One-sentence description
 
-A repeated cross-sectional NHIS analysis found that healthcare affordability barriers affected about one in six US stroke survivors during 2019–2025, particularly working-age, lower-income, and uninsured adults.
+A nationally representative analysis of 2019–2025 US survey data found that one in six stroke survivors, and more than one in four of working age, went without or rationed care because of cost, with no improvement over seven years.
