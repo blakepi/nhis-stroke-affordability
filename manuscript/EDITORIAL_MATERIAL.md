@@ -18,12 +18,12 @@ We believe this work will interest readers of *Stroke* concerned with stroke car
 
 Sincerely,
 
-G. Blake Pierpoint
+G. Blake Pierpoint, BS
 Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University
-Norfolk, Virginia, USA
+700 West Olney Road, Norfolk, VA 23507, USA
 pierpogb@odu.edu
 
-On behalf of Alberto E. Musto
+On behalf of Alberto E. Musto, MD, PhD
 
 ## Key points
 

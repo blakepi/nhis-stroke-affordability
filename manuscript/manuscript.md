@@ -1,6 +1,6 @@
 # Cost-Related Barriers to Care and Medications Among US Stroke Survivors, 2019–2025
 
-G. Blake Pierpoint^1,*^ and Alberto E. Musto^1,2,3^
+G. Blake Pierpoint, BS^1,*^ and Alberto E. Musto, MD, PhD^1,2,3^
 
 ^1^ Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University, Norfolk, Virginia, USA
 
@@ -8,7 +8,7 @@ G. Blake Pierpoint^1,*^ and Alberto E. Musto^1,2,3^
 
 ^3^ Department of Neurology, Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University, Norfolk, Virginia, USA
 
-*Correspondence: G. Blake Pierpoint; pierpogb@odu.edu
+*Correspondence: G. Blake Pierpoint, BS, Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University, 700 West Olney Road, Norfolk, VA 23507, USA; pierpogb@odu.edu
 
 ORCID identifiers: G. Blake Pierpoint, 0000-0001-8288-8549; Alberto E. Musto, 0000-0002-0877-8883
 
@@ -16,7 +16,7 @@ Short title: Affordability barriers after stroke
 
 Keywords: stroke; secondary prevention; healthcare access; cost-related nonadherence; health insurance; National Health Interview Survey
 
-Total word count: 5,053 (title page, abstract, text, references, tables, and figure legends). Main text: 2,945 words. Abstract: 289 words. Tables: 3. Figures: 2.
+Total word count: 5,080 (title page, abstract, text, references, tables, and figure legends). Main text: 2,945 words. Abstract: 289 words. Tables: 3. Figures: 2.
 
 ## Abstract
 

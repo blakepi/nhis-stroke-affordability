@@ -2,7 +2,7 @@
   "status": "PASS",
   "archive": "C:\\Users\\gbp34\\Documents\\ChatGPT\\Stroke\\NHIS_Stroke_Manuscript_Working_Package.zip",
   "files": 105,
-  "bytes": 5219658,
-  "sha256": "433c2bfb0d447aa7c28379c1342032773ce0e190eecc763801bb22301b69c6ae",
+  "bytes": 5219952,
+  "sha256": "6a8fad26b5a99b778c0ae42e6ace16c985302f7d63c3b7dce3e17c7d8a1c8212",
   "scope": "Full writing, current aggregate results and reproducibility code. Raw public microdata, large PDFs, local dependencies and processed individual records excluded; download scripts and source hashes included."
 }

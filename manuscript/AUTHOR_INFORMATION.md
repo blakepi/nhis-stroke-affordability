@@ -13,7 +13,7 @@ Also confirmed by the authors on 18 September 2026:
 - No acknowledgments; the Acknowledgments item was removed.
 - Code and results are public at https://github.com/blakepi/nhis-stroke-affordability (release v1.2.0), cited in the Data and code availability statement.
 
-Target journal: *Stroke* (AHA), Original Contribution. The package follows the Stroke author instructions. Still needed from the authors: academic degrees for the title page and the complete postal address of the corresponding author, both required by AHA title-page rules. No journal submission has been performed.
+Target journal: *Stroke* (AHA), Original Contribution. The package follows the Stroke author instructions. Academic degrees (BS; MD, PhD) and the corresponding author's postal address (700 West Olney Road, Norfolk, VA 23507) were supplied on 22 September 2026. No journal submission has been performed.
 
 The scientific interpretation to focus on during author editing is whether the broad healthcare-access outcome answers the intended clinical question. These questions do not identify stroke-prevention medications, care indication, recurrence, or causal policy effects. The title and conclusions deliberately reflect the measured healthcare-affordability construct.
 
