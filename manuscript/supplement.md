@@ -14,7 +14,7 @@ Microdata came from the seven annual NHIS Sample Adult files for 2019–2025, th
 
 A questionnaire crosswalk records the exact wording, response universe, and codebook page of each stroke and affordability question in every year; a covariate crosswalk does the same for education, insurance, clinical, smoking, and disability variables. Question wording and universes were substantively identical across 2019–2025 after normalizing capitalization in the 2019 prescription-use item. Stroke history was defined as a reported prior clinician diagnosis; neither subtype nor recency was inferred.
 
-Annual estimates retain the full 2020 Sample Adult file, including follow-back respondents, with the annual weight WTFA_A. Pooled estimates retain only the 2020 records that link to the partial file and use the partial-sample weight WTSA_P, matching households on the partial-file identifier. All other years use WTFA_A. Pooled weights were divided by seven so that weighted totals represent an average annual population; no total is presented as a count of unique survivors across years.
+Annual estimates retain the full 2020 Sample Adult file, including follow-back respondents, with the annual weight WTFA_A. Pooled estimates retain only the 2020 records that link to the partial file and use the partial-sample weight WTSA_P, matching households on the partial-file identifier. All other years use WTFA_A. Pooled weights were divided by seven so that weighted totals represent an average annual population.
 
 Survey designs were specified on the full adult files using the published stratum (PSTRAT) and primary sampling unit (PPSU) identifiers, which NCHS instructs users to combine across years without modification for 2019 onward. Domain estimation for stroke survivors retained the full design, so variance estimates account for the fact that the stroke domain is a subset of each sampling unit.
 
@@ -60,21 +60,21 @@ Response codes 1 and 2 indicate "yes" and "no." Refused, not ascertained, don't 
 
 
 
-For the individual coverage indicators, codes 1 and 2 both indicate coverage and code 3 indicates no coverage; the uninsured variable NOTCOV_A codes 1 as not covered and 2 as covered. The insurance hierarchy assigned private coverage first among covered respondents, then public coverage without private coverage, then military coverage only when every other listed coverage type was explicitly absent. Ambiguous coverage patterns were set to missing. Private coverage may coexist with public or military coverage, and public-without-private coverage may coexist with military coverage; military-only status is therefore deliberately narrow.
+For the individual coverage indicators, codes 1 and 2 both indicate coverage and code 3 indicates no coverage; the uninsured variable NOTCOV_A codes 1 as not covered and 2 as covered. The insurance hierarchy assigned private coverage first among covered respondents, then public coverage without private coverage, then military coverage only when every other listed coverage type was explicitly absent. Ambiguous coverage patterns were set to missing. Private coverage can coexist with public or military coverage, and public-without-private coverage can coexist with military coverage.
 
-Income used the categorical poverty-ratio variable RATCAT_A rather than the rounded continuous ratio. Categories 1–3 correspond to below 100% of the federal poverty level (FPL), 4–7 to 100%–199%, 8–11 to 200%–399%, and 12–14 to 400% or higher. The imputation index is named IMPNUM in 2019–2020 and IMPNUM_A thereafter. All ten annual imputations were linked by year, household, and index, with assertions of unique keys and complete matching. In descriptive tables the income point estimate is the mean of the ten completed-data weighted percentages, and unweighted income counts are averages over imputations, which is why they may be fractional.
+Income used the categorical poverty-ratio variable RATCAT_A rather than the rounded continuous ratio. Categories 1–3 correspond to below 100% of the federal poverty level (FPL), 4–7 to 100%–199%, 8–11 to 200%–399%, and 12–14 to 400% or higher. The imputation index is named IMPNUM in 2019–2020 and IMPNUM_A thereafter. All ten annual imputations were linked by year, household, and index, with assertions of unique keys and complete matching. In descriptive tables the income point estimate is the mean of the ten completed-data weighted percentages, and unweighted income counts are averages over imputations.
 
 ### Estimands and models
 
-The primary descriptive estimand is the survey-weighted prevalence of any cost-related barrier among noninstitutionalized adults reporting prior stroke with a classifiable outcome. Adjusted prevalence ratios condition on the stated covariate set and are descriptive associations, not causal effects, incidence ratios, or recurrence estimates. Model 1 adjusts for categorical year, an age spline, sex, race and Hispanic origin, and region. Model 2 adds education, income, and insurance. Model 3 adds hypertension, diabetes, coronary heart disease, smoking, self-rated health, and disability. All three models use the same 6,777 records. The age-group model sequence substitutes a working-age indicator for the age spline.
+The primary descriptive estimand is the survey-weighted prevalence of any cost-related barrier among noninstitutionalized adults reporting prior stroke with a classifiable outcome. Adjusted prevalence ratios condition on the stated covariate set. Model 1 adjusts for categorical year, an age spline, sex, race and Hispanic origin, and region. Model 2 adds education, income, and insurance. Model 3 adds hypertension, diabetes, coronary heart disease, smoking, self-rated health, and disability. All three models use the same 6,777 records. The age-group model sequence substitutes a working-age indicator for the age spline.
 
-For each model, coefficients were averaged over the ten imputations. The total covariance equals the mean within-imputation survey covariance plus 1.1 times the between-imputation covariance of the coefficients. Confidence intervals use the finite-sample degrees of freedom returned by mitools::MIcombine, supplied with the minimum residual design degrees of freedom across the ten fits. Poisson coefficients were exponentiated to obtain prevalence ratios. This procedure propagates income-imputation uncertainty; it does not impute missing outcomes or other covariates.
+For each model, coefficients were averaged over the ten imputations. The total covariance equals the mean within-imputation survey covariance plus 1.1 times the between-imputation covariance of the coefficients. Confidence intervals use the finite-sample degrees of freedom returned by mitools::MIcombine, supplied with the minimum residual design degrees of freedom across the ten fits. Poisson coefficients were exponentiated to obtain prevalence ratios. This procedure propagates income-imputation uncertainty.
 
 For standardized annual prevalence, the fitted logistic model assigned each survivor to each survey year in turn while holding other covariates fixed, and the predicted probabilities were averaged with the pooled complete-case weights. The linearized influence function includes the regression-coefficient influence multiplied by the prediction gradient and the weighted deviation of each predicted probability from its standardized mean, so the covariance incorporates uncertainty in the reference distribution and its covariance with model estimation. Imputation-specific margins and their covariance were pooled on the logit scale; the 2025-minus-2019 absolute difference was pooled on the probability scale.
 
-The bounded logistic sensitivity applied the same standardization to income, insurance, disability, and the age-group model, assigning the full analytic sample to the comparison and reference categories in turn and forming their prevalence ratio. These marginal estimands differ from conditional modified Poisson prevalence ratios and can involve extrapolation to sparsely supported covariate combinations; agreement between the two approaches is a model-sensitivity observation rather than proof of correct specification.
+The bounded logistic sensitivity applied the same standardization to income, insurance, disability, and the age-group model, assigning the full analytic sample to the comparison and reference categories in turn and forming their prevalence ratio. These are marginal estimands, distinct from the conditional modified Poisson prevalence ratios.
 
-The categorical-year and year-by-age-group tests are pooled Wald F statistics based on the selected coefficients and their Rubin total covariance, with denominator degrees of freedom equal to the minimum scalar pooled degrees of freedom among those coefficients. This is an approximate multivariate multiple-imputation test; because the missing-information fractions for the year terms were small, it provides a practical summary, and the estimates and intervals remain the primary description of annual variation.
+The categorical-year and year-by-age-group tests are pooled Wald F statistics based on the selected coefficients and their Rubin total covariance, with denominator degrees of freedom equal to the minimum scalar pooled degrees of freedom among those coefficients. Missing-information fractions for the year terms were small.
 
 ### Confidence intervals and precision screen
 
@@ -86,7 +86,7 @@ Following NCHS data presentation standards,[11] a proportion was flagged when it
 
 Component-outcome models used the primary-model complete-covariate population restricted to observed values of the component, so their denominators differ from the broader component prevalence denominators. The no-disability model omits the disability term. The working-age model retains a continuous age spline within ages 18–64 years. The no-2020 model removes 2020 records and the corresponding year level. The missing-category analysis retains all 7,104 observed primary outcomes and includes explicit unknown levels for incomplete nonincome covariates.
 
-All 160 modified Poisson fits and all 20 bounded logistic fits converged. The fully adjusted modified Poisson model produced 14–16 fitted values above one per imputation, with a maximum of approximately 1.9; these are reported as diagnostics and were not interpreted as individual probabilities. Independent verification in Python reconstructed 12 annual and pooled primary estimates and their Taylor standard errors directly from the source files, reproduced the first-imputation fully adjusted model from the exported design matrix (maximum absolute coefficient discrepancy below 3×10^-13; maximum covariance discrepancy below 3×10^-9), and checked Rubin-pooled means and standard errors for all 16 model specifications.
+All 160 modified Poisson fits and all 20 bounded logistic fits converged. The fully adjusted modified Poisson model produced 14–16 fitted values above one per imputation, with a maximum of approximately 1.9. Independent verification in Python reconstructed 12 annual and pooled primary estimates and their Taylor standard errors directly from the source files, reproduced the first-imputation fully adjusted model from the exported design matrix (maximum absolute coefficient discrepancy below 3×10^-13; maximum covariance discrepancy below 3×10^-9), and checked Rubin-pooled means and standard errors for all 16 model specifications.
 
 ### Analytic decisions
 
@@ -96,7 +96,7 @@ Employment status was not included because it overlaps strongly with age and dis
 
 ![Figure S1](figures/figureS1_cohort_flow.png)
 
-**Figure S1. Selection of the annual and pooled analytic samples.** Annual and pooled samples apply different inclusion and weighting rules for 2020. The 7,555 annual stroke records include the full 2020 sample; the 7,181 pooled stroke records exclude the 2020 follow-back respondents and use the partial-sample weights. Adjusted models additionally require an observed outcome and complete nonincome covariates. Counts are records, not unique persons across years.
+**Figure S1. Selection of the annual and pooled analytic samples.** Annual and pooled samples apply different inclusion and weighting rules for 2020. The 7,555 annual stroke records include the full 2020 sample; the 7,181 pooled stroke records exclude the 2020 follow-back respondents and use the partial-sample weights. Adjusted models additionally require an observed outcome and complete nonincome covariates.
 
 ## Supplemental Tables
 
@@ -132,7 +132,7 @@ Annual stroke records total 7,555; pooled stroke records total 7,181. The differ
 | Smoking | 253 | 3.52 |
 | Disability | 0 | 0.00 |
 
-Denominator is 7,181 stroke records. Missingness overlaps across variables; the counts must not be summed to derive complete cases. Among records with observed primary outcomes, 327 had at least one missing adjustment variable.
+Denominator is 7,181 stroke records. Missingness overlaps across variables. Among records with observed primary outcomes, 327 had at least one missing adjustment variable.
 
 ### Table S5. Complete characteristics of the pooled sample, overall and by cost-related barrier status
 
@@ -257,7 +257,7 @@ Income counts are averages across ten imputations. The unknown-insurance subgrou
 | Fair/poor vs good or better health | 1.58 (1.37–1.82) | <0.001 |
 | Disability vs none | 1.19 (1.05–1.35) | 0.006 |
 
-The model includes an age spline with 3 degrees of freedom. Spline basis coefficients and the intercept are retained in the accompanying results files; they do not individually represent clinical group contrasts. No multiplicity correction was applied. Sparse race and military-coverage contrasts require caution.
+The model includes an age spline with 3 degrees of freedom. Spline basis coefficients and the intercept are provided in the public repository. No multiplicity correction was applied.
 
 ### Table S9. Selected prevalence ratios in sensitivity analyses
 
@@ -273,7 +273,7 @@ The model includes an age spline with 3 degrees of freedom. Spline basis coeffic
 | Medication underuse | 6,449 | 2.85 (2.01–4.03) | 1.74 (1.32–2.31) | 1.23 (1.03–1.48) |
 | Unknown-category diagnostic | 7,104 | 2.45 (1.91–3.14) | 1.85 (1.55–2.21) | 1.16 (1.03–1.31) |
 
-Values are PRs (95% CIs) from the corresponding fully adjusted model. No-disability models omit the disability term. The complete coefficient sets, including all income categories, are provided in the public repository. Working-age disability estimates are compatible with no association. Outcome-specific model denominators differ from Table S6 because they require complete adjustment variables.
+Values are PRs (95% CIs) from the corresponding fully adjusted model. No-disability models omit the disability term. The complete coefficient sets, including all income categories, are provided in the public repository. Outcome-specific model denominators differ from Table S6 because they require complete adjustment variables.
 
 ### Table S10. Standardized prevalence ratios from bounded logistic models
 
@@ -288,7 +288,7 @@ Values are PRs (95% CIs) from the corresponding fully adjusted model. No-disabil
 | With disability vs Without disability | 1.18 (1.04–1.33) | 16.7 | 19.6 |
 | Age 18–64 years vs Age 65 years or older | 2.13 (1.86–2.44) | 12.0 | 25.5 |
 
-Logistic predictions remain between zero and one. Marginal PRs are pooled on the log scale; displayed prevalences are arithmetic means of imputation-specific margins, so their displayed ratio may differ slightly from the pooled PR. The age contrast uses the age-group model. These standardized estimates have a different estimand from conditional modified Poisson PRs.
+Logistic predictions remain between zero and one. Marginal PRs are pooled on the log scale; displayed prevalences are arithmetic means of imputation-specific margins, so their displayed ratio may differ slightly from the pooled PR. The age contrast uses the age-group model.
 
 ### Table S11. Convergence and fitted-value diagnostics for the modified Poisson models
 
@@ -311,7 +311,7 @@ Logistic predictions remain between zero and one. Marginal PRs are pooled on the
 | Medication underuse | 6,449 | 598 | 5–6 | 1.709 | All converged |
 | Unknown-category diagnostic | 7,104 | 1,184 | 16–19 | 1.891 | All converged |
 
-Ten fits per specification (one per income imputation). Fitted log-link values above one are not interpreted as individual probabilities. The bounded logistic sensitivity (Table S10) supports the major associations. Age-group models replace the age spline with an age-group indicator.
+Ten fits per specification (one per income imputation). The bounded logistic models (Table S10) give similar associations. Age-group models replace the age spline with an age-group indicator.
 
 
 
