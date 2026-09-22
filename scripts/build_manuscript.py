@@ -186,6 +186,8 @@ def write_docx(markdown,path,body_spacing=2.0,line_numbers=False,figure_width=6.
         rpr=style.element.get_or_add_rPr();rf=rpr.find(qn('w:rFonts'))
         if rf is None:rf=OxmlElement('w:rFonts');rpr.append(rf)
         for attr in ['w:ascii','w:hAnsi','w:eastAsia','w:cs']:rf.set(qn(attr),'Times New Roman')
+        for attr in ['w:asciiTheme','w:hAnsiTheme','w:eastAsiaTheme','w:cstheme']:
+            if rf.get(qn(attr)) is not None:del rf.attrib[qn(attr)]
     normal=doc.styles['Normal'];normal.font.size=Pt(12);normal.paragraph_format.line_spacing=body_spacing;normal.paragraph_format.space_after=Pt(0)
     title=doc.styles['Title'];title.font.size=Pt(14);title.font.bold=True;title.paragraph_format.alignment=WD_ALIGN_PARAGRAPH.CENTER;title.paragraph_format.space_after=Pt(12);title.paragraph_format.line_spacing=1.15
     tpr=title.element.get_or_add_pPr();bdr=tpr.find(qn('w:pBdr'))

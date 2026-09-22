@@ -22,7 +22,6 @@ G. Blake Pierpoint, BS
 Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University
 700 West Olney Road, Norfolk, VA 23507, USA
 pierpogb@odu.edu
-
 On behalf of Alberto E. Musto, MD, PhD
 
 ## Key points

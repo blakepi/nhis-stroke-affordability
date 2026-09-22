@@ -1,5 +1,5 @@
 ﻿path,absolute_path,role,bytes,included_in_zip
-.gitignore,C:\Users\gbp34\Documents\ChatGPT\Stroke\.gitignore,Project documentation or entrypoint,154,True
+.gitignore,C:\Users\gbp34\Documents\ChatGPT\Stroke\.gitignore,Project documentation or entrypoint,174,True
 .zenodo.json,C:\Users\gbp34\Documents\ChatGPT\Stroke\.zenodo.json,Project documentation or entrypoint,1772,True
 CITATION.cff,C:\Users\gbp34\Documents\ChatGPT\Stroke\CITATION.cff,Project documentation or entrypoint,1029,True
 data/documentation/2019/adult-codebook.fast.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\documentation\2019\adult-codebook.fast.txt,Reviewed source documentation or searchable extract,610847,False
@@ -102,9 +102,10 @@ HANDOFF.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\HANDOFF.md,Project documentat
 LICENSE,C:\Users\gbp34\Documents\ChatGPT\Stroke\LICENSE,Project documentation or entrypoint,1245,True
 LITERATURE_NOTES.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\LITERATURE_NOTES.md,Project documentation or entrypoint,3996,True
 manuscript/AUTHOR_INFORMATION.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\AUTHOR_INFORMATION.md,"Manuscript, source text or supporting writing",2167,True
-manuscript/draft_source.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\draft_source.md,"Manuscript, source text or supporting writing",23425,True
-manuscript/EDITORIAL_MATERIAL.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\EDITORIAL_MATERIAL.md,"Manuscript, source text or supporting writing",4451,True
-manuscript/figures/figure1_annual_prevalence.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure1_annual_prevalence.pdf,Scientific figure,36252,True
+manuscript/cover_letter.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\cover_letter.docx,"Manuscript, source text or supporting writing",37988,True
+manuscript/draft_source.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\draft_source.md,"Manuscript, source text or supporting writing",23454,True
+manuscript/EDITORIAL_MATERIAL.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\EDITORIAL_MATERIAL.md,"Manuscript, source text or supporting writing",4449,True
+manuscript/figures/figure1_annual_prevalence.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure1_annual_prevalence.pdf,Scientific figure,36253,True
 manuscript/figures/figure1_annual_prevalence.png,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure1_annual_prevalence.png,Scientific figure,221306,True
 manuscript/figures/figure1_annual_prevalence.tiff,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure1_annual_prevalence.tiff,Scientific figure,253940,True
 manuscript/figures/figure2_adjusted_associations.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure2_adjusted_associations.pdf,Scientific figure,46343,True
@@ -115,14 +116,14 @@ manuscript/figures/figureS1_cohort_flow.png,C:\Users\gbp34\Documents\ChatGPT\Str
 manuscript/figures/figureS1_cohort_flow.tiff,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figureS1_cohort_flow.tiff,Scientific figure,179314,True
 manuscript/figures/graphic_abstract.jpg,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\graphic_abstract.jpg,Scientific figure,1434620,True
 manuscript/figures/graphic_abstract.png,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\graphic_abstract.png,Scientific figure,117733,True
-manuscript/manuscript.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.docx,"Manuscript, source text or supporting writing",408959,True
-manuscript/manuscript.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.md,"Manuscript, source text or supporting writing",33326,True
-manuscript/manuscript.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.pdf,"Manuscript, source text or supporting writing",625892,True
+manuscript/manuscript.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.docx,"Manuscript, source text or supporting writing",408944,True
+manuscript/manuscript.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.md,"Manuscript, source text or supporting writing",33355,True
+manuscript/manuscript.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.pdf,"Manuscript, source text or supporting writing",517669,True
 manuscript/references.json,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\references.json,"Manuscript, source text or supporting writing",6402,True
 manuscript/references.ris,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\references.ris,"Manuscript, source text or supporting writing",5369,True
-manuscript/supplement.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement.docx,"Manuscript, source text or supporting writing",165683,True
+manuscript/supplement.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement.docx,"Manuscript, source text or supporting writing",165672,True
 manuscript/supplement.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement.md,"Manuscript, source text or supporting writing",27101,True
-manuscript/supplement.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement.pdf,"Manuscript, source text or supporting writing",453404,True
+manuscript/supplement.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement.pdf,"Manuscript, source text or supporting writing",361268,True
 manuscript/supplement_source.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement_source.md,"Manuscript, source text or supporting writing",10071,True
 manuscript/tables/table1.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\table1.csv,Editable formatted table,1386,True
 manuscript/tables/table2.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\table2.csv,Editable formatted table,508,True
@@ -183,13 +184,14 @@ outputs/validation.json,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\validati
 README.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\README.md,Project documentation or entrypoint,5530,True
 requirements.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\requirements.txt,Project documentation or entrypoint,66,True
 run.ps1,C:\Users\gbp34\Documents\ChatGPT\Stroke\run.ps1,Project documentation or entrypoint,1270,True
-run_full.ps1,C:\Users\gbp34\Documents\ChatGPT\Stroke\run_full.ps1,Project documentation or entrypoint,1705,True
+run_full.ps1,C:\Users\gbp34\Documents\ChatGPT\Stroke\run_full.ps1,Project documentation or entrypoint,1753,True
 scripts/acquire.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\acquire.py,"Acquisition, analysis, verification or writing code",4958,True
 scripts/acquire_income_docs.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\acquire_income_docs.py,"Acquisition, analysis, verification or writing code",944,True
 scripts/acquire_partial.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\acquire_partial.py,"Acquisition, analysis, verification or writing code",592,True
 scripts/analyze.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\analyze.R,"Acquisition, analysis, verification or writing code",10255,True
 scripts/build_handoff.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\build_handoff.py,"Acquisition, analysis, verification or writing code",11529,True
-scripts/build_manuscript.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\build_manuscript.py,"Acquisition, analysis, verification or writing code",31584,True
+scripts/build_manuscript.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\build_manuscript.py,"Acquisition, analysis, verification or writing code",31737,True
+scripts/build_submission.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\build_submission.py,"Acquisition, analysis, verification or writing code",2608,True
 scripts/check_manuscript.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\check_manuscript.py,"Acquisition, analysis, verification or writing code",4930,True
 scripts/extend_covariate_crosswalk.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\extend_covariate_crosswalk.py,"Acquisition, analysis, verification or writing code",1815,True
 scripts/extract_crosswalk.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\extract_crosswalk.py,"Acquisition, analysis, verification or writing code",3236,True
@@ -205,4 +207,13 @@ scripts/prepare_full_data.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\prep
 scripts/validate.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\validate.py,"Acquisition, analysis, verification or writing code",5102,True
 scripts/validate_full.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\validate_full.py,"Acquisition, analysis, verification or writing code",3876,True
 STUDY_PROTOCOL.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\STUDY_PROTOCOL.md,Project documentation or entrypoint,5750,True
+submission_package/cover_letter.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\submission_package\cover_letter.docx,Project documentation or entrypoint,37988,False
+submission_package/figures/figure1_annual_prevalence.tiff,C:\Users\gbp34\Documents\ChatGPT\Stroke\submission_package\figures\figure1_annual_prevalence.tiff,Project documentation or entrypoint,253940,False
+submission_package/figures/figure2_adjusted_associations.tiff,C:\Users\gbp34\Documents\ChatGPT\Stroke\submission_package\figures\figure2_adjusted_associations.tiff,Project documentation or entrypoint,204190,False
+submission_package/figures/graphic_abstract.jpg,C:\Users\gbp34\Documents\ChatGPT\Stroke\submission_package\figures\graphic_abstract.jpg,Project documentation or entrypoint,1434620,False
+submission_package/manuscript.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\submission_package\manuscript.docx,Project documentation or entrypoint,408944,False
+submission_package/manuscript.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\submission_package\manuscript.pdf,Project documentation or entrypoint,517669,False
+submission_package/README.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\submission_package\README.txt,Project documentation or entrypoint,518,False
+submission_package/supplement.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\submission_package\supplement.docx,Project documentation or entrypoint,165672,False
+submission_package/supplement.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\submission_package\supplement.pdf,Project documentation or entrypoint,361268,False
 EXTERNAL_REFERENCE,C:/Users/gbp34/Downloads/deep-research-report (7).md,User planning attachment materially reviewed; not modified or included,,False
