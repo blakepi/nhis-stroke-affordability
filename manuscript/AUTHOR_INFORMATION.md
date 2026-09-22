@@ -11,7 +11,7 @@ Also confirmed by the authors on 18 September 2026:
 
 - No institutional review requirement; the Ethics statement says so.
 - No acknowledgments; the Acknowledgments item was removed.
-- Code and results are public at https://github.com/blakepi/nhis-stroke-affordability (release v1.1.0), cited in the Data and code availability statement.
+- Code and results are public at https://github.com/blakepi/nhis-stroke-affordability (release v1.2.0), cited in the Data and code availability statement.
 
 Target journal: *Stroke* (AHA), Original Contribution. The package follows the Stroke author instructions. Still needed from the authors: academic degrees for the title page and the complete postal address of the corresponding author, both required by AHA title-page rules. No journal submission has been performed.
 

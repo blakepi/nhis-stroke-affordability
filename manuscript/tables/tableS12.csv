@@ -3,15 +3,15 @@
 2–3,Introduction,"Background, prior studies and objectives stated."
 4–5,Methods / Study design,"Repeated cross-sectional design, public NHIS setting and 2019–2025 period."
 6,Methods / Population; Figure S1,"Eligibility, stroke definition, age exclusion, annual vs pooled selection."
-7–8,Methods / Outcomes and covariates,"Definitions, universes and cross-year source verification; crosswalk files included."
+7–8,Methods / Outcomes and covariates; Tables S1–S2,"Definitions, universes and cross-year source verification; crosswalk files included."
 9,Discussion / Limitations,"Self-report, nonresponse, institutional exclusion, confounding and missingness addressed."
 10,Methods / Population,All eligible records in the selected years; no formal power-based sample selection.
 11,Methods / Covariates,Age spline and categorical income/education definitions given.
-12,Methods / Analysis; Supplementary Methods,"Survey weighting, MI, missingness, interaction and sensitivity procedures."
-13,Results / Sample; Table S1; Figure S1,Counts and reasons for exclusions; different annual and pooled paths.
-14,Table 1; Tables S2–S3,Characteristics and missingness; income counts averaged across imputations.
-15,Table 2; Tables S4 and S8,"Outcome counts and annual, component and subgroup estimates."
-16,Table 3; Table S5; Results,"Adjusted PRs, covariate sets, precision and absolute annual difference."
-17,Sensitivity Results; Tables S6–S9,Sensitivity estimates and model diagnostics.
+12,Methods / Statistical analysis; Supplemental Methods,"Survey weighting, MI, missingness, interaction and sensitivity procedures."
+13,Results / Study population; Table S3; Figure S1,Counts and reasons for exclusions; different annual and pooled paths.
+14,Table 1; Tables S4–S5,Characteristics and missingness; income counts averaged across imputations.
+15,Table 2; Tables S6–S7,"Outcome counts and annual, component and subgroup estimates."
+16,Table 3; Table S8; Results,"Adjusted PRs, covariate sets, precision and absolute annual difference."
+17,Results / Sensitivity analyses; Tables S9–S11,Sensitivity estimates and model diagnostics.
 18–21,Discussion and Conclusions,"Key results, limitations, cautious interpretation and generalizability."
 22,Declarations,No external funding is reported.

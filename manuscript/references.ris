@@ -88,7 +88,7 @@ ER  -
 
 TY  - JOUR
 ID  - 6
-TI  - Cost-related medication nonadherence among adults with stroke in the United States: insight from the 2020-2023 National Health Interview Survey
+TI  - Cost-related medication nonadherence among adults with stroke in the United States: insight from the 2020–2023 National Health Interview Survey
 PY  - 2026
 AU  - Ansong R
 AU  - Kyei G
@@ -152,7 +152,7 @@ AU  - Parker JD
 AU  - Talih M
 AU  - Malec DJ
 JO  - Vital and Health Statistics Series 2
-IS  - 175
+VL  - 175
 SP  - 1-22
 UR  - https://www.cdc.gov/nchs/data/series/sr_02/sr02_175.pdf
 ER  -
@@ -194,7 +194,7 @@ ER  -
 
 TY  - JOUR
 ID  - 15
-TI  - The Strengthening the Reporting of Observational Studies in Epidemiology Statement Guidelines for Reporting Observational Studies
+TI  - The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies
 PY  - 2007
 AU  - von Elm E
 AU  - Altman DG
@@ -202,7 +202,6 @@ AU  - Egger M
 AU  - Pocock SJ
 AU  - Gøtzsche PC
 AU  - Vandenbroucke JP
-AU  - STROBE Initiative
 JO  - PLoS Medicine
 VL  - 4
 IS  - 10

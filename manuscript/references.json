@@ -102,7 +102,7 @@
    "Abubakari M",
    "Kyei E"
   ],
-  "title": "Cost-related medication nonadherence among adults with stroke in the United States: insight from the 2020-2023 National Health Interview Survey",
+  "title": "Cost-related medication nonadherence among adults with stroke in the United States: insight from the 2020–2023 National Health Interview Survey",
   "journal": "Journal of Racial and Ethnic Health Disparities",
   "year": 2026,
   "doi": "10.1007/s40615-026-02863-w",
@@ -170,9 +170,9 @@
   "title": "National Center for Health Statistics Data Presentation Standards for Proportions",
   "journal": "Vital and Health Statistics Series 2",
   "year": 2017,
-  "issue": "175",
   "pages": "1-22",
-  "url": "https://www.cdc.gov/nchs/data/series/sr_02/sr02_175.pdf"
+  "url": "https://www.cdc.gov/nchs/data/series/sr_02/sr02_175.pdf",
+  "volume": "175"
  },
  {
   "id": 12,
@@ -220,16 +220,16 @@
    "Egger M",
    "Pocock SJ",
    "Gøtzsche PC",
-   "Vandenbroucke JP",
-   "STROBE Initiative"
+   "Vandenbroucke JP"
   ],
-  "title": "The Strengthening the Reporting of Observational Studies in Epidemiology Statement Guidelines for Reporting Observational Studies",
+  "title": "The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies",
   "journal": "PLoS Medicine",
   "year": 2007,
   "volume": "4",
   "issue": "10",
   "pages": "e296",
   "doi": "10.1371/journal.pmed.0040296",
-  "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0040296"
+  "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0040296",
+  "group": "STROBE Initiative"
  }
 ]

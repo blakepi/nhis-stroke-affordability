@@ -98,47 +98,47 @@ data/raw/2024/adult24csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\20
 data/raw/2024/adultinc24csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2024\adultinc24csv.zip,Unchanged public CDC microdata ZIP; retained locally,1100177,False
 data/raw/2025/adult25csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2025\adult25csv.zip,Unchanged public CDC microdata ZIP; retained locally,3579199,False
 data/raw/2025/adultinc25csv.zip,C:\Users\gbp34\Documents\ChatGPT\Stroke\data\raw\2025\adultinc25csv.zip,Unchanged public CDC microdata ZIP; retained locally,808371,False
-HANDOFF.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\HANDOFF.md,Project documentation or entrypoint,9162,True
+HANDOFF.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\HANDOFF.md,Project documentation or entrypoint,9963,True
 LICENSE,C:\Users\gbp34\Documents\ChatGPT\Stroke\LICENSE,Project documentation or entrypoint,1245,True
 LITERATURE_NOTES.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\LITERATURE_NOTES.md,Project documentation or entrypoint,3996,True
-manuscript/AUTHOR_INFORMATION.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\AUTHOR_INFORMATION.md,"Manuscript, source text or supporting writing",1992,True
-manuscript/draft_source.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\draft_source.md,"Manuscript, source text or supporting writing",25386,True
+manuscript/AUTHOR_INFORMATION.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\AUTHOR_INFORMATION.md,"Manuscript, source text or supporting writing",2180,True
+manuscript/draft_source.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\draft_source.md,"Manuscript, source text or supporting writing",25667,True
 manuscript/EDITORIAL_MATERIAL.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\EDITORIAL_MATERIAL.md,"Manuscript, source text or supporting writing",4715,True
-manuscript/figures/figure1_annual_prevalence.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure1_annual_prevalence.pdf,Scientific figure,35680,True
+manuscript/figures/figure1_annual_prevalence.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure1_annual_prevalence.pdf,Scientific figure,35681,True
 manuscript/figures/figure1_annual_prevalence.png,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure1_annual_prevalence.png,Scientific figure,156898,True
 manuscript/figures/figure1_annual_prevalence.tiff,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure1_annual_prevalence.tiff,Scientific figure,180910,True
 manuscript/figures/figure2_adjusted_associations.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure2_adjusted_associations.pdf,Scientific figure,46343,True
 manuscript/figures/figure2_adjusted_associations.png,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure2_adjusted_associations.png,Scientific figure,184224,True
 manuscript/figures/figure2_adjusted_associations.tiff,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure2_adjusted_associations.tiff,Scientific figure,204190,True
-manuscript/figures/figureS1_cohort_flow.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figureS1_cohort_flow.pdf,Scientific figure,40392,True
+manuscript/figures/figureS1_cohort_flow.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figureS1_cohort_flow.pdf,Scientific figure,40391,True
 manuscript/figures/figureS1_cohort_flow.png,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figureS1_cohort_flow.png,Scientific figure,132812,True
 manuscript/figures/figureS1_cohort_flow.tiff,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figureS1_cohort_flow.tiff,Scientific figure,179314,True
 manuscript/figures/graphic_abstract.jpg,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\graphic_abstract.jpg,Scientific figure,1434620,True
 manuscript/figures/graphic_abstract.png,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\graphic_abstract.png,Scientific figure,117733,True
-manuscript/manuscript.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.docx,"Manuscript, source text or supporting writing",357673,True
-manuscript/manuscript.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.md,"Manuscript, source text or supporting writing",35292,True
-manuscript/manuscript.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.pdf,"Manuscript, source text or supporting writing",564547,True
-manuscript/references.json,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\references.json,"Manuscript, source text or supporting writing",6381,True
-manuscript/references.ris,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\references.ris,"Manuscript, source text or supporting writing",5382,True
-manuscript/supplement.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement.docx,"Manuscript, source text or supporting writing",166269,True
-manuscript/supplement.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement.md,"Manuscript, source text or supporting writing",27936,True
-manuscript/supplement.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement.pdf,"Manuscript, source text or supporting writing",455131,True
-manuscript/supplement_source.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement_source.md,"Manuscript, source text or supporting writing",10877,True
-manuscript/tables/definitions_covariates.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\definitions_covariates.csv,Editable formatted table,781,True
-manuscript/tables/definitions_outcomes.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\definitions_outcomes.csv,Editable formatted table,496,True
-manuscript/tables/STROBE_checklist.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\STROBE_checklist.csv,Editable formatted table,1647,True
+manuscript/manuscript.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.docx,"Manuscript, source text or supporting writing",357780,True
+manuscript/manuscript.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.md,"Manuscript, source text or supporting writing",35565,True
+manuscript/manuscript.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.pdf,"Manuscript, source text or supporting writing",564484,True
+manuscript/references.json,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\references.json,"Manuscript, source text or supporting writing",6402,True
+manuscript/references.ris,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\references.ris,"Manuscript, source text or supporting writing",5369,True
+manuscript/supplement.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement.docx,"Manuscript, source text or supporting writing",166245,True
+manuscript/supplement.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement.md,"Manuscript, source text or supporting writing",28368,True
+manuscript/supplement.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement.pdf,"Manuscript, source text or supporting writing",454703,True
+manuscript/supplement_source.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement_source.md,"Manuscript, source text or supporting writing",10895,True
 manuscript/tables/table1.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\table1.csv,Editable formatted table,1386,True
 manuscript/tables/table2.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\table2.csv,Editable formatted table,508,True
 manuscript/tables/table3.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\table3.csv,Editable formatted table,1308,True
-manuscript/tables/tableS1.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS1.csv,Editable formatted table,301,True
-manuscript/tables/tableS2.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS2.csv,Editable formatted table,256,True
-manuscript/tables/tableS3.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS3.csv,Editable formatted table,2792,True
-manuscript/tables/tableS4.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS4.csv,Editable formatted table,403,True
-manuscript/tables/tableS5.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS5.csv,Editable formatted table,1774,True
-manuscript/tables/tableS6.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS6.csv,Editable formatted table,856,True
-manuscript/tables/tableS7.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS7.csv,Editable formatted table,689,True
-manuscript/tables/tableS8.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS8.csv,Editable formatted table,630,True
-manuscript/tables/tableS9.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS9.csv,Editable formatted table,819,True
+manuscript/tables/tableS1.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS1.csv,Editable formatted table,496,True
+manuscript/tables/tableS10.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS10.csv,Editable formatted table,689,True
+manuscript/tables/tableS11.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS11.csv,Editable formatted table,1054,True
+manuscript/tables/tableS12.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS12.csv,Editable formatted table,1694,True
+manuscript/tables/tableS2.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS2.csv,Editable formatted table,781,True
+manuscript/tables/tableS3.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS3.csv,Editable formatted table,396,True
+manuscript/tables/tableS4.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS4.csv,Editable formatted table,335,True
+manuscript/tables/tableS5.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS5.csv,Editable formatted table,2792,True
+manuscript/tables/tableS6.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS6.csv,Editable formatted table,435,True
+manuscript/tables/tableS7.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS7.csv,Editable formatted table,642,True
+manuscript/tables/tableS8.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS8.csv,Editable formatted table,1774,True
+manuscript/tables/tableS9.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\tables\tableS9.csv,Editable formatted table,856,True
 outputs/annual_prevalence.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\annual_prevalence.csv,Launch output or shared provenance; see HANDOFF for current status,9857,True
 outputs/annual_prevalence.png,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\annual_prevalence.png,Launch output or shared provenance; see HANDOFF for current status,79175,False
 outputs/codebook_excerpts.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\codebook_excerpts.md,Launch output or shared provenance; see HANDOFF for current status,125712,True
@@ -180,7 +180,7 @@ outputs/R_session_info.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\R_ses
 outputs/raw_response_counts.csv,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\raw_response_counts.csv,Launch output or shared provenance; see HANDOFF for current status,6173,False
 outputs/source_manifest.json,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\source_manifest.json,Launch output or shared provenance; see HANDOFF for current status,13994,True
 outputs/validation.json,C:\Users\gbp34\Documents\ChatGPT\Stroke\outputs\validation.json,Launch output or shared provenance; see HANDOFF for current status,2495,True
-README.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\README.md,Project documentation or entrypoint,5267,True
+README.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\README.md,Project documentation or entrypoint,5530,True
 requirements.txt,C:\Users\gbp34\Documents\ChatGPT\Stroke\requirements.txt,Project documentation or entrypoint,66,True
 run.ps1,C:\Users\gbp34\Documents\ChatGPT\Stroke\run.ps1,Project documentation or entrypoint,1270,True
 run_full.ps1,C:\Users\gbp34\Documents\ChatGPT\Stroke\run_full.ps1,Project documentation or entrypoint,1705,True
@@ -189,7 +189,7 @@ scripts/acquire_income_docs.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\a
 scripts/acquire_partial.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\acquire_partial.py,"Acquisition, analysis, verification or writing code",592,True
 scripts/analyze.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\analyze.R,"Acquisition, analysis, verification or writing code",10255,True
 scripts/build_handoff.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\build_handoff.py,"Acquisition, analysis, verification or writing code",11529,True
-scripts/build_manuscript.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\build_manuscript.py,"Acquisition, analysis, verification or writing code",30930,True
+scripts/build_manuscript.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\build_manuscript.py,"Acquisition, analysis, verification or writing code",32027,True
 scripts/check_manuscript.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\check_manuscript.py,"Acquisition, analysis, verification or writing code",4930,True
 scripts/extend_covariate_crosswalk.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\extend_covariate_crosswalk.py,"Acquisition, analysis, verification or writing code",1815,True
 scripts/extract_crosswalk.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\extract_crosswalk.py,"Acquisition, analysis, verification or writing code",3236,True

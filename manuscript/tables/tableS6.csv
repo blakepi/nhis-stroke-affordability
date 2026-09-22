@@ -1,10 +1,7 @@
-﻿Analysis,No.,Income 100–199% vs ≥400% FPL,Uninsured vs private,Disability vs none
-Exclude 2020,"6,124",2.59 (2.00–3.36),1.82 (1.49–2.21),1.18 (1.04–1.34)
-Age 18–64 only,"2,231",2.33 (1.67–3.25),1.85 (1.51–2.27),1.08 (0.92–1.27)
-No disability,"4,209",2.50 (1.79–3.47),1.80 (1.42–2.28),Not applicable
-Universal composite,"6,776",2.45 (1.87–3.22),2.09 (1.70–2.57),1.26 (1.10–1.45)
-Delayed medical care,"6,774",2.58 (1.76–3.79),2.69 (1.98–3.66),1.35 (1.10–1.65)
-Forgone medical care,"6,776",2.46 (1.66–3.65),2.99 (2.23–4.00),1.40 (1.15–1.71)
-Forgone prescriptions,"6,775",2.52 (1.75–3.65),2.09 (1.58–2.77),1.24 (1.04–1.49)
-Medication underuse,"6,449",2.85 (2.01–4.03),1.74 (1.32–2.31),1.23 (1.03–1.48)
-Unknown-category diagnostic,"7,104",2.45 (1.91–3.14),1.85 (1.55–2.21),1.16 (1.03–1.31)
+﻿Outcome,No. with observed outcome,No. with barrier,"Prevalence, % (95% CI)"
+Any cost-related barrier,"7,104","1,184",17.9 (16.8–19.1)
+Universal three-question composite,"7,106","1,012",15.5 (14.3–16.6)
+Delayed medical care,"7,116",554,8.5 (7.7–9.4)
+Forgone medical care,"7,115",541,8.4 (7.6–9.3)
+Forgone needed prescriptions,"7,103",647,10.0 (9.1–11.0)
+Medication underuse among users,"6,754",635,10.1 (9.2–11.1)

@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this code or these results, please cite the repository release v1.1.0."
+message: "If you use this code or these results, please cite the repository release v1.2.0."
 title: "Cost-Related Barriers to Care and Medications Among US Stroke Survivors, 2019–2025: analysis code, aggregate results and manuscript"
 type: software
 authors:
@@ -13,8 +13,8 @@ authors:
     affiliation: "Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University, Norfolk, Virginia, USA"
 repository-code: "https://github.com/blakepi/nhis-stroke-affordability"
 license: MIT
-date-released: "2026-09-18"
-version: "1.1.0"
+date-released: "2026-09-22"
+version: "1.2.0"
 keywords:
   - stroke
   - healthcare access

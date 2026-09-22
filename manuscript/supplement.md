@@ -1,12 +1,12 @@
-# Supplementary Material
+# Supplemental Material
 
 Cost-Related Barriers to Care and Medications Among US Stroke Survivors, 2019–2025
 
 G. Blake Pierpoint and Alberto E. Musto
 
-Reference numbers refer to the reference list of the main manuscript. Contents: Supplemental Methods; Figure S1; Tables S1–S12 (Table S12 is the STROBE checklist).
+Reference numbers refer to the reference list of the main manuscript. Contents: Supplemental Methods, including Tables S1 and S2; Figure S1; Tables S3–S11; STROBE checklist (Table S12).
 
-## Supplementary Methods
+## Supplemental Methods
 
 ### Data sources and harmonization
 
@@ -20,7 +20,7 @@ Survey designs were specified on the full adult files using the published stratu
 
 ### Outcome classification
 
-### Table S10. Outcome definitions and NHIS source variables
+### Table S1. Outcome definitions and NHIS source variables
 
 | Measure | NHIS variables | Universe |
 | --- | --- | --- |
@@ -40,7 +40,7 @@ Response codes 1 and 2 indicate "yes" and "no." Refused, not ascertained, don't 
 
 ### Covariate definitions
 
-### Table S11. Covariate definitions and NHIS source variables
+### Table S2. Covariate definitions and NHIS source variables
 
 | Domain | Variables | Analysis categories |
 | --- | --- | --- |
@@ -92,49 +92,49 @@ All 160 modified Poisson fits and all 20 bounded logistic fits converged. The fu
 
 Employment status was not included because it overlaps strongly with age and disability and would have required additional harmonization across years. A year-by-insurance interaction was not fit because the military-only group contributed only 109 observed records and 17 events across the seven years. No data-driven significance criterion was used to select the final model. The ten records with unknown age were excluded rather than imputed.
 
-## Supplementary Figure
+## Supplemental Figure
 
 ![Figure S1](figures/figureS1_cohort_flow.png)
 
 **Figure S1. Selection of the annual and pooled analytic samples.** Annual and pooled samples apply different inclusion and weighting rules for 2020. The 7,555 annual stroke records include the full 2020 sample; the 7,181 pooled stroke records exclude the 2020 follow-back respondents and use the partial-sample weights. Adjusted models additionally require an observed outcome and complete nonincome covariates. Counts are records, not unique persons across years.
 
-## Supplementary Tables
+## Supplemental Tables
 
-### Table S1. Annual and pooled sample counts by survey year
+### Table S3. Annual and pooled sample counts by survey year
 
-| Year | Annual stroke | Annual outcome observed | Pooled stroke | Pooled outcome observed | Pooled events |
+| Year | Annual stroke survivors | Annual, outcome observed | Pooled stroke survivors | Pooled, outcome observed | Pooled, with barrier |
 | --- | --- | --- | --- | --- | --- |
-| 2019 | 1201 | 1191 | 1201 | 1191 | 231 |
-| 2020 | 1059 | 1051 | 685 | 679 | 105 |
-| 2021 | 1010 | 1001 | 1010 | 1001 | 179 |
-| 2022 | 1008 | 999 | 1008 | 999 | 147 |
-| 2023 | 1131 | 1116 | 1131 | 1116 | 169 |
-| 2024 | 1244 | 1229 | 1244 | 1229 | 215 |
+| 2019 | 1,201 | 1,191 | 1,201 | 1,191 | 231 |
+| 2020 | 1,059 | 1,051 | 685 | 679 | 105 |
+| 2021 | 1,010 | 1,001 | 1,010 | 1,001 | 179 |
+| 2022 | 1,008 | 999 | 1,008 | 999 | 147 |
+| 2023 | 1,131 | 1,116 | 1,131 | 1,116 | 169 |
+| 2024 | 1,244 | 1,229 | 1,244 | 1,229 | 215 |
 | 2025 | 902 | 889 | 902 | 889 | 138 |
 
 Annual stroke records total 7,555; pooled stroke records total 7,181. The difference comes from excluding 2020 followback records in pooled analyses. These are unweighted counts.
 
-### Table S2. Missing nonincome covariates in the pooled stroke-survivor sample
+### Table S4. Missing outcome and nonincome covariate values in the pooled stroke-survivor sample
 
-| Variable | Missing n | Missing % |
+| Variable | No. missing | Missing, % |
 | --- | --- | --- |
-| any_barrier | 77 | 1.07 |
-| age | 0 | 0.00 |
-| sex | 0 | 0.00 |
-| race | 0 | 0.00 |
-| region | 0 | 0.00 |
-| education | 35 | 0.49 |
-| insurance | 34 | 0.47 |
-| hypertension | 9 | 0.13 |
-| diabetes | 10 | 0.14 |
-| coronary | 68 | 0.95 |
-| fairpoor | 11 | 0.15 |
-| smoking | 253 | 3.52 |
-| disability | 0 | 0.00 |
+| Primary outcome (any cost-related barrier) | 77 | 1.07 |
+| Age | 0 | 0.00 |
+| Sex | 0 | 0.00 |
+| Race and Hispanic origin | 0 | 0.00 |
+| Region | 0 | 0.00 |
+| Education | 35 | 0.49 |
+| Insurance | 34 | 0.47 |
+| Hypertension | 9 | 0.13 |
+| Diabetes | 10 | 0.14 |
+| Coronary heart disease | 68 | 0.95 |
+| Self-rated health | 11 | 0.15 |
+| Smoking | 253 | 3.52 |
+| Disability | 0 | 0.00 |
 
 Denominator is 7,181 stroke records. Missingness overlaps across variables; the counts must not be summed to derive complete cases. Among records with observed primary outcomes, 327 had at least one missing adjustment variable.
 
-### Table S3. Complete characteristics of the pooled sample, overall and by cost-related barrier status
+### Table S5. Complete characteristics of the pooled sample, overall and by cost-related barrier status
 
 | Characteristic | Overall (N=7,104) | No barrier (n=5,920) | Any barrier (n=1,184) |
 | --- | --- | --- | --- |
@@ -188,20 +188,39 @@ Denominator is 7,181 stroke records. Missingness overlaps across variables; the 
 
 Values are unweighted number (survey-weighted column percentage). Income counts are averaged across the ten NCHS imputations and may be fractional. Unknown values are retained in denominators; percentages within a variable may not sum to 100 because of rounding. FPL indicates federal poverty level; NHIS, National Health Interview Survey. AIAN, American Indian or Alaska Native. The race/Hispanic-origin categories follow the published public-use recode.
 
-### Table S4. Pooled prevalence of the composite outcome and each component barrier, 2019–2025
+### Table S6. Pooled prevalence of the composite outcome and each component barrier, 2019–2025
 
 | Outcome | No. with observed outcome | No. with barrier | Prevalence, % (95% CI) |
 | --- | --- | --- | --- |
-| Any affordability barrier | 7104 | 1184 | 17.9 (16.8–19.1) |
-| Three universal questions | 7106 | 1012 | 15.5 (14.3–16.6) |
-| Delayed medical care | 7116 | 554 | 8.5 (7.7–9.4) |
-| Forgone medical care | 7115 | 541 | 8.4 (7.6–9.3) |
-| Forgone needed prescriptions | 7103 | 647 | 10.0 (9.1–11.0) |
-| Medication underuse among users | 6754 | 635 | 10.1 (9.2–11.1) |
+| Any cost-related barrier | 7,104 | 1,184 | 17.9 (16.8–19.1) |
+| Universal three-question composite | 7,106 | 1,012 | 15.5 (14.3–16.6) |
+| Delayed medical care | 7,116 | 554 | 8.5 (7.7–9.4) |
+| Forgone medical care | 7,115 | 541 | 8.4 (7.6–9.3) |
+| Forgone needed prescriptions | 7,103 | 647 | 10.0 (9.1–11.0) |
+| Medication underuse among users | 6,754 | 635 | 10.1 (9.2–11.1) |
 
 Components overlap. Medication-underuse estimates use prescription users only. Each prevalence denominator includes all stroke records with a classifiable corresponding outcome; it is not restricted to complete model covariates. All displayed estimates pass the implemented precision screen.
 
-### Table S5. Fully adjusted (Model 3) prevalence ratios for all covariates
+### Table S7. Unadjusted pooled prevalence of any cost-related barrier in principal subgroups
+
+| Subgroup | No. with observed outcome | Prevalence, % (95% CI) |
+| --- | --- | --- |
+| Age 65 years or older | 4,763 | 10.9 (9.8–12.0) |
+| Age 18–64 years | 2,341 | 28.0 (25.9–30.2) |
+| Income ≥400% FPL | 1,681.2 | 8.2 (6.7–10.0) |
+| Income 200–399% FPL | 2,133.3 | 18.0 (16.0–20.3) |
+| Income 100–199% FPL | 1,986.9 | 23.5 (21.1–26.1) |
+| Income <100% FPL | 1,302.6 | 22.5 (19.6–25.6) |
+| Private, with or without public coverage | 2,888 | 16.6 (14.9–18.4) |
+| Public without private | 3,871 | 15.8 (14.5–17.3) |
+| Military only | 109 | 18.2 (11.1–28.4) |
+| Uninsured | 207 | 58.7 (50.7–66.3) |
+| Without disability | 4,384 | 16.5 (15.1–17.9) |
+| With disability | 2,720 | 20.2 (18.4–22.1) |
+
+Income counts are averages across ten imputations. The unknown-insurance subgroup (29 records) failed the precision screen, and its prevalence is not displayed. These are unadjusted subgroup estimates.
+
+### Table S8. Fully adjusted (Model 3) prevalence ratios for all covariates
 
 | Characteristic | PR (95% CI) | P value |
 | --- | --- | --- |
@@ -238,9 +257,9 @@ Components overlap. Medication-underuse estimates use prescription users only. E
 | Fair/poor vs good or better health | 1.58 (1.37–1.82) | <0.001 |
 | Disability vs none | 1.19 (1.05–1.35) | 0.006 |
 
-The model includes an age spline with 3 degrees of freedom. Spline basis coefficients and the intercept are retained in model_coefficients.csv; they do not individually represent clinical group contrasts. No multiplicity correction was applied. Sparse race and military-coverage contrasts require caution.
+The model includes an age spline with 3 degrees of freedom. Spline basis coefficients and the intercept are retained in the accompanying results files; they do not individually represent clinical group contrasts. No multiplicity correction was applied. Sparse race and military-coverage contrasts require caution.
 
-### Table S6. Selected prevalence ratios in sensitivity analyses
+### Table S9. Selected prevalence ratios in sensitivity analyses
 
 | Analysis | No. | Income 100–199% vs ≥400% FPL | Uninsured vs private | Disability vs none |
 | --- | --- | --- | --- | --- |
@@ -254,9 +273,9 @@ The model includes an age spline with 3 degrees of freedom. Spline basis coeffic
 | Medication underuse | 6,449 | 2.85 (2.01–4.03) | 1.74 (1.32–2.31) | 1.23 (1.03–1.48) |
 | Unknown-category diagnostic | 7,104 | 2.45 (1.91–3.14) | 1.85 (1.55–2.21) | 1.16 (1.03–1.31) |
 
-Values are PRs (95% CIs) from the corresponding fully adjusted model. No-disability models omit the disability term. The complete coefficient sets, including all income categories, are supplied as CSV. Working-age disability estimates are compatible with no association. Outcome-specific model denominators differ from Table S4 because they require complete adjustment variables.
+Values are PRs (95% CIs) from the corresponding fully adjusted model. No-disability models omit the disability term. The complete coefficient sets, including all income categories, are provided in the public repository. Working-age disability estimates are compatible with no association. Outcome-specific model denominators differ from Table S6 because they require complete adjustment variables.
 
-### Table S7. Standardized prevalence ratios from bounded logistic models
+### Table S10. Standardized prevalence ratios from bounded logistic models
 
 | Contrast | Marginal PR (95% CI) | Reference % | Comparison % |
 | --- | --- | --- | --- |
@@ -271,47 +290,28 @@ Values are PRs (95% CIs) from the corresponding fully adjusted model. No-disabil
 
 Logistic predictions remain between zero and one. Marginal PRs are pooled on the log scale; displayed prevalences are arithmetic means of imputation-specific margins, so their displayed ratio may differ slightly from the pooled PR. The age contrast uses the age-group model. These standardized estimates have a different estimand from conditional modified Poisson PRs.
 
-### Table S8. Unadjusted pooled prevalence of any cost-related barrier in principal subgroups
+### Table S11. Convergence and fitted-value diagnostics for the modified Poisson models
 
-| Subgroup | No. with observed outcome | Prevalence, % (95% CI) |
-| --- | --- | --- |
-| Age 65 years or older | 4,763 | 10.9 (9.8–12.0) |
-| Age 18–64 years | 2,341 | 28.0 (25.9–30.2) |
-| Income ≥400% FPL | 1681.2 | 8.2 (6.7–10.0) |
-| Income 200–399% FPL | 2133.3 | 18.0 (16.0–20.3) |
-| Income 100–199% FPL | 1986.9 | 23.5 (21.1–26.1) |
-| Income <100% FPL | 1302.6 | 22.5 (19.6–25.6) |
-| Private, with or without public coverage | 2,888 | 16.6 (14.9–18.4) |
-| Public without private | 3,871 | 15.8 (14.5–17.3) |
-| Military only | 109 | 18.2 (11.1–28.4) |
-| Uninsured | 207 | 58.7 (50.7–66.3) |
-| Without disability | 4,384 | 16.5 (15.1–17.9) |
-| With disability | 2,720 | 20.2 (18.4–22.1) |
-
-Income counts are averages across ten imputations. The unknown-insurance subgroup (29 records) failed the precision screen, and its prevalence is not displayed. These are unadjusted subgroup estimates.
-
-### Table S9. Convergence and fitted-value diagnostics for the modified Poisson models
-
-| Model | n | Events | Fitted >1 per imputation | Largest fitted value | Convergence |
+| Model | No. | No. with barrier | Fitted values >1 per imputation | Largest fitted value | Convergence |
 | --- | --- | --- | --- | --- | --- |
-| M1 | 6777 | 1117 | 0–0 | 0.517 | All converged |
-| M2 | 6777 | 1117 | 3–4 | 1.190 | All converged |
-| M3 | 6777 | 1117 | 14–16 | 1.943 | All converged |
-| Age_M1 | 6777 | 1117 | 0–0 | 0.466 | All converged |
-| Age_M2 | 6777 | 1117 | 3–4 | 1.106 | All converged |
-| Age_M3 | 6777 | 1117 | 15–17 | 1.912 | All converged |
-| AgeInteraction | 6777 | 1117 | 17–19 | 1.888 | All converged |
-| No2020 | 6124 | 1016 | 12–16 | 1.943 | All converged |
-| WorkingAge | 2231 | 620 | 14–15 | 2.127 | All converged |
-| NoDisability | 4209 | 607 | 5–6 | 1.802 | All converged |
-| Universal | 6776 | 955 | 13–17 | 1.972 | All converged |
-| Delayed | 6774 | 523 | 3–5 | 1.518 | All converged |
-| ForgoneCare | 6776 | 509 | 4–8 | 1.651 | All converged |
-| ForgoneRx | 6775 | 610 | 4–6 | 1.488 | All converged |
-| RxUnderuse | 6449 | 598 | 5–6 | 1.709 | All converged |
-| MissingCategory | 7104 | 1184 | 16–19 | 1.891 | All converged |
+| Model 1 | 6,777 | 1,117 | 0–0 | 0.517 | All converged |
+| Model 2 | 6,777 | 1,117 | 3–4 | 1.190 | All converged |
+| Model 3 | 6,777 | 1,117 | 14–16 | 1.943 | All converged |
+| Age-group Model 1 | 6,777 | 1,117 | 0–0 | 0.466 | All converged |
+| Age-group Model 2 | 6,777 | 1,117 | 3–4 | 1.106 | All converged |
+| Age-group Model 3 | 6,777 | 1,117 | 15–17 | 1.912 | All converged |
+| Year by age-group interaction | 6,777 | 1,117 | 17–19 | 1.888 | All converged |
+| Exclude 2020 | 6,124 | 1,016 | 12–16 | 1.943 | All converged |
+| Age 18–64 only | 2,231 | 620 | 14–15 | 2.127 | All converged |
+| No disability | 4,209 | 607 | 5–6 | 1.802 | All converged |
+| Universal composite | 6,776 | 955 | 13–17 | 1.972 | All converged |
+| Delayed medical care | 6,774 | 523 | 3–5 | 1.518 | All converged |
+| Forgone medical care | 6,776 | 509 | 4–8 | 1.651 | All converged |
+| Forgone prescriptions | 6,775 | 610 | 4–6 | 1.488 | All converged |
+| Medication underuse | 6,449 | 598 | 5–6 | 1.709 | All converged |
+| Unknown-category diagnostic | 7,104 | 1,184 | 16–19 | 1.891 | All converged |
 
-Ten fits per specification. Fitted log-link values above one are not interpreted as individual probabilities. The bounded logistic sensitivity supports the major associations; it does not establish perfect specification. Model labels correspond to the accompanying script and coefficient CSV.
+Ten fits per specification (one per income imputation). Fitted log-link values above one are not interpreted as individual probabilities. The bounded logistic sensitivity (Table S10) supports the major associations. Age-group models replace the age spline with an age-group indicator.
 
 
 
@@ -325,16 +325,16 @@ Ten fits per specification. Fitted log-link values above one are not interpreted
 | 2–3 | Introduction | Background, prior studies and objectives stated. |
 | 4–5 | Methods / Study design | Repeated cross-sectional design, public NHIS setting and 2019–2025 period. |
 | 6 | Methods / Population; Figure S1 | Eligibility, stroke definition, age exclusion, annual vs pooled selection. |
-| 7–8 | Methods / Outcomes and covariates | Definitions, universes and cross-year source verification; crosswalk files included. |
+| 7–8 | Methods / Outcomes and covariates; Tables S1–S2 | Definitions, universes and cross-year source verification; crosswalk files included. |
 | 9 | Discussion / Limitations | Self-report, nonresponse, institutional exclusion, confounding and missingness addressed. |
 | 10 | Methods / Population | All eligible records in the selected years; no formal power-based sample selection. |
 | 11 | Methods / Covariates | Age spline and categorical income/education definitions given. |
-| 12 | Methods / Analysis; Supplementary Methods | Survey weighting, MI, missingness, interaction and sensitivity procedures. |
-| 13 | Results / Sample; Table S1; Figure S1 | Counts and reasons for exclusions; different annual and pooled paths. |
-| 14 | Table 1; Tables S2–S3 | Characteristics and missingness; income counts averaged across imputations. |
-| 15 | Table 2; Tables S4 and S8 | Outcome counts and annual, component and subgroup estimates. |
-| 16 | Table 3; Table S5; Results | Adjusted PRs, covariate sets, precision and absolute annual difference. |
-| 17 | Sensitivity Results; Tables S6–S9 | Sensitivity estimates and model diagnostics. |
+| 12 | Methods / Statistical analysis; Supplemental Methods | Survey weighting, MI, missingness, interaction and sensitivity procedures. |
+| 13 | Results / Study population; Table S3; Figure S1 | Counts and reasons for exclusions; different annual and pooled paths. |
+| 14 | Table 1; Tables S4–S5 | Characteristics and missingness; income counts averaged across imputations. |
+| 15 | Table 2; Tables S6–S7 | Outcome counts and annual, component and subgroup estimates. |
+| 16 | Table 3; Table S8; Results | Adjusted PRs, covariate sets, precision and absolute annual difference. |
+| 17 | Results / Sensitivity analyses; Tables S9–S11 | Sensitivity estimates and model diagnostics. |
 | 18–21 | Discussion and Conclusions | Key results, limitations, cautious interpretation and generalizability. |
 | 22 | Declarations | No external funding is reported. |
 

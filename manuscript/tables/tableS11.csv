@@ -1,0 +1,17 @@
+﻿Model,No.,No. with barrier,Fitted values >1 per imputation,Largest fitted value,Convergence
+Model 1,"6,777","1,117",0–0,0.517,All converged
+Model 2,"6,777","1,117",3–4,1.190,All converged
+Model 3,"6,777","1,117",14–16,1.943,All converged
+Age-group Model 1,"6,777","1,117",0–0,0.466,All converged
+Age-group Model 2,"6,777","1,117",3–4,1.106,All converged
+Age-group Model 3,"6,777","1,117",15–17,1.912,All converged
+Year by age-group interaction,"6,777","1,117",17–19,1.888,All converged
+Exclude 2020,"6,124","1,016",12–16,1.943,All converged
+Age 18–64 only,"2,231",620,14–15,2.127,All converged
+No disability,"4,209",607,5–6,1.802,All converged
+Universal composite,"6,776",955,13–17,1.972,All converged
+Delayed medical care,"6,774",523,3–5,1.518,All converged
+Forgone medical care,"6,776",509,4–8,1.651,All converged
+Forgone prescriptions,"6,775",610,4–6,1.488,All converged
+Medication underuse,"6,449",598,5–6,1.709,All converged
+Unknown-category diagnostic,"7,104","1,184",16–19,1.891,All converged

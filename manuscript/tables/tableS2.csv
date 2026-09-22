@@ -1,14 +1,12 @@
-﻿Variable,Missing n,Missing %
-any_barrier,77,1.07
-age,0,0.00
-sex,0,0.00
-race,0,0.00
-region,0,0.00
-education,35,0.49
-insurance,34,0.47
-hypertension,9,0.13
-diabetes,10,0.14
-coronary,68,0.95
-fairpoor,11,0.15
-smoking,253,3.52
-disability,0,0.00
+﻿Domain,Variables,Analysis categories
+Age,AGEP_A,18–85; 85 is top-coded; natural spline or 18–64/65+
+Sex,SEX_A,Male; female
+Race/Hispanic origin,HISPALLP_A,Seven published categories
+Region,REGION,Northeast; Midwest; South; West
+Education,EDUC_A; EDUCP_A,Four harmonized attainment groups
+Income,RATCAT_A; IMPNUM or IMPNUM_A,<100%; 100–199%; 200–399%; ≥400% FPL
+Insurance,NOTCOV_A and seven coverage indicators,Private; public without private; military only; uninsured
+Clinical history,HYPEV_A; DIBEV_A; CHDEV_A,"Yes/no hypertension, diabetes, coronary disease"
+Smoking,SMKCIGST_A,Never; former; current; indeterminate missing
+Self-rated health,PHSTAT_A,Fair/poor vs good/very good/excellent
+Disability,DISAB3_A,Published Washington Group disability recode

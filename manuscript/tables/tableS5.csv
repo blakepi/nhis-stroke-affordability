@@ -1,33 +1,48 @@
-﻿Characteristic,PR (95% CI),P value
-Year 2020 vs 2019,0.89 (0.69–1.14),0.351
-Year 2021 vs 2019,0.96 (0.78–1.19),0.702
-Year 2022 vs 2019,0.84 (0.67–1.04),0.112
-Year 2023 vs 2019,0.85 (0.69–1.05),0.140
-Year 2024 vs 2019,1.06 (0.87–1.29),0.569
-Year 2025 vs 2019,0.89 (0.71–1.10),0.274
-Female vs male,1.27 (1.12–1.43),<0.001
-Non-Hispanic White only vs Hispanic,1.20 (0.95–1.51),0.124
-Non-Hispanic Black only vs Hispanic,1.14 (0.88–1.48),0.323
-Non-Hispanic Asian only vs Hispanic,0.78 (0.45–1.35),0.367
-Non-Hispanic AIAN only vs Hispanic,0.82 (0.42–1.61),0.570
-Non-Hispanic AIAN with another race vs Hispanic,1.06 (0.69–1.63),0.800
-Other single or multiple races vs Hispanic,1.26 (0.71–2.25),0.431
-Midwest vs Northeast,1.21 (0.97–1.50),0.098
-South vs Northeast,1.42 (1.15–1.75),<0.001
-West vs Northeast,1.24 (0.96–1.61),0.095
-Some college/associate vs bachelor's or higher,0.89 (0.75–1.06),0.202
-High school/GED vs bachelor's or higher,0.75 (0.62–0.89),0.001
-Less than high school vs bachelor's or higher,0.80 (0.64–0.99),0.038
-Income 200–399% vs ≥400% FPL,2.07 (1.65–2.61),<0.001
-Income 100–199% vs ≥400% FPL,2.50 (1.94–3.21),<0.001
-Income <100% vs ≥400% FPL,2.00 (1.52–2.63),<0.001
-Public without private vs private,0.72 (0.63–0.83),<0.001
-Military only vs private,0.81 (0.52–1.28),0.372
-Uninsured vs private,1.79 (1.49–2.16),<0.001
-Hypertension vs none,0.99 (0.86–1.14),0.863
-Diabetes vs none,1.12 (0.97–1.30),0.126
-Coronary heart disease vs none,1.37 (1.18–1.58),<0.001
-Former vs never smoking,0.98 (0.85–1.14),0.820
-Current vs never smoking,1.21 (1.04–1.42),0.015
-Fair/poor vs good or better health,1.58 (1.37–1.82),<0.001
-Disability vs none,1.19 (1.05–1.35),0.006
+﻿Characteristic,"Overall (N=7,104)","No barrier (n=5,920)","Any barrier (n=1,184)"
+Age 65 years or older,"4,763 (59.0)","4,237 (64.0)",526 (35.9)
+Age 18–64 years,"2,341 (41.0)","1,683 (36.0)",658 (64.1)
+Male,"3,269 (48.5)","2,777 (49.7)",492 (43.3)
+Female,"3,835 (51.5)","3,143 (50.3)",692 (56.7)
+"Hispanic, any race",599 (11.5),478 (11.2),121 (12.8)
+Non-Hispanic White only,"5,052 (66.6)","4,279 (67.6)",773 (61.7)
+Non-Hispanic Black only,"1,068 (15.8)",852 (14.9),216 (19.7)
+Non-Hispanic Asian only,171 (3.3),146 (3.5),25 (2.4)
+Non-Hispanic AIAN only,77 (0.9),66 (0.9),11 (0.8)
+Non-Hispanic AIAN with another race,91 (1.3),63 (1.1),28 (1.8)
+Other single or multiple races,46 (0.7),36 (0.6),10 (0.8)
+Northeast,"1,032 (15.6)",901 (16.4),131 (11.8)
+Midwest,"1,681 (22.0)","1,405 (22.3)",276 (20.6)
+South,"2,942 (43.1)","2,362 (41.0)",580 (52.7)
+West,"1,449 (19.4)","1,252 (20.3)",197 (15.0)
+Bachelor's degree or higher,"1,670 (20.1)","1,437 (20.6)",233 (17.4)
+Some college or associate,"2,149 (28.7)","1,743 (28.2)",406 (30.9)
+High school or GED,"2,202 (32.3)","1,848 (32.6)",354 (30.8)
+Less than high school,"1,050 (18.3)",866 (18.0),184 (19.7)
+Education unknown,33 (0.6),26 (0.5),7 (1.2)
+Income ≥400% FPL,"1,681.2 (24.2)","1,559.9 (27.0)",121.3 (11.0)
+Income 200–399% FPL,"2,133.3 (31.0)","1,786.9 (31.0)",346.4 (31.2)
+Income 100–199% FPL,"1,986.9 (27.5)","1,549.6 (25.6)",437.3 (36.0)
+Income <100% FPL,"1,302.6 (17.4)","1,023.6 (16.4)",279.0 (21.8)
+"Private, with or without public coverage","2,888 (40.3)","2,465 (40.9)",423 (37.2)
+Public without private,"3,871 (53.6)","3,263 (54.9)",608 (47.4)
+Military only,109 (1.6),92 (1.6),17 (1.7)
+Uninsured,207 (4.0),80 (2.0),127 (13.2)
+Insurance unknown,29 (0.5),20 (0.5),9 (0.6)
+No hypertension,"1,747 (25.7)","1,455 (25.3)",292 (27.8)
+Hypertension,"5,349 (74.2)","4,458 (74.6)",891 (72.1)
+Hypertension unknown,8 (0.1),7 (0.1),1 (0.1)
+No diabetes,"5,136 (71.3)","4,330 (72.3)",806 (66.9)
+Diabetes,"1,960 (28.6)","1,583 (27.6)",377 (33.0)
+Diabetes unknown,8 (0.1),7 (0.1),1 (0.0)
+No coronary heart disease,"5,212 (74.0)","4,369 (74.8)",843 (70.8)
+Coronary heart disease,"1,828 (25.2)","1,500 (24.5)",328 (28.4)
+Coronary heart disease unknown,64 (0.7),51 (0.7),13 (0.8)
+Never smoked,"3,196 (46.0)","2,710 (46.6)",486 (43.5)
+Former smoker,"2,592 (34.0)","2,240 (35.5)",352 (27.2)
+Current smoker,"1,132 (16.8)",821 (14.7),311 (26.3)
+Smoking unknown,184 (3.2),149 (3.2),35 (3.0)
+Good or better self-rated health,"3,607 (48.0)","3,201 (51.6)",406 (31.7)
+Fair or poor self-rated health,"3,486 (51.9)","2,712 (48.3)",774 (68.1)
+Self-rated health unknown,11 (0.1),7 (0.1),4 (0.2)
+Without disability,"4,384 (61.2)","3,742 (62.3)",642 (56.3)
+With disability,"2,720 (38.8)","2,178 (37.7)",542 (43.7)
