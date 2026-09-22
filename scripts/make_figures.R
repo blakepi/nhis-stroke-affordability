@@ -32,46 +32,51 @@ save_fig<-function(p,name,w,h){
   ggsave(sprintf("manuscript/figures/%s.pdf",name),p,width=w,height=h,units="in",bg="white",device=cairo_pdf)
 }
 
-## ---- Figure 1: annual trend (A) and component prevalence (B) --------------
+## ---- Figure 1: annual trend (A, top) and component prevalence (B, bottom) --
 annual<-fread("outputs/annual_prevalence.csv")[outcome=="any_barrier" & group=="All survivors"]
 adj<-fread("outputs/full/adjusted_annual_prevalence.csv")
-a<-rbindlist(list(annual[,.(year,estimate,lower,upper,series="Observed (annual weights)")],
+a<-rbindlist(list(annual[,.(year,estimate,lower,upper,series="Observed (annual survey weights)")],
                   adj[,.(year,estimate,lower,upper,series="Standardized (fully adjusted model)")]))
-a[,series:=factor(series,levels=c("Observed (annual weights)","Standardized (fully adjusted model)"))]
+a[,series:=factor(series,levels=c("Observed (annual survey weights)","Standardized (fully adjusted model)"))]
 pooled<-fread("outputs/full/component_prevalence.csv")[outcome=="any_barrier"]
+F1<-11
 p1a<-ggplot(a,aes(year,100*estimate,colour=series,shape=series))+
-  annotate("rect",xmin=2018.6,xmax=2025.4,ymin=100*pooled$lower,ymax=100*pooled$upper,fill=BLUE_L,alpha=.35)+
-  annotate("text",x=2018.7,y=25.6,label=sprintf("Shaded band: pooled 2019%s2025 prevalence,\n%.1f%% (95%% CI %.1f%s%.1f)",EN,100*pooled$estimate,100*pooled$lower,EN,100*pooled$upper),
-           hjust=0,vjust=1,size=2.5,colour=INK2,family=FONT,lineheight=.95)+
-  geom_line(aes(group=series),linewidth=.6,position=position_dodge(width=.22))+
-  geom_errorbar(aes(ymin=100*lower,ymax=100*upper),width=0,linewidth=.5,position=position_dodge(width=.22))+
-  geom_point(size=2.3,position=position_dodge(width=.22),stroke=0)+
-  scale_colour_manual(values=c(BLUE,ORANGE),name=NULL)+
+  annotate("rect",xmin=2018.55,xmax=2025.45,ymin=100*pooled$lower,ymax=100*pooled$upper,fill=BLUE_L,alpha=.45)+
+  annotate("text",x=2018.6,y=28.8,hjust=0,vjust=1,size=3.7,colour=INK2,family=FONT,
+           label=sprintf("Shaded band: pooled 2019%s2025 prevalence, %.1f%% (95%% CI, %.1f%s%.1f)",EN,100*pooled$estimate,100*pooled$lower,EN,100*pooled$upper))+
+  geom_line(aes(group=series),linewidth=.9,position=position_dodge(width=.28))+
+  geom_errorbar(aes(ymin=100*lower,ymax=100*upper),width=.12,linewidth=.7,position=position_dodge(width=.28))+
+  geom_point(size=3.4,position=position_dodge(width=.28),stroke=0)+
+  scale_colour_manual(values=c(BLUE_D,ORANGE),name=NULL)+
   scale_shape_manual(values=c(16,17),name=NULL)+
-  scale_x_continuous(breaks=2019:2025,expand=expansion(add=.35))+
+  scale_x_continuous(breaks=2019:2025,expand=expansion(add=.45))+
   scale_y_continuous(limits=c(0,30),breaks=seq(0,30,5),expand=expansion(0))+
-  labs(x="Survey year",y="Prevalence of any cost-related barrier (%)",tag="A")+
-  theme_pub()+theme(panel.grid.major.x=element_blank(),axis.text.x=element_text(size=7.5),
-                    legend.position=c(.01,.995),legend.justification=c(0,1),legend.direction="vertical",
-                    legend.background=element_rect(fill="white",colour=NA),legend.key.height=unit(10,"pt"))
+  labs(x="Survey year",y="Prevalence of any\ncost-related barrier (%)",tag="A")+
+  theme_pub(F1)+theme(panel.grid.major.x=element_blank(),
+                      legend.position="top",legend.justification="left",legend.direction="horizontal",legend.box.margin=margin(0,0,4,0),
+                      legend.key.width=unit(26,"pt"),legend.text=element_text(size=F1-.5,colour=INK),
+                      axis.text=element_text(size=F1-.5,colour=INK2))
 
 comp<-fread("outputs/full/component_prevalence.csv")
-lab<-c(any_barrier="Any cost-related barrier",forgone_rx="Could not afford needed prescription",
-       delayed_care="Delayed medical care because of cost",forgone_care="Did not get medical care because of cost",
-       rx_underuse="Skipped, reduced, or delayed medication\nto save money (among those prescribed)")
+lab<-c(any_barrier="Any cost-related barrier",forgone_rx="Could not afford a needed prescription",
+       delayed_care="Delayed medical care because of cost",forgone_care="Did not get needed medical care because of cost",
+       rx_underuse="Skipped, reduced, or delayed medication to save money*")
 comp<-comp[outcome %in% names(lab)]
 comp[,label:=factor(lab[outcome],levels=rev(lab))]
 comp[,fill:=ifelse(outcome=="any_barrier",BLUE_D,BLUE)]
 p1b<-ggplot(comp,aes(100*estimate,label))+
-  geom_col(aes(fill=fill),width=.58)+
-  geom_errorbar(aes(xmin=100*lower,xmax=100*upper),width=.18,linewidth=.45,colour=INK)+
-  geom_text(aes(x=100*upper+.6,label=sprintf("%.1f",100*estimate)),hjust=0,size=2.8,colour=INK,family=FONT)+
+  geom_col(aes(fill=fill),width=.62)+
+  geom_errorbar(aes(xmin=100*lower,xmax=100*upper),width=.22,linewidth=.6,colour=INK)+
+  geom_text(aes(x=100*upper+.5,label=sprintf("%.1f%%",100*estimate)),hjust=0,size=3.9,colour=INK,family=FONT)+
   scale_fill_identity()+
-  scale_x_continuous(limits=c(0,24),breaks=seq(0,20,5),expand=expansion(0))+
-  labs(x=sprintf("Pooled prevalence, 2019%s2025 (%%)",EN),y=NULL,tag="B")+
-  theme_pub()+theme(panel.grid.major.y=element_blank(),axis.text.y=element_text(colour=INK,size=8.5,lineheight=.9))
-fig1<-p1a+p1b+plot_layout(widths=c(1.15,1))
-save_fig(fig1,"figure1_annual_prevalence",7.3,3.5)
+  scale_x_continuous(limits=c(0,25),breaks=seq(0,20,5),expand=expansion(0))+
+  labs(x=sprintf("Pooled prevalence, 2019%s2025 (%%)",EN),y=NULL,tag="B",
+       caption="*Among survivors prescribed medication in the past 12 months.")+
+  theme_pub(F1)+theme(panel.grid.major.y=element_blank(),axis.text.y=element_text(colour=INK,size=F1-.5),
+                      axis.text.x=element_text(size=F1-.5,colour=INK2),
+                      plot.caption=element_text(size=F1-1.5,colour=INK2,hjust=0),plot.caption.position="plot")
+fig1<-free(p1a)/p1b+plot_layout(heights=c(1.15,1))
+save_fig(fig1,"figure1_annual_prevalence",7,7.4)
 
 ## ---- Figure 2: subgroup prevalence (A) aligned with adjusted PRs (B) -------
 sg<-fread("outputs/full/subgroup_prevalence.csv")

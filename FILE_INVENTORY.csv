@@ -102,12 +102,12 @@ HANDOFF.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\HANDOFF.md,Project documentat
 LICENSE,C:\Users\gbp34\Documents\ChatGPT\Stroke\LICENSE,Project documentation or entrypoint,1245,True
 LITERATURE_NOTES.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\LITERATURE_NOTES.md,Project documentation or entrypoint,3996,True
 manuscript/AUTHOR_INFORMATION.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\AUTHOR_INFORMATION.md,"Manuscript, source text or supporting writing",2167,True
-manuscript/draft_source.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\draft_source.md,"Manuscript, source text or supporting writing",25709,True
-manuscript/EDITORIAL_MATERIAL.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\EDITORIAL_MATERIAL.md,"Manuscript, source text or supporting writing",4749,True
-manuscript/figures/figure1_annual_prevalence.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure1_annual_prevalence.pdf,Scientific figure,35681,True
-manuscript/figures/figure1_annual_prevalence.png,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure1_annual_prevalence.png,Scientific figure,156898,True
-manuscript/figures/figure1_annual_prevalence.tiff,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure1_annual_prevalence.tiff,Scientific figure,180910,True
-manuscript/figures/figure2_adjusted_associations.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure2_adjusted_associations.pdf,Scientific figure,46344,True
+manuscript/draft_source.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\draft_source.md,"Manuscript, source text or supporting writing",24420,True
+manuscript/EDITORIAL_MATERIAL.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\EDITORIAL_MATERIAL.md,"Manuscript, source text or supporting writing",4451,True
+manuscript/figures/figure1_annual_prevalence.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure1_annual_prevalence.pdf,Scientific figure,36253,True
+manuscript/figures/figure1_annual_prevalence.png,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure1_annual_prevalence.png,Scientific figure,221306,True
+manuscript/figures/figure1_annual_prevalence.tiff,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure1_annual_prevalence.tiff,Scientific figure,253940,True
+manuscript/figures/figure2_adjusted_associations.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure2_adjusted_associations.pdf,Scientific figure,46343,True
 manuscript/figures/figure2_adjusted_associations.png,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure2_adjusted_associations.png,Scientific figure,184224,True
 manuscript/figures/figure2_adjusted_associations.tiff,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figure2_adjusted_associations.tiff,Scientific figure,204190,True
 manuscript/figures/figureS1_cohort_flow.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figureS1_cohort_flow.pdf,Scientific figure,40392,True
@@ -115,9 +115,9 @@ manuscript/figures/figureS1_cohort_flow.png,C:\Users\gbp34\Documents\ChatGPT\Str
 manuscript/figures/figureS1_cohort_flow.tiff,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\figureS1_cohort_flow.tiff,Scientific figure,179314,True
 manuscript/figures/graphic_abstract.jpg,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\graphic_abstract.jpg,Scientific figure,1434620,True
 manuscript/figures/graphic_abstract.png,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\figures\graphic_abstract.png,Scientific figure,117733,True
-manuscript/manuscript.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.docx,"Manuscript, source text or supporting writing",357813,True
-manuscript/manuscript.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.md,"Manuscript, source text or supporting writing",35607,True
-manuscript/manuscript.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.pdf,"Manuscript, source text or supporting writing",564523,True
+manuscript/manuscript.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.docx,"Manuscript, source text or supporting writing",409425,True
+manuscript/manuscript.md,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.md,"Manuscript, source text or supporting writing",34478,True
+manuscript/manuscript.pdf,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\manuscript.pdf,"Manuscript, source text or supporting writing",627788,True
 manuscript/references.json,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\references.json,"Manuscript, source text or supporting writing",6402,True
 manuscript/references.ris,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\references.ris,"Manuscript, source text or supporting writing",5369,True
 manuscript/supplement.docx,C:\Users\gbp34\Documents\ChatGPT\Stroke\manuscript\supplement.docx,"Manuscript, source text or supporting writing",166245,True
@@ -198,7 +198,7 @@ scripts/inspect_docs.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\inspect_d
 scripts/inspect_inputs.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\inspect_inputs.py,"Acquisition, analysis, verification or writing code",720,True
 scripts/inspect_survey_methods.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\inspect_survey_methods.R,"Acquisition, analysis, verification or writing code",249,True
 scripts/logistic_sensitivity.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\logistic_sensitivity.R,"Acquisition, analysis, verification or writing code",2866,True
-scripts/make_figures.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\make_figures.R,"Acquisition, analysis, verification or writing code",10960,True
+scripts/make_figures.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\make_figures.R,"Acquisition, analysis, verification or writing code",11442,True
 scripts/make_graphical_abstract.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\make_graphical_abstract.R,"Acquisition, analysis, verification or writing code",4277,True
 scripts/package_manuscript.py,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\package_manuscript.py,"Acquisition, analysis, verification or writing code",4370,True
 scripts/prepare_full_data.R,C:\Users\gbp34\Documents\ChatGPT\Stroke\scripts\prepare_full_data.R,"Acquisition, analysis, verification or writing code",4857,True

@@ -1,10 +1,10 @@
 {
   "manuscript": {
-    "words_including_tables_and_references": 5108,
+    "words_including_tables_and_references": 4940,
     "tables": 3,
     "images": 2,
-    "abstract_words": 289,
-    "body_words": 2945
+    "abstract_words": 295,
+    "body_words": 2771
   },
   "supplement": {
     "words_including_tables_and_references": 4678,
