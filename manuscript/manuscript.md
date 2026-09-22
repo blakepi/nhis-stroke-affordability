@@ -8,15 +8,15 @@ G. Blake Pierpoint^1,*^ and Alberto E. Musto^1,2,3^
 
 ^3^ Department of Neurology, Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University, Norfolk, Virginia, USA
 
-*Correspondence: G. Blake Pierpoint, Macon & Joan Brock Virginia Health Sciences Eastern Virginia Medical School at Old Dominion University, Norfolk, Virginia, USA. E-mail: pierpogb@odu.edu
+*Correspondence: G. Blake Pierpoint; pierpogb@odu.edu
 
-ORCID: G. Blake Pierpoint, 0000-0001-8288-8549; Alberto E. Musto, 0000-0002-0877-8883
+ORCID identifiers: G. Blake Pierpoint, 0000-0001-8288-8549; Alberto E. Musto, 0000-0002-0877-8883
 
 Short title: Affordability barriers after stroke
 
 Keywords: stroke; secondary prevention; healthcare access; cost-related nonadherence; health insurance; National Health Interview Survey
 
-Total word count: 5,071 (title page, abstract, text, references, tables, and figure legends). Main text: 2,945 words. Abstract: 289 words. Tables: 3. Figures: 2.
+Total word count: 5,053 (title page, abstract, text, references, tables, and figure legends). Main text: 2,945 words. Abstract: 289 words. Tables: 3. Figures: 2.
 
 ## Abstract
 
