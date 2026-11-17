@@ -1,0 +1,52 @@
+{
+ "mode": "real",
+ "recount": {
+  "2013": {
+   "python": 2824,
+   "r": 2824
+  },
+  "2019": {
+   "python": 2420,
+   "r": 2420
+  }
+ },
+ "twfe_survey_weighted": {
+  "uninsured": {
+   "twfe_att": -0.04889442676611997,
+   "twfe_se": 0.022761799727318264,
+   "n": 22957,
+   "clusters": 46
+  },
+  "cost_barrier": {
+   "twfe_att": -0.03277729097013897,
+   "twfe_se": 0.016425463288046435,
+   "n": 22935,
+   "clusters": 46
+  }
+ },
+ "twfe_unweighted": {
+  "uninsured": {
+   "twfe_att": -0.06591145137961109,
+   "twfe_se": 0.012877316401568868,
+   "n": 22957,
+   "clusters": 46
+  },
+  "cost_barrier": {
+   "twfe_att": -0.040070088664407345,
+   "twfe_se": 0.011801142565484535,
+   "n": 22935,
+   "clusters": 46
+  }
+ },
+ "callaway_santanna_rep1": {
+  "H3 uninsured": {
+   "att": -0.0633395719776533,
+   "se": 0.0178157240039437
+  },
+  "H4 cost barrier": {
+   "att": -0.028102241566485,
+   "se": 0.0191435916959382
+  }
+ },
+ "recount_pass": true
+}

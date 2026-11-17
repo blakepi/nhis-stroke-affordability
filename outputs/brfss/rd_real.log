@@ -1,0 +1,31 @@
+Warning messages:
+1: package 'RDHonest' was built under R version 4.6.2 
+2: package 'fixest' was built under R version 4.6.2 
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+                       analysis      outcome weighted     h    estimate
+                         <char>       <char>   <lgcl> <num>       <num>
+1:    Exploratory RD: uninsured    uninsured    FALSE     2 -0.03591450
+2: Exploratory RD: cost barrier cost_barrier    FALSE     2  0.01385769
+            se   max_bias       lower       upper          M      n
+         <num>      <num>       <num>       <num>      <num>  <int>
+1: 0.007164128 0.00721077 -0.05491801 -0.01691099 0.00721077 125517
+2: 0.011004735 0.02037002 -0.02461351  0.05232889 0.02037001 127197
+        p_naive excludes_zero replicate
+          <num>        <lgcl>     <int>
+1: 5.355963e-07          TRUE         1
+2: 2.079407e-01         FALSE         1
+exit 0

@@ -17,3 +17,5 @@ stroke_manuscript_review.md
 manuscript/revision/
 scripts/build_revision.py
 scripts/make_revision_figures.R
+manuscript/v3/
+scripts/build_v3.py
