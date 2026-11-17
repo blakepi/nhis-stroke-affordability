@@ -21,7 +21,7 @@ With Holm adjustment across all four (registered sensitivity analysis), H1 (P = 
   | Analysis | PR (95% CI) |
   |---|---|
   | Bounded logistic marginal PR | 0.55 (0.41–0.75) |
-  | Excluding 2020 | 0.57 (0.41–0.78) |
+  | Excluding 2020 | 0.56 (0.41–0.78) |
   | Same coverage all year | 0.41 (0.29–0.59) |
   | Care barrier only | 0.56 (0.39–0.82) |
   | Medication barrier only | 0.54 (0.37–0.79) |

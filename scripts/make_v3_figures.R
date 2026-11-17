@@ -36,6 +36,47 @@ p2<-ggplot(es,aes(event_time,est,colour=period))+
  labs(x="Years since Medicaid expansion",y="Effect, percentage points")+theme_pub()
 save_fig(p2,"figure2_event_study",7,3.3)
 
+## Figure 1: NHIS (hypothesis-generating) and MEPS (registered) estimates for H1 and H2
+if(mode=="real"){
+ mc<-fread("outputs/meps/real/confirmatory_runs.csv");mx<-fread("outputs/meps/real/exploratory_and_sensitivity.csv")
+ mb<-fread("outputs/meps/real/bounded_logistic_marginal_PR.csv");fd<-fread("outputs/extended/E12_fdr_family.csv")
+ nh<-function(c,lab,panel){r<-fd[contrast==c];stopifnot(nrow(r)==1);data.table(panel=panel,label=lab,PR=r$estimate,lo=r$lower,hi=r$upper,src="NHIS 2019–2025 (hypothesis generating)")}
+ mh<-function(h,lab,panel,src="MEPS 2019–2024: registered test"){r<-mc[hypothesis==h];data.table(panel=panel,label=lab,PR=r$PR,lo=r$lower,hi=r$upper,src=src)}
+ ms<-function(a,t,lab,panel){r<-mx[analysis==a & term==t];stopifnot(nrow(r)==1);data.table(panel=panel,label=lab,PR=r$PR,lo=r$lower,hi=r$upper,src="MEPS 2019–2024: sensitivity or secondary")}
+ mbl<-function(h,lab,panel){r<-mb[hypothesis==h];data.table(panel=panel,label=lab,PR=r$marginal_PR,lo=r$lower,hi=r$upper,src="MEPS 2019–2024: sensitivity or secondary")}
+ A<-"A. Medicaid-type vs private coverage and any cost barrier (H1)";B<-"B. Cost barriers and lipid-lowering therapy (H2)"
+ f1<-rbind(
+  nh("18-64: cover_u65Medicaid and other public","NHIS, 18–64 y: Medicaid or other public",A),
+  nh("65+: cover_65Dual eligible","NHIS, ≥65 y: dual Medicare-Medicaid",A),
+  mh("H1","MEPS H1: Medicaid-type, both age groups",A),
+  ms("H1 age-specific 18-64","medicaid_type","MEPS, 18–64 y",A),ms("H1 age-specific 65+","medicaid_type","MEPS, ≥65 y (dual)",A),
+  ms("H1 excluding 2020","medicaid_type","MEPS, excluding 2020",A),ms("H1 same coverage all year","mt_stable","MEPS, same coverage all year",A),
+  mbl("H1","MEPS, bounded logistic",A),
+  nh("chol_nonuse: any_barrier (Full + any barrier)","NHIS: any barrier, not taking cholesterol drug",B),
+  nh("chol_nonuse: care_barrier (Full + care and medication barriers)","NHIS: care barrier (joint model)",B),
+  nh("chol_nonuse: rx_barrier (Full + care and medication barriers)","NHIS: medication barrier (joint model)",B),
+  mh("H2","MEPS H2: any barrier, no LDL-lowering fill",B),
+  ms("H2 joint: care barrier","care_barrier","MEPS: care barrier (joint model)",B),ms("H2 joint: medication barrier","rx_barrier","MEPS: medication barrier (joint model)",B),
+  ms("H2 excluding 2020","any_barrier","MEPS, excluding 2020",B),mbl("H2","MEPS, bounded logistic",B),
+  mh("Negative control (dental barrier)","MEPS negative control: dental care unaffordable",B,src="MEPS 2019–2024: negative control"))
+ f1[,src:=c("NHIS 2019–2025 (hypothesis generating)"="NHIS, hypothesis generating","MEPS 2019–2024: registered test"="MEPS, registered test",
+            "MEPS 2019–2024: sensitivity or secondary"="MEPS, sensitivity or secondary","MEPS 2019–2024: negative control"="MEPS, negative control")[src]]
+ f1[,key:=paste(panel,label,sep="||")];f1[,key:=factor(key,levels=rev(key))];f1[,panel:=factor(panel,levels=c(A,B))]
+ f1[,txt:=sprintf("%.2f (%.2f–%.2f)",PR,lo,hi)]
+ S<-c("NHIS, hypothesis generating","MEPS, registered test","MEPS, sensitivity or secondary","MEPS, negative control")
+ cols<-setNames(c(GREY,BLUE_D,"#6b9bd6",ORANGE),S);shp<-setNames(c(16,18,1,17),S);siz<-setNames(c(1.8,3.4,1.8,2),S)
+ p1<-ggplot(f1,aes(PR,key,colour=src,shape=src))+geom_vline(xintercept=1,colour=AXIS,linewidth=.4)+
+  geom_linerange(aes(xmin=lo,xmax=hi),linewidth=.55)+geom_point(aes(size=src))+
+  geom_text(aes(x=7,label=txt),colour=INK,hjust=1,size=2.7,family=FONT,show.legend=FALSE)+
+  facet_wrap(~panel,ncol=1,scales="free_y")+scale_y_discrete(labels=function(x)sub("^.*\\|\\|","",x))+
+  scale_x_log10(breaks=c(.25,.5,1,2),labels=c("0.25","0.5","1","2"),limits=c(.25,7))+
+  scale_colour_manual(values=cols,breaks=S,name=NULL)+scale_shape_manual(values=shp,breaks=S,name=NULL)+scale_size_manual(values=siz,breaks=S,name=NULL)+
+  guides(colour=guide_legend(nrow=2),shape=guide_legend(nrow=2),size=guide_legend(nrow=2))+
+  labs(x="Adjusted prevalence ratio (log scale)",y=NULL)+theme_pub()+
+  theme(panel.grid.major.y=element_blank(),axis.text.y=element_text(colour=INK,size=8.5),legend.position="bottom",legend.justification="center")
+ save_fig(p1,"figure1_replication",7.2,6.2)
+}
+
 ## Age-65 discontinuity (exploratory; BRFSS 2013-2025)
 if(mode=="real" && file.exists("outputs/brfss/rd_real/binned_means.csv")){
  # Binned means only: the interval-minimizing bandwidth is about 2 years, so fitted lines would rest on two ages per side.
