@@ -9,3 +9,9 @@ __pycache__/
 *.part
 NHIS_Stroke_Manuscript_Working_Package.zip
 submission_package/
+
+# Kept private until submission (pre-submission review, revised draft and its build scripts)
+stroke_manuscript_review.md
+manuscript/revision/
+scripts/build_revision.py
+scripts/make_revision_figures.R

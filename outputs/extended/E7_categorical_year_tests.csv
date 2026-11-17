@@ -1,0 +1,10 @@
+group,outcome,test,F,df1,df2,p
+All ages,any_barrier,"categorical year (6 df), Dem-adjusted",2.07407617944945,6,1012,0.0537548773505452
+All ages,care_barrier,"categorical year (6 df), Dem-adjusted",2.36923422063023,6,1012,0.0280647440793515
+All ages,rx_barrier,"categorical year (6 df), Dem-adjusted",1.56702693423115,6,1012,0.153448211853628
+18-64,any_barrier,"categorical year (6 df), Dem-adjusted",1.68460683773413,6,720,0.121934097038658
+18-64,care_barrier,"categorical year (6 df), Dem-adjusted",0.851108746857435,6,721,0.530704287596409
+18-64,rx_barrier,"categorical year (6 df), Dem-adjusted",1.66148285467472,6,720,0.12771878995952
+65+,any_barrier,"categorical year (6 df), Dem-adjusted",0.836198192299007,6,914,0.541966955704757
+65+,care_barrier,"categorical year (6 df), Dem-adjusted",2.0748171072873,6,914,0.0537758924324915
+65+,rx_barrier,"categorical year (6 df), Dem-adjusted",0.670683859742821,6,914,0.673422037476159

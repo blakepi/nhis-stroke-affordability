@@ -1,0 +1,339 @@
+{
+ "checks": 33,
+ "passed": 33,
+ "max_abs_estimate_difference_proportions": 4.85722573273506e-16,
+ "max_abs_se_difference_proportions": 8.153200337090993e-17,
+ "max_rel_difference_totals": 3.3306690738754696e-15,
+ "details": [
+  {
+   "check": "any_barrier | Stroke 18-64",
+   "python_estimate": 0.280132542910499,
+   "r_estimate": 0.280132542910499,
+   "python_se": 0.011063747898854536,
+   "r_se": 0.0110637478988545,
+   "python_n": 2341,
+   "r_n": 2341,
+   "pass": true
+  },
+  {
+   "check": "care_barrier | Stroke 18-64",
+   "python_estimate": 0.17674016293707637,
+   "r_estimate": 0.176740162937076,
+   "python_se": 0.00921277146123611,
+   "r_se": 0.0092127714612361,
+   "python_n": 2345,
+   "r_n": 2345,
+   "pass": true
+  },
+  {
+   "check": "rx_barrier | Stroke 18-64",
+   "python_estimate": 0.20674293199448587,
+   "r_estimate": 0.206742931994486,
+   "python_se": 0.010586271009210625,
+   "r_se": 0.0105862710092106,
+   "python_n": 2339,
+   "r_n": 2339,
+   "pass": true
+  },
+  {
+   "check": "bills | Stroke 18-64",
+   "python_estimate": 0.25867525120978896,
+   "r_estimate": 0.258675251209789,
+   "python_se": 0.010801988090444033,
+   "r_se": 0.010801988090444,
+   "python_n": 2347,
+   "r_n": 2347,
+   "pass": true
+  },
+  {
+   "check": "any_barrier | Stroke 65+",
+   "python_estimate": 0.10892967680810874,
+   "r_estimate": 0.108929676808109,
+   "python_se": 0.005599491432627682,
+   "r_se": 0.0055994914326276,
+   "python_n": 4763,
+   "r_n": 4763,
+   "pass": true
+  },
+  {
+   "check": "care_barrier | Stroke 65+",
+   "python_estimate": 0.05350633340527109,
+   "r_estimate": 0.0535063334052711,
+   "python_se": 0.004002331918279374,
+   "r_se": 0.0040023319182793,
+   "python_n": 4771,
+   "r_n": 4771,
+   "pass": true
+  },
+  {
+   "check": "rx_barrier | Stroke 65+",
+   "python_estimate": 0.08158515441018994,
+   "r_estimate": 0.08158515441019,
+   "python_se": 0.004936299950331856,
+   "r_se": 0.0049362999503318,
+   "python_n": 4762,
+   "r_n": 4762,
+   "pass": true
+  },
+  {
+   "check": "bills | Stroke 65+",
+   "python_estimate": 0.13586463224364548,
+   "r_estimate": 0.135864632243645,
+   "python_se": 0.006906015205603115,
+   "r_se": 0.0069060152056031,
+   "python_n": 4780,
+   "r_n": 4780,
+   "pass": true
+  },
+  {
+   "check": "any_barrier | No stroke 18-64",
+   "python_estimate": 0.14409487750286695,
+   "r_estimate": 0.144094877502867,
+   "python_se": 0.0015348752978666432,
+   "r_se": 0.0015348752978666,
+   "python_n": 130086,
+   "r_n": 130086,
+   "pass": true
+  },
+  {
+   "check": "care_barrier | No stroke 18-64",
+   "python_estimate": 0.10458465121122051,
+   "r_estimate": 0.104584651211221,
+   "python_se": 0.0013394359782327547,
+   "r_se": 0.0013394359782327,
+   "python_n": 130398,
+   "r_n": 130398,
+   "pass": true
+  },
+  {
+   "check": "rx_barrier | No stroke 18-64",
+   "python_estimate": 0.08182051389018952,
+   "r_estimate": 0.0818205138901895,
+   "python_se": 0.001083972706538311,
+   "r_se": 0.0010839727065383,
+   "python_n": 130071,
+   "r_n": 130071,
+   "pass": true
+  },
+  {
+   "check": "bills | No stroke 18-64",
+   "python_estimate": 0.12247801316447585,
+   "r_estimate": 0.122478013164476,
+   "python_se": 0.0014886825205211306,
+   "r_se": 0.0014886825205211,
+   "python_n": 130712,
+   "r_n": 130712,
+   "pass": true
+  },
+  {
+   "check": "any_barrier | No stroke 65+",
+   "python_estimate": 0.07265919784113156,
+   "r_estimate": 0.0726591978411315,
+   "python_se": 0.0014242325532323017,
+   "r_se": 0.0014242325532323,
+   "python_n": 56940,
+   "r_n": 56940,
+   "pass": true
+  },
+  {
+   "check": "care_barrier | No stroke 65+",
+   "python_estimate": 0.032285278319112876,
+   "r_estimate": 0.0322852783191129,
+   "python_se": 0.0009445950844241661,
+   "r_se": 0.0009445950844241,
+   "python_n": 57031,
+   "r_n": 57031,
+   "pass": true
+  },
+  {
+   "check": "rx_barrier | No stroke 65+",
+   "python_estimate": 0.05432927658702762,
+   "r_estimate": 0.0543292765870276,
+   "python_se": 0.0012742860808932614,
+   "r_se": 0.0012742860808932,
+   "python_n": 56948,
+   "r_n": 56948,
+   "pass": true
+  },
+  {
+   "check": "bills | No stroke 65+",
+   "python_estimate": 0.07156789334155823,
+   "r_estimate": 0.0715678933415583,
+   "python_se": 0.0015230647829639502,
+   "r_se": 0.0015230647829639,
+   "python_n": 57146,
+   "r_n": 57146,
+   "pass": true
+  },
+  {
+   "check": "any_barrier | stroke 18-64 Private",
+   "python_estimate": 0.2564847255195819,
+   "r_estimate": 0.256484725519582,
+   "python_se": 0.016844432224436736,
+   "r_se": 0.0168444322244367,
+   "python_n": 942,
+   "r_n": 942,
+   "pass": true
+  },
+  {
+   "check": "any_barrier | stroke 18-64 Medicaid and other public",
+   "python_estimate": 0.21232603712753187,
+   "r_estimate": 0.212326037127532,
+   "python_se": 0.016977266192899732,
+   "r_se": 0.0169772661928997,
+   "python_n": 851,
+   "r_n": 851,
+   "pass": true
+  },
+  {
+   "check": "any_barrier | stroke 18-64 Other coverage",
+   "python_estimate": 0.3145347714092304,
+   "r_estimate": 0.31453477140923,
+   "python_se": 0.029611916153688817,
+   "r_se": 0.0296119161536888,
+   "python_n": 353,
+   "r_n": 353,
+   "pass": true
+  },
+  {
+   "check": "any_barrier | stroke 18-64 Uninsured",
+   "python_estimate": 0.607624833064591,
+   "r_estimate": 0.607624833064591,
+   "python_se": 0.041111739447617465,
+   "r_se": 0.0411117394476175,
+   "python_n": 188,
+   "r_n": 188,
+   "pass": true
+  },
+  {
+   "check": "any_barrier | stroke 65+ Private",
+   "python_estimate": 0.08592638142227887,
+   "r_estimate": 0.0859263814222789,
+   "python_se": 0.008515981726574194,
+   "r_se": 0.0085159817265742,
+   "python_n": 1503,
+   "r_n": 1503,
+   "pass": true
+  },
+  {
+   "check": "any_barrier | stroke 65+ Dual eligible",
+   "python_estimate": 0.1062238523224762,
+   "r_estimate": 0.106223852322476,
+   "python_se": 0.013906425088689072,
+   "r_se": 0.0139064250886891,
+   "python_n": 597,
+   "r_n": 597,
+   "pass": true
+  },
+  {
+   "check": "any_barrier | stroke 65+ Medicare Advantage",
+   "python_estimate": 0.12299054488727286,
+   "r_estimate": 0.122990544887273,
+   "python_se": 0.009558554218184034,
+   "r_se": 0.009558554218184,
+   "python_n": 1546,
+   "r_n": 1546,
+   "pass": true
+  },
+  {
+   "check": "any_barrier | stroke 65+ Medicare only excluding Medicare Advantage",
+   "python_estimate": 0.15993648112830994,
+   "r_estimate": 0.15993648112831,
+   "python_se": 0.020418053088311634,
+   "r_se": 0.0204180530883116,
+   "python_n": 550,
+   "r_n": 550,
+   "pass": true
+  },
+  {
+   "check": "any_barrier | stroke 65+ Other coverage",
+   "python_estimate": 0.0673802670635437,
+   "r_estimate": 0.0673802670635437,
+   "python_se": 0.012596211513559928,
+   "r_se": 0.0125962115135599,
+   "python_n": 533,
+   "r_n": 533,
+   "pass": true
+  },
+  {
+   "check": "bp_nonuse | stroke, any_barrier=0",
+   "python_estimate": 0.08489697883125172,
+   "r_estimate": 0.0848969788312517,
+   "python_se": 0.00495175217756466,
+   "r_se": 0.0049517521775646,
+   "python_n": 4452,
+   "r_n": 4452,
+   "pass": true
+  },
+  {
+   "check": "bp_nonuse | stroke, any_barrier=1",
+   "python_estimate": 0.1366197234657952,
+   "r_estimate": 0.136619723465795,
+   "python_se": 0.013875240655997625,
+   "r_se": 0.0138752406559976,
+   "python_n": 891,
+   "r_n": 891,
+   "pass": true
+  },
+  {
+   "check": "chol_nonuse | stroke, any_barrier=0",
+   "python_estimate": 0.14299097955136764,
+   "r_estimate": 0.142990979551368,
+   "python_se": 0.00704594001510272,
+   "r_se": 0.0070459400151027,
+   "python_n": 3554,
+   "r_n": 3554,
+   "pass": true
+  },
+  {
+   "check": "chol_nonuse | stroke, any_barrier=1",
+   "python_estimate": 0.205276330398251,
+   "r_estimate": 0.205276330398251,
+   "python_se": 0.019545680896505283,
+   "r_se": 0.0195456808965053,
+   "python_n": 730,
+   "r_n": 730,
+   "pass": true
+  },
+  {
+   "check": "total n_stroke",
+   "python_estimate": 7362149.175142858,
+   "r_estimate": 7362149.17514286,
+   "python_se": 153418.58846223456,
+   "r_se": 153418.588462235,
+   "python_n": 7181,
+   "r_n": 7181,
+   "pass": true
+  },
+  {
+   "check": "total n_barrier",
+   "python_estimate": 1305097.1632857143,
+   "r_estimate": 1305097.16328571,
+   "python_se": 53645.6425740968,
+   "r_se": 53645.6425740968,
+   "python_n": 1184,
+   "r_n": 1184,
+   "pass": true
+  },
+  {
+   "check": "total n_barrier_u65",
+   "python_estimate": 837039.1432857144,
+   "r_estimate": 837039.143285714,
+   "python_se": 43345.21727639729,
+   "r_se": 43345.2172763973,
+   "python_n": 658,
+   "r_n": 658,
+   "pass": true
+  },
+  {
+   "check": "total n_bills",
+   "python_estimate": 1360067.056,
+   "r_estimate": 1360067.056,
+   "python_se": 56382.07293202463,
+   "r_se": 56382.0729320246,
+   "python_n": 1193,
+   "r_n": 1193,
+   "pass": true
+  }
+ ]
+}
