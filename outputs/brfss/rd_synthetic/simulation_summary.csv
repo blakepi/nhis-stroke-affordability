@@ -1,0 +1,3 @@
+outcome,replicates,mean_estimate,coverage_95,rejection_rate,true_change
+uninsured,1,-0.0198366160929232,1,0,-0.03
+cost_barrier,1,-0.0153963803330352,1,0,-0.03

@@ -1,0 +1,31 @@
+{
+ "mode": "null",
+ "persons_with_positive_weight": 140720,
+ "coverage_count_mismatches": [],
+ "stroke_person_years": 5336,
+ "lonely_psu_strata": [
+  0,
+  0
+ ],
+ "models": [
+  {
+   "hypothesis": "H1",
+   "python_log_pr": 0.11466372539381349,
+   "r_log_pr": 0.114663725393812,
+   "python_se": 0.14139347991950715,
+   "r_se": 0.141393478794976,
+   "abs_coef_diff": 1.4849232954361469e-15,
+   "rel_se_diff": 7.953203873256598e-09
+  },
+  {
+   "hypothesis": "H2",
+   "python_log_pr": 0.06502672871039226,
+   "r_log_pr": 0.0650267277388044,
+   "python_se": 0.09078636497103432,
+   "r_se": 0.0907857454074709,
+   "abs_coef_diff": 9.715878657168275e-10,
+   "rel_se_diff": 6.824458626430996e-06
+  }
+ ],
+ "pass": true
+}

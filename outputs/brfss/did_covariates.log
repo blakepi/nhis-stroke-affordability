@@ -1,0 +1,21 @@
+Warning messages:
+1: package 'did' was built under R version 4.6.2 
+2: package 'HonestDiD' was built under R version 4.6.2 
+3: package 'fixest' was built under R version 4.6.2 
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+                                       analysis          ATT          se
+                                         <char>        <num>       <num>
+1:          Stroke prevalence, low-income 18-64 -0.003049344 0.002296368
+2:           Female, low-income survivors 18-64  0.003955295 0.022897138
+3: College graduate, low-income survivors 18-64  0.016451486 0.010949231
+4:              Age, low-income survivors 18-64  0.077488528 0.369832702
+          lower       upper         p      n states
+          <num>       <num>     <num>  <int>  <int>
+1: -0.007550142 0.001451455 0.1842117 462665     46
+2: -0.040922272 0.048832861 0.8628543  23031     46
+3: -0.005008611 0.037911584 0.1329617  23031     46
+4: -0.647370248 0.802347304 0.8340398  23031     46
+exit 0

@@ -9,6 +9,8 @@ __pycache__/
 *.part
 NHIS_Stroke_Manuscript_Working_Package.zip
 submission_package/
+data/raw_meps/
+data/raw_brfss/
 
 # Kept private until submission (pre-submission review, revised draft and its build scripts)
 stroke_manuscript_review.md

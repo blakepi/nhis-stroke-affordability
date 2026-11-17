@@ -1,0 +1,45 @@
+Warning messages:
+1: package 'did' was built under R version 4.6.2 
+2: package 'HonestDiD' was built under R version 4.6.2 
+3: package 'fixest' was built under R version 4.6.2 
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+The Wald pre-test is not reported when clustering beyond the unit level (clustervars = 'state') because the analytical variance matrix does not account for between-cluster correlation. Use the bootstrap confidence intervals to assess pre-trends.
+replicate 1 21:35:02 
+Warning messages:
+1: In .ARP_computeCI(betahat = betahat, sigma = sigma, numPrePeriods = numPrePeriods,  :
+  CI is open at one of the endpoints; CI length may not be accurate
+2: In .ARP_computeCI(betahat = betahat, sigma = sigma, numPrePeriods = numPrePeriods,  :
+  CI is open at one of the endpoints; CI length may not be accurate
+3: In .ARP_computeCI(betahat = betahat, sigma = sigma, numPrePeriods = numPrePeriods,  :
+  CI is open at one of the endpoints; CI length may not be accurate
+          analysis replicates    mean_ATT coverage_95 rejection_rate true_ATT
+            <char>      <int>       <num>       <num>          <num>    <num>
+1:    H3 uninsured          1 -0.07100375           1              1    -0.05
+2: H4 cost barrier          1 -0.05087251           1              1    -0.05
+exit 0

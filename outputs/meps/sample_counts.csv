@@ -1,0 +1,26 @@
+group,level,n,complete
+year,2019,948,934
+year,2020,1042,1018
+year,2021,1089,1075
+year,2022,841,819
+year,2023,705,693
+year,2024,711,698
+coverage 65+,Medicare Advantage,822,800
+coverage 18-64,Medicaid and other public,823,811
+coverage 18-64,Other coverage,239,236
+coverage 65+,Private,979,963
+coverage 65+,Medicare only excluding Medicare Advantage,670,653
+coverage 65+,Other coverage,414,413
+coverage 18-64,Private,675,662
+coverage 65+,Dual eligible,532,523
+coverage 18-64,Uninsured,170,165
+coverage 65+,Uninsured,11,11
+coverage 65+,,1,0
+H1 exposure 65+,,1918,1877
+H1 exposure 18-64,1,823,811
+H1 exposure 18-64,,409,401
+H1 exposure 65+,0,979,963
+H1 exposure 18-64,0,675,662
+H1 exposure 65+,1,532,523
+H2 domain (high cholesterol),18-64,1154,1134
+H2 domain (high cholesterol),65+,2517,2473

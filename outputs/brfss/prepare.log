@@ -1,0 +1,49 @@
+2011 506467 respondents; variables used: 21 
+2012 475687 respondents; variables used: 21 
+2013 491773 respondents; variables used: 24 
+2014 464664 respondents; variables used: 25 
+2015 441456 respondents; variables used: 24 
+2016 486303 respondents; variables used: 24 
+2017 450016 respondents; variables used: 25 
+2018 437436 respondents; variables used: 25 
+2019 418268 respondents; variables used: 26 
+2020 401958 respondents; variables used: 26 
+2021 438693 respondents; variables used: 27 
+2022 445132 respondents; variables used: 26 
+2023 433323 respondents; variables used: 27 
+2024 457670 respondents; variables used: 27 
+2025 356158 respondents; variables used: 27 
+
+Low-income stroke 18-64 by first-treatment cohort, 2011-2019:
+    first_treat_year     n states
+               <int> <int>  <int>
+ 1:                0  6971     10
+ 2:             2014  9286     21
+ 3:             2015  1413      3
+ 4:             2016  1202      3
+ 5:             2019  1007      2
+ 6:             2020   622      2
+ 7:             2021  1325      2
+ 8:             2022   581      1
+ 9:             2023   337      1
+10:             2024   564      1
+Missing income or household size among stroke 18-64: 0.1584583 
+Key: <year>
+     year stroke 18-64, <=138% FPL stroke 18-64, all incomes stroke 55-75 (RD)
+    <int>                    <int>                     <int>             <int>
+ 1:  2011                     2801                      7006             10468
+ 2:  2012                     2683                      6706              9916
+ 3:  2013                     2824                      7107             10636
+ 4:  2014                     2555                      6625             10160
+ 5:  2015                     2336                      6290              9679
+ 6:  2016                     2564                      6951             11276
+ 7:  2017                     2542                      6838             10300
+ 8:  2018                     2583                      6444             10377
+ 9:  2019                     2420                      6247             10082
+10:  2020                     2149                      5318              8214
+11:  2021                     1950                      5389              8984
+12:  2022                     2303                      6387             10160
+13:  2023                     1887                      5689              9409
+14:  2024                     2187                      6122             10447
+15:  2025                     1681                      4830              8076
+exit 0

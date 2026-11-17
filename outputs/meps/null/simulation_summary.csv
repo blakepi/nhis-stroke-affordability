@@ -1,0 +1,4 @@
+hypothesis,replicates,mean_PR,coverage_95,rejection_rate,rejection_rate_holm,true_PR
+H1,100,0.972929379811532,0.92,0.08,0.06,1
+H2,100,1.00585547867364,0.91,0.09,0.04,1
+Negative control (dental barrier),100,1.00659394078944,0.98,0.02,,1

@@ -1,0 +1,7 @@
+{
+ "terms_checked": 15,
+ "passed": 15,
+ "max_abs_coef_diff": 1.0612786205399516e-08,
+ "max_rel_se_diff": 2.5107383305522646e-05,
+ "tolerance": "coefficient 1e-6 absolute (log scale); SE 1e-4 relative"
+}

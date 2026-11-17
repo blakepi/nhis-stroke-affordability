@@ -1,0 +1,52 @@
+state_fips,state,implementation_date,first_treat_year,status,note
+1,AL,,0,never,
+2,AK,2015-09-01,2016,expansion,after July 1 so next year
+4,AZ,2014-01-01,2014,expansion,
+5,AR,2014-01-01,2014,expansion,
+6,CA,2014-01-01,2014,expansion,
+8,CO,2014-01-01,2014,expansion,
+9,CT,2014-01-01,2014,expansion,
+10,DE,2014-01-01,2014,excluded,comparable coverage before 2014
+11,DC,2014-01-01,2014,excluded,comparable coverage before 2014
+12,FL,,0,never,
+13,GA,,0,never,Georgia Pathways (2023) treated as not an expansion
+15,HI,2014-01-01,2014,expansion,
+16,ID,2020-01-01,2020,expansion,late expander
+17,IL,2014-01-01,2014,expansion,
+18,IN,2015-02-01,2015,expansion,
+19,IA,2014-01-01,2014,expansion,
+20,KS,,0,never,
+21,KY,2014-01-01,2014,expansion,
+22,LA,2016-07-01,2016,expansion,
+23,ME,2019-01-10,2019,expansion,late expander; coverage retroactive to July 2018
+24,MD,2014-01-01,2014,expansion,
+25,MA,2014-01-01,2014,excluded,comparable coverage before 2014
+26,MI,2014-04-01,2014,expansion,
+27,MN,2014-01-01,2014,expansion,
+28,MS,,0,never,
+29,MO,2021-10-01,2022,expansion,late expander; after July 1 so next year
+30,MT,2016-01-01,2016,expansion,
+31,NE,2020-10-01,2021,expansion,late expander; after July 1 so next year
+32,NV,2014-01-01,2014,expansion,
+33,NH,2014-08-15,2015,expansion,after July 1 so next year
+34,NJ,2014-01-01,2014,expansion,
+35,NM,2014-01-01,2014,expansion,
+36,NY,2014-01-01,2014,excluded,comparable coverage before 2014
+37,NC,2023-12-01,2024,expansion,late expander; after July 1 so next year
+38,ND,2014-01-01,2014,expansion,
+39,OH,2014-01-01,2014,expansion,
+40,OK,2021-07-01,2021,expansion,late expander
+41,OR,2014-01-01,2014,expansion,
+42,PA,2015-01-01,2015,expansion,
+44,RI,2014-01-01,2014,expansion,
+45,SC,,0,never,
+46,SD,2023-07-01,2023,expansion,late expander
+47,TN,,0,never,
+48,TX,,0,never,
+49,UT,2020-01-01,2020,expansion,late expander (full expansion January 2020)
+50,VT,2014-01-01,2014,excluded,comparable coverage before 2014
+51,VA,2019-01-01,2019,expansion,late expander
+53,WA,2014-01-01,2014,expansion,
+54,WV,2014-01-01,2014,expansion,
+55,WI,,0,never,covers adults to 100% FPL via waiver; dropped in a sensitivity analysis
+56,WY,,0,never,

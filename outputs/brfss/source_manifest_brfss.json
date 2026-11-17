@@ -1,0 +1,122 @@
+{
+ "LLCP2011": {
+  "description": "BRFSS 2011",
+  "url": "https://www.cdc.gov/brfss/annual_data/2011/files/LLCP2011XPT.zip",
+  "file": "data/raw_brfss/LLCP2011XPT.zip",
+  "bytes": 131547028,
+  "sha256": "b8839b393b2f162571223ea40f4f7e60027e24638c200b2ed4751cc7df6f3ad9",
+  "downloaded": "2026-11-16 20:18:05"
+ },
+ "LLCP2012": {
+  "description": "BRFSS 2012",
+  "url": "https://www.cdc.gov/brfss/annual_data/2012/files/LLCP2012XPT.zip",
+  "file": "data/raw_brfss/LLCP2012XPT.zip",
+  "bytes": 95413628,
+  "sha256": "74dfb4dad0eab7a9d84134477a98796dcc1ad9eb7e853e89ebc0d4a5d6be04a5",
+  "downloaded": "2026-11-16 20:18:10"
+ },
+ "LLCP2013": {
+  "description": "BRFSS 2013",
+  "url": "https://www.cdc.gov/brfss/annual_data/2013/files/LLCP2013XPT.zip",
+  "file": "data/raw_brfss/LLCP2013XPT.zip",
+  "bytes": 128972628,
+  "sha256": "1d227324b889ad03a95e3262dd59b33a7557390c1ed586777f2ade9f1df70e48",
+  "downloaded": "2026-11-16 20:18:17"
+ },
+ "LLCP2014": {
+  "description": "BRFSS 2014",
+  "url": "https://www.cdc.gov/brfss/annual_data/2014/files/LLCP2014XPT.zip",
+  "file": "data/raw_brfss/LLCP2014XPT.zip",
+  "bytes": 72251217,
+  "sha256": "ee6d43cc7034d04635901e06186e8d90a07bd94b39b20ed72c8ce8943315fabe",
+  "downloaded": "2026-11-16 20:18:20"
+ },
+ "LLCP2015": {
+  "description": "BRFSS 2015",
+  "url": "https://www.cdc.gov/brfss/annual_data/2015/files/LLCP2015XPT.zip",
+  "file": "data/raw_brfss/LLCP2015XPT.zip",
+  "bytes": 98843355,
+  "sha256": "38bfd48c64b99328c67feac36cedfff6f2991d49e89c4ffd549083cb626764f0",
+  "downloaded": "2026-11-16 20:18:25"
+ },
+ "LLCP2016": {
+  "description": "BRFSS 2016",
+  "url": "https://www.cdc.gov/brfss/annual_data/2016/files/LLCP2016XPT.zip",
+  "file": "data/raw_brfss/LLCP2016XPT.zip",
+  "bytes": 83360774,
+  "sha256": "eac600a8817ef2375eff5cdccba07d820565b61930cab32e24b1c673002ebe83",
+  "downloaded": "2026-11-16 20:18:29"
+ },
+ "LLCP2017": {
+  "description": "BRFSS 2017",
+  "url": "https://www.cdc.gov/brfss/annual_data/2017/files/LLCP2017XPT.zip",
+  "file": "data/raw_brfss/LLCP2017XPT.zip",
+  "bytes": 106730113,
+  "sha256": "ed692aae6a5b240c07fe186f0397b874553b805dcc83ab043c234386003bea07",
+  "downloaded": "2026-11-16 20:18:35"
+ },
+ "LLCP2018": {
+  "description": "BRFSS 2018",
+  "url": "https://www.cdc.gov/brfss/annual_data/2018/files/LLCP2018XPT.zip",
+  "file": "data/raw_brfss/LLCP2018XPT.zip",
+  "bytes": 72859719,
+  "sha256": "279fa976b2f651839fb15f801f8e822806405ba7280fac705af0ffda3bfef648",
+  "downloaded": "2026-11-16 20:18:38"
+ },
+ "LLCP2019": {
+  "description": "BRFSS 2019",
+  "url": "https://www.cdc.gov/brfss/annual_data/2019/files/LLCP2019XPT.zip",
+  "file": "data/raw_brfss/LLCP2019XPT.zip",
+  "bytes": 97972814,
+  "sha256": "67f64f88ba45faf7c6e73341e75ee392e525c672fcadd5a6618bf5c4fffba304",
+  "downloaded": "2026-11-16 20:18:43"
+ },
+ "LLCP2020": {
+  "description": "BRFSS 2020",
+  "url": "https://www.cdc.gov/brfss/annual_data/2020/files/LLCP2020XPT.zip",
+  "file": "data/raw_brfss/LLCP2020XPT.zip",
+  "bytes": 67497017,
+  "sha256": "132269948a09506392c417c4042c052f088c86334ee3bc34c2776501f240b4b6",
+  "downloaded": "2026-11-16 20:18:47"
+ },
+ "LLCP2021": {
+  "description": "BRFSS 2021",
+  "url": "https://www.cdc.gov/brfss/annual_data/2021/files/LLCP2021XPT.zip",
+  "file": "data/raw_brfss/LLCP2021XPT.zip",
+  "bytes": 81597005,
+  "sha256": "e8a6e290cdcb6bff82d8f37dff6c3f3e435d428191eb529a716cf9f5316aa621",
+  "downloaded": "2026-11-16 20:18:53"
+ },
+ "LLCP2022": {
+  "description": "BRFSS 2022",
+  "url": "https://www.cdc.gov/brfss/annual_data/2022/files/LLCP2022XPT.zip",
+  "file": "data/raw_brfss/LLCP2022XPT.zip",
+  "bytes": 84614105,
+  "sha256": "b6319c949b7289f8020fc903c3c2d38fe7e0b28ad703dcd81547f5cd0c0dcfeb",
+  "downloaded": "2026-11-16 20:19:05"
+ },
+ "LLCP2023": {
+  "description": "BRFSS 2023",
+  "url": "https://www.cdc.gov/brfss/annual_data/2023/files/LLCP2023XPT.zip",
+  "file": "data/raw_brfss/LLCP2023XPT.zip",
+  "bytes": 93237818,
+  "sha256": "d1ab80e4806a1d07bd3e40ec78c971ad9ff920f3ea5f6049780aeaa41ff31f43",
+  "downloaded": "2026-11-16 20:19:09"
+ },
+ "LLCP2024": {
+  "description": "BRFSS 2024",
+  "url": "https://www.cdc.gov/brfss/annual_data/2024/files/LLCP2024XPT.zip",
+  "file": "data/raw_brfss/LLCP2024XPT.zip",
+  "bytes": 83007956,
+  "sha256": "d33de91a584e866f657d29b1d5b51b5672467286ed22d021e36ee3c7b4d712a4",
+  "downloaded": "2026-11-16 20:19:12"
+ },
+ "LLCP2025": {
+  "description": "BRFSS 2025",
+  "url": "https://www.cdc.gov/brfss/annual_data/2025/files/LLCP2025XPT.zip",
+  "file": "data/raw_brfss/LLCP2025XPT.zip",
+  "bytes": 64642184,
+  "sha256": "d26a8b391aa2966b58dc2a3ffddf8da050e9f38eb143d0f5ca7b3d21ece08f98",
+  "downloaded": "2026-11-16 20:19:15"
+ }
+}

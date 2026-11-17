@@ -1,0 +1,23 @@
+Warning messages:
+1: package 'RDHonest' was built under R version 4.6.2 
+2: package 'fixest' was built under R version 4.6.2 
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+Using Armstrong & Kolesar (2020) ROT for smoothness constant M.
+        outcome replicates mean_estimate coverage_95 rejection_rate true_change
+         <char>      <int>         <num>       <num>          <num>       <num>
+1:    uninsured          1   -0.01983662           1              0       -0.03
+2: cost_barrier          1   -0.01539638           1              0       -0.03
+exit 0
